@@ -1,11 +1,7 @@
-
 import React from 'react'
 import { withRouteData, Link } from 'react-static';
-import { hot } from 'react-hot-loader';
 
-//
-
-let Blog = withRouteData(({ posts }) => (
+let Blog = ({ posts }) =>
   <div>
     <h1>It's blog time.</h1>
     <br />
@@ -18,6 +14,5 @@ let Blog = withRouteData(({ posts }) => (
       ))}
     </ul>
   </div>
-))
 
-export default Blog;
+export default withRouteData(Blog);

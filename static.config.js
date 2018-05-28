@@ -55,6 +55,8 @@ export default {
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             {renderMeta.styleTags}
+            <link href="img/gtfavicon.png" rel="icon" type="image/png" />
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400" rel="stylesheet" />
           </Head>
           <Body>{children}</Body>
         </Html>

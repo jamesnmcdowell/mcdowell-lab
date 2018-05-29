@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-static';
 import HamburgerMenu from './HamburgerMenu';
-import { largeScreen } from './Media';
+import { media } from './Media';
 import styled from 'styled-components';
 
 
 let Header = () =>
-    <HeaderStyled>
+    <HeaderStyled id="header">
         <div className="container">
         <LinkLogo to="/">
             <h1 className="logo"> McDowell Lab </h1>
@@ -34,17 +34,14 @@ let HeaderStyled = styled.header`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 90%; 
-        margin: 0 auto;
+        padding: 0 20px;
     }
 `;
 
 let Nav = styled.nav`
     display: none;
     color: #ffffff;
-    @media ${largeScreen} {
-        display: block;
-    }
+    ${media.desktop`display: block;`}
 `;
 
 let LinkBase = styled(Link)`

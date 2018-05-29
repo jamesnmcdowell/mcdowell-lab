@@ -9,10 +9,18 @@ import TitleBackgroundImage from './TitleBackgroundImage';
 import BlockNavigation from './BlockNavigation';
 import GradientHr from './GradientHr';
 import backgroundSpheres from '../assets/spherecropoverlayfinal.png';
+import Waypoint from 'react-waypoint';
+import { withState } from 'recompose';
+
 
 let Home = () =>
 <Shell>
   <Hero/>
+		<Waypoint onLeave={({ previousPosition, currentPosition, event }) => {
+			console.log('you entered');
+			document.querySelector('#header')
+		}}
+		/>
 	<section className="homepage-one">
 		<SubTitle className="intro"> 
 			We research new materials and work to understand their properties for 
@@ -26,7 +34,6 @@ let Home = () =>
 			Our research goal is to understand how materials behave and transform in real-life environments 
 			within energy devices, which will enable us to engineer improved materials for new energy technologies.
 	</SubTitle >
-
 </Shell>
 
 
@@ -37,7 +44,13 @@ let SubTitle = styled.h4`
 	font-size: 3rem;
 	`;
 
-export default withSiteData(Home)
+let HomeLocalState = withState(
+	"HeaderActive",
+	"toggleHeader",
+	false
+)(withSiteData(Home));
+
+export default HomeLocalState;
 
 
 

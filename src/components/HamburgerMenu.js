@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { largeScreen } from './Media';
+import { media } from './Media';
 
 let HamburgerMenu = () =>
     <Hamburger className="button_container toggle-animation" id="toggle-button">
@@ -19,9 +19,7 @@ let Hamburger = styled.div`
     &:hover{
         opacity: .7;
     }
-    @media ${largeScreen} {
-        display: none;
-    }
+    ${media.desktop`display: none;`}
 `;
 
 let Line = styled.span`

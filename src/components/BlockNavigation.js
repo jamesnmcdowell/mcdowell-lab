@@ -6,18 +6,18 @@ import publications from '../assets/PapersFigurefinal.png';
 import twitterOverlay from '../assets/twitterOverlay.svg';
 import { Timeline } from 'react-twitter-widgets'
 import { withState } from 'recompose';
-
+import { media } from './Media';
+import AspectRatio from 'react-aspect-ratio';
 
 let BlockNavigation = ({ toggleOverlay, twitterOverlayActive }) =>
     <BlockNav>
-        <Link to="/bio">
-            <img src={profilePicture} id="relative-height" />
-            <h4>Prof. McDowell</h4>
-        </Link>
-        <Link to="/publications">
+        <Bio to="/bio">
+            <img src={profilePicture}/>
+        </Bio>
+        <Publications to="/publications">
             <img src={publications} />
-            <h4>Publications</h4>
-        </Link>
+        </Publications>
+       
         <TwitterBlock>
             {twitterOverlayActive &&
                 <TwitterOverlay onClick={() => { toggleOverlay(!twitterOverlayActive); }}>
@@ -32,34 +32,71 @@ let BlockNavigation = ({ toggleOverlay, twitterOverlayActive }) =>
                     }}
                     options={{
                         username: 'McDowell_Lab',
-                        height: '400'
+                        height: '100%'
                     }}
                     onLoad={() => console.log('Timeline is loaded!')}
                 />
-            </EmbedContainer>
-            <h4 className="tweet-title">Latest Tweets</h4>
+            </EmbedContainer>  
         </TwitterBlock>
+        <BlockTitle1>Prof. McDowell</BlockTitle1>
+        <BlockTitle2>Publications</BlockTitle2>
+        <BlockTitle3>Latest Tweets</BlockTitle3>
     </BlockNav> 
 
+let BlockTitle = styled.h4`
+    font-weight: 200;
+    font-size: 3.0rem;
+    text-align: center;
+`;
+let BlockTitle1 = styled(BlockTitle)`
+    grid-area: bio-title;
+`;
+let BlockTitle2 = styled(BlockTitle)`
+    grid-area: pub-title;                    
+`;
+let BlockTitle3 = styled(BlockTitle)`
+    grid-area: twitter-title;
+`;
 let BlockNav = styled.div`
 	display: grid;
 	grid-gap: 1em;
-	grid-template-columns: 1fr 1fr 1fr;
-	img {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr auto 1fr auto 1fr auto; 
+    img {
 		width: 100%;
-	}
+    }
+    grid-template-areas: 
+            "bio"
+            "bio-title"
+            "pub"
+            "pub-title"
+            "twitter"
+            "twitter-title";
+    ${media.tablet`
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-rows: 1fr auto 1fr auto 1fr auto; 
+    grid-template-areas: 
+            "bio pub twitter"
+            "bio-title pub-title twitter-title"; 
+    `}         
 `;
-
+let Bio = styled(Link) `
+    grid-area: bio;
+`;
+let Publications = styled(Link) `
+    grid-area: pub;
+`;
 let TwitterBlock = styled.div`
-	position: relative;
+    position: relative;
+    grid-area: twitter;
 `;
-
 let TwitterOverlay = styled.div`
 	color:white;
 	display:block;
 	position:absolute;
 	right:0;
-	left: 0;
+    left: 0;
+    bottom: 0;
 	z-index:2;
 	text-align:center;
 	opacity: 0.4;
@@ -75,7 +112,8 @@ let EmbedContainer = styled.div`
 	display: block;
 	box-sizing: border-box;
 	position:relative;
-	width: 100%;
+    width: 100%;
+    height: 100%;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -85,17 +123,11 @@ let EmbedContainer = styled.div`
 	-webkit-perspective: 0;
 	margin: 0 0 0 0;
 	text-align: center;
-	overflow-x: hidden;
-	
-	.twitter-timeline {
-    position:relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: auto;
-    display: block;    
-}
+    overflow-x: hidden;
+	div {
+     height: 100%;
+     
+    }
 `;
 
 

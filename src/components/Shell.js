@@ -2,15 +2,15 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import styled from 'styled-components';
-// import MobileMenu from './MobileMenu';
+import MobileMenu from './MobileMenu';
 import { withState } from 'recompose';
 
-
-let Shell = ({ children, headerActive }) =>
+let Shell = ({ children, headerActive, MenuOpen, toggleMenu }) =>
     <Site className="Site">
-        <SiteHeader className="Site-header" headerActive={headerActive} />
+        <SiteHeader className="Site-header" headerActive={headerActive} toggleMenu={toggleMenu} />
         <SiteContent className="Site-content">
-        {/* <MobileMenu menuOpen={menuOpen} /> */}
+        <MobileMenu menuOpen={MenuOpen}  />
+        
         { children } 
         </SiteContent>
         {/* <LoginModal modalOpen={modalOpen} /> */}
@@ -19,7 +19,13 @@ let Shell = ({ children, headerActive }) =>
 
 
 
-export default Shell;
+let ShellLocalState = withState(
+    "MenuOpen",
+    "toggleMenu",
+    false
+)(Shell);
+
+export default ShellLocalState;
 
 let Site = styled.div`
     display: flex;

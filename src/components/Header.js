@@ -3,9 +3,12 @@ import { Link } from 'react-static';
 import HamburgerMenu from './HamburgerMenu';
 import { media, Container } from './Media';
 import styled from 'styled-components';
+import Headroom from 'react-headroom';
 
-
-let Header = ({headerActive}) =>
+let Header = ({ headerActive, toggleMenu}) =>
+    <Headroom style={{
+        transition: 'all .5s ease-in-out', zIndex: 8
+    }}>
     <HeaderStyled className={ headerActive ? "header-active" : "" } id="header">
         <Container>
             <HeaderFlex>
@@ -19,15 +22,17 @@ let Header = ({headerActive}) =>
                     <LinkNav to="/publications"> Publications </LinkNav>
                     <LinkNav to="/news"> News </LinkNav>
                 </Nav>
-                <HamburgerMenu/>
+                <HamburgerMenu toggleMenu={toggleMenu}/>
             </HeaderFlex>
         </Container>
     </HeaderStyled>
-    
+    </Headroom>
+
+export default Header;
+
 let HeaderStyled = styled.header`
     width: 100%;
     height: 45px;
-    position:fixed;
     z-index: 950;
     color: #ffffff;
     background-color: rgba(84, 84, 84,1);
@@ -45,10 +50,10 @@ let Nav = styled.nav`
     ${media.desktop`display: block;`}
 `;
 
-let LinkBase = styled(Link)`
+let LinkBase = styled(Link) `
  
 `;
-let LinkLogo = styled(LinkBase)`
+let LinkLogo = styled(LinkBase) `
     width: auto;
     text-decoration: none;
     &:hover{
@@ -70,7 +75,7 @@ let LinkLogo = styled(LinkBase)`
     }
 `;
 
-let LinkNav = styled(LinkBase)`
+let LinkNav = styled(LinkBase) `
     text-decoration: none;
     margin-left: 20px;
     color: #ffffff;
@@ -81,5 +86,3 @@ let LinkNav = styled(LinkBase)`
         color: #bababa;      
     }    
 `;
-
-export default Header;

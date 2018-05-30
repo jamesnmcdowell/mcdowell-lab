@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-static'
+import { Link } from 'react-static';
 import styled from 'styled-components';
 import { media, Container } from './Media';
 import twitter from '../assets/twitterlogo.svg';
@@ -20,7 +20,7 @@ let Footer = () =>
                     <p>Atlanta, GA 30332-0405</p>
                 </div>
                 <Contact>
-                    <p>Copyright &copy; <time datetime="2017">2017</time> Matthew McDowell</p>
+                    <p>Copyright &copy; <time dateTime="2017">2017</time> Matthew McDowell</p>
                     <p>mattmcdowell@gatech.edu</p>
                     <p>404-894-8341</p>
                     <FlexIcons>

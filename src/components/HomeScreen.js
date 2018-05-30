@@ -125,8 +125,25 @@ let HomeScreen = ({ headerActive, triggerHeader, hasLeft, triggerLeft}) =>
 		</ImageGrid>
 	</Container>
 
-
 </Shell>
+
+let HomeScreenLocalState = withStateHandlers(
+	() => ({
+		headerActive: true,
+		hasLeft: false
+	}),
+	{
+		triggerHeader: ({ headerActive }) => (
+			() => ({ headerActive: !headerActive })
+		),
+		triggerLeft: () => (
+			() => ({ hasLeft: false })
+		),
+	}
+)(HomeScreen);
+
+export default HomeScreenLocalState;
+
 
 let ImageGrid = styled.div`
 	display: grid;
@@ -163,22 +180,6 @@ let SectionTitle = styled.h5`
 // 	false
 // )(withSiteData(HomeScreen));
 
-let HomeScreenLocalState = withStateHandlers(
-	() => ({
-		headerActive: false,
-		hasLeft: false
-	}),
-	{
-		triggerHeader: ({headerActive}) => (
-			() => ({headerActive: !headerActive})
-		),
-		triggerLeft: () => (
-			() => ({ hasLeft: true })
-		),
-	}
-)(HomeScreen);
-
-export default HomeScreenLocalState;
 
 
 

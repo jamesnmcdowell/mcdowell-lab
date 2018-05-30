@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImage from '../assets/cubessmallfinal.png';
-import { scrollTo } from 'react-static'
 import ArrowDown from './ArrowDown';
 
 let Hero = () => 

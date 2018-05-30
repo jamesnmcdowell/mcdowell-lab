@@ -3,17 +3,23 @@ import Header from './Header';
 import Footer from './Footer';
 import styled from 'styled-components';
 // import MobileMenu from './MobileMenu';
+import { withState } from 'recompose';
 
-let Shell = ({ children, menuOpen, modalOpen }) =>
+
+let Shell = ({ children, headerActive }) =>
     <Site className="Site">
-        <SiteHeader className="Site-header" />
+        <SiteHeader className="Site-header" headerActive={headerActive} />
         <SiteContent className="Site-content">
         {/* <MobileMenu menuOpen={menuOpen} /> */}
-            {children}
+        { children } 
         </SiteContent>
         {/* <LoginModal modalOpen={modalOpen} /> */}
         <SiteFooter className="Site-footer" />
     </Site>
+
+
+
+export default Shell;
 
 let Site = styled.div`
     display: flex;
@@ -34,5 +40,5 @@ let SiteFooter = styled(Footer)`
     flex: 0 0 auto;
 `;
 
-export default Shell;
+
 

@@ -1,0 +1,52 @@
+{
+    "resume": [
+        {
+            "icon": "employment.svg",
+            "title": "Employment",
+            "items": [
+                {
+                    "date": "2015 - present",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Assistant Professor",
+                        "Woodruff School of Mechanical Engineering",
+                        "School of Materials Science and Engineering"
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "employment.svg",
+            "title": "Employment",
+            "items": [
+                {
+                    "date": "2015 - present",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Assistant Professor",
+                        "Woodruff School of Mechanical Engineering",
+                        "School of Materials Science and Engineering"
+                    ]
+                },
+                {
+                    "date": "2015 - present",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Assistant Professor",
+                        "Woodruff School of Mechanical Engineering",
+                        "School of Materials Science and Engineering"
+                    ]
+                },
+                {
+                    "date": "2015 - present",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Assistant Professor",
+                        "Woodruff School of Mechanical Engineering",
+                        "School of Materials Science and Engineering"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
+import { scrollTo } from 'react-static';
 
 let ArrowDown = () =>
 
 <Arrows className="arrows" onClick={() => {
     scrollTo(document.querySelector('.homepage-one'), {
-        offset: 1000,
+        offset: -78,
         duration: 1000
     })
 }}>

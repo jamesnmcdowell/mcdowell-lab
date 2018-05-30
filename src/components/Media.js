@@ -1,13 +1,7 @@
-/* Styled components */
-/* Define this in separate file, like media.js */
-export const largeScreen = '(min-width: 950px)';
-/* Include the file in each component that needs to adapt based on a media query */
-
-
-import { css } from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const sizes = {
-    giant: 1170,
+    giant: 1150,
     desktop: 950,
     tablet: 750,
     phone: 376
@@ -22,4 +16,16 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
     }
   `
     return accumulator
-}, {})
+}, {});
+
+
+export const Container = styled.div`
+    ${media.phone`padding: 0 10px;`}
+    ${media.tablet`padding: 0 20px;`}
+    ${media.desktop`padding: 0 30px;`}
+    ${media.giant`max-width: 1000px; margin: 0 auto;`}
+`;
+
+
+
+

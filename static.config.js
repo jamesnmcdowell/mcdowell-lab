@@ -11,11 +11,23 @@ export default {
     return [
       {
         path: '/',
-        component: 'src/components/Home',
+        component: 'src/components/HomeScreen',
       },
       {
-        path: '/about',
-        component: 'src/components/About',
+        path: '/bio',
+        component: 'src/components/BioScreen',
+      },
+      {
+        path: '/people',
+        component: 'src/components/PeopleScreen',
+      },
+      {
+        path: '/publications',
+        component: 'src/components/PublicationsScreen',
+      },
+      {
+        path: '/news',
+        component: 'src/components/NewsScreen',
       },
       {
         path: '/blog',
@@ -36,6 +48,21 @@ export default {
         component: 'src/components/404',
       },
     ]
+  },
+  webpack: (config, {defaultLoaders}) => {
+    config.module.rules = [
+      defaultLoaders.jsLoader,
+      defaultLoaders.cssLoader,
+      {
+        loader: 'url-loader',
+        exclude: [/\.js$/, /\.html$/, /\.json$/],
+        query: {
+          limit: 10000,
+          name: 'static/[name].[ext]',
+        },
+      }
+    ];    
+    return config;
   },
   renderToHtml: (render, Comp, meta) => {
     const sheet = new ServerStyleSheet()

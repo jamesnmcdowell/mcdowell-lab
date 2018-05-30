@@ -1,25 +1,27 @@
 import React from 'react';
 import { Link } from 'react-static';
 import HamburgerMenu from './HamburgerMenu';
-import { media } from './Media';
+import { media, Container } from './Media';
 import styled from 'styled-components';
 
 
-let Header = () =>
-    <HeaderStyled id="header">
-        <div className="container">
-        <LinkLogo to="/">
-            <h1 className="logo"> McDowell Lab </h1>
-        </LinkLogo>
-        <Nav>
-            <LinkNav to="/" className="page-selected"> Research </LinkNav>
-            <LinkNav to="/bio"> Bio </LinkNav>
-            <LinkNav to="/people"> People </LinkNav>
-            <LinkNav to="/publications"> Publications </LinkNav>
-            <LinkNav to="/news"> News </LinkNav>
-        </Nav>
-       <HamburgerMenu/>
-        </div>
+let Header = ({headerActive}) =>
+    <HeaderStyled className={ headerActive ? "header-active" : "" } id="header">
+        <Container>
+            <HeaderFlex>
+                <LinkLogo to="/">
+                    <h1 className="logo"> McDowell Lab </h1>
+                </LinkLogo>
+                <Nav>
+                    <LinkNav to="/" className="page-selected"> Research </LinkNav>
+                    <LinkNav to="/bio"> Bio </LinkNav>
+                    <LinkNav to="/people"> People </LinkNav>
+                    <LinkNav to="/publications"> Publications </LinkNav>
+                    <LinkNav to="/news"> News </LinkNav>
+                </Nav>
+                <HamburgerMenu/>
+            </HeaderFlex>
+        </Container>
     </HeaderStyled>
     
 let HeaderStyled = styled.header`
@@ -30,12 +32,11 @@ let HeaderStyled = styled.header`
     color: #ffffff;
     background-color: rgba(84, 84, 84,1);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.83);
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
-    }
+`;
+let HeaderFlex = styled.header`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 `;
 
 let Nav = styled.nav`

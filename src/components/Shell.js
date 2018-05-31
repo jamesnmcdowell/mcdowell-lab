@@ -4,20 +4,21 @@ import Footer from './Footer';
 import styled from 'styled-components';
 import MobileMenu from './MobileMenu';
 import { withState } from 'recompose';
+import { OffCanvas, OffCanvasMenu, OffCanvasBody } from 'react-offcanvas';
+
 
 let Shell = ({ children, headerActive, MenuOpen, toggleMenu }) =>
     <Site className="Site" className={(MenuOpen) ? "mobile-menu-wrapper menu-open" : "mobile-menu-wrapper"}>
         <SiteHeader className="Site-header" headerActive={headerActive} toggleMenu={toggleMenu} MenuOpen={MenuOpen} />
-        <SiteContent className="Site-content">
-        {/* <MobileMenu menuOpen={MenuOpen} toggleMenu={toggleMenu} /> */}
-        { children } 
+        <SiteContent className={(MenuOpen) ? " Site-content menu-open" : "Site-content"} toggleMenu={toggleMenu} MenuOpen={MenuOpen}> 
+            {children}
         </SiteContent>
-        {/* <LoginModal modalOpen={modalOpen} /> */}
+        <MobileMenu menuOpen={MenuOpen} toggleMenu={toggleMenu} /> 
         <SiteFooter className="Site-footer" />
     </Site>
 
 
-
+            
 let ShellLocalState = withState(
     "MenuOpen",
     "toggleMenu",
@@ -30,12 +31,7 @@ let Site = styled.div`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    transform: translate(0px, 0px);
-    transition: transform 0.25s ease; 
-    &.menu-open {
-        transform: translate(-15.563em, 0px);
-        transition: transform 0.25s ease;
-    }
+    
 `;
 
 let SiteHeader = styled(Header)`
@@ -45,6 +41,12 @@ let SiteHeader = styled(Header)`
 let SiteContent = styled.div`
     flex: 1 0 auto;
     width: 100%;
+    transition: transform 0.25s ease;   
+     &.menu-open {
+        transform: translate(-15.563em, 0);
+        transition: transform 0.25s ease;   
+        
+    }
 `;
 
 let SiteFooter = styled(Footer)`

@@ -22,7 +22,7 @@ let HeroStyled = styled.div`
     background-size:cover;
     background-position: 40% 54%;
     min-height: 400px;
-    height: 100vh;  
+    height: calc(100vh - 45px);  
 `;
 let HeroContainer = styled.div`
     padding: 0 5%;

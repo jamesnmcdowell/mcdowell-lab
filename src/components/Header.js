@@ -6,10 +6,8 @@ import styled from 'styled-components';
 import Headroom from 'react-headroom';
 
 let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
-    <Headroom style={{
-        transition: 'all .5s ease-in-out', zIndex: 8
-    }}>
-    <HeaderStyled className={ headerActive ? "header-active" : "" } id="header">
+    <Headroom style={{ zIndex: 8 }}>
+        <HeaderStyled disable={true} className={(MenuOpen) ? " menu-open" : ""} id="header">
         <Container>
             <HeaderFlex>
                 <LinkLogo to="/">
@@ -37,6 +35,12 @@ let HeaderStyled = styled.header`
     color: #ffffff;
     background-color: rgba(84, 84, 84,1);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.83);
+    transition: transform 0.25s ease;   
+    &.menu-open {
+        
+        transform: translate(-15.563em, 0);
+        transition: transform 0.25s ease;   
+    }
 `;
 let HeaderFlex = styled.header`
     display: flex;

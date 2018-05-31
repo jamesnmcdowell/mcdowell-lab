@@ -5,7 +5,7 @@ import ClickOutside from 'react-click-outside';
 
 let MobileMenu = ({ menuOpen, toggleMenu }) =>
     <ClickOutside onClickOutside={() => { if (menuOpen) {toggleMenu(!menuOpen);} }}>
-    <CanvasMenu className={(menuOpen) ? "mobile-menu-wrapper menu-open" : "mobile-menu-wrapper"}>
+    <CanvasMenu className={(menuOpen) ? " menu-open" : ""}>
         <ul className="mobile-menu-list">
             <li>
                 <Link to="/" onClick={() => { toggleMobileMenu(); }}>
@@ -27,6 +27,7 @@ let MobileMenu = ({ menuOpen, toggleMenu }) =>
         </ul>
     </CanvasMenu>
     </ClickOutside>
+
 export default MobileMenu;
 
 let CanvasMenu = styled.div`
@@ -37,9 +38,14 @@ let CanvasMenu = styled.div`
     right: -15.625em;
     height: 100%;
     background:dimgrey;
-    transform: translate(0px, 0px);
+    transform: translate(0, 0);
     transition: transform 0.25s ease;
-
+    
+    &.menu-open {
+        transform: translate(-15.563em, 0);
+        transition: transform 0.25s ease;
+        border: 0px dimgrey solid;   
+    }
   
 `;
 

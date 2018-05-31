@@ -4,9 +4,9 @@ import { Link } from 'react-static';
 import styled from 'styled-components';
 
 let NewsScreen = () =>
-    <Shell>
+    <div>
         <br />
         <h1>News </h1>
-    </Shell>
+    </div>
 
 export default NewsScreen;

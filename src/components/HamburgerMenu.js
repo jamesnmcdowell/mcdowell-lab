@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { media } from './Media';
 
-let HamburgerMenu = () =>
-    <Hamburger className="button_container toggle-animation" id="toggle-button">
+let HamburgerMenu = ({ toggleMenu, MenuOpen }) =>
+    <Hamburger className="button_container toggle-animation" id="toggle-button"
+        onClick={() => { toggleMenu(!MenuOpen); }  }>
         <Line1 className="top"></Line1>
         <Line2 className="middle"></Line2>
         <Line3 className="bottom"></Line3>

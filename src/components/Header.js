@@ -5,7 +5,7 @@ import { media, Container } from './Media';
 import styled from 'styled-components';
 import Headroom from 'react-headroom';
 
-let Header = ({ headerActive, toggleMenu}) =>
+let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
     <Headroom style={{
         transition: 'all .5s ease-in-out', zIndex: 8
     }}>
@@ -22,7 +22,7 @@ let Header = ({ headerActive, toggleMenu}) =>
                     <LinkNav to="/publications"> Publications </LinkNav>
                     <LinkNav to="/news"> News </LinkNav>
                 </Nav>
-                <HamburgerMenu toggleMenu={toggleMenu}/>
+                <HamburgerMenu toggleMenu={toggleMenu} MenuOpen={MenuOpen}/>
             </HeaderFlex>
         </Container>
     </HeaderStyled>

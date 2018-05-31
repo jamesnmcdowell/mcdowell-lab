@@ -4,9 +4,9 @@ import { Link } from 'react-static';
 import styled from 'styled-components';
 
 let PublicationsScreen = () =>
-    <Shell>
+    <div>
         <br />
         <h1>Publications </h1>
-    </Shell>
+    </div>
 
 export default PublicationsScreen;

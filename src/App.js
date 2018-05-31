@@ -4,7 +4,7 @@ import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes';
 import { normalize } from 'polished';
-// import Shell from './components/'
+import Shell from './components/Shell'
 
 
 injectGlobal`
@@ -30,7 +30,9 @@ injectGlobal`
 const App = () =>
   <Router>
     <div className="content">
-      <Routes />
+      <Shell>
+        <Routes />
+      </Shell>
     </div>
   </Router>
 

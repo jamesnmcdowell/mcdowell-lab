@@ -6,11 +6,10 @@ import MobileMenu from './MobileMenu';
 import { withState } from 'recompose';
 
 let Shell = ({ children, headerActive, MenuOpen, toggleMenu }) =>
-    <Site className="Site">
-        <SiteHeader className="Site-header" headerActive={headerActive} toggleMenu={toggleMenu} />
+    <Site className="Site" className={(MenuOpen) ? "mobile-menu-wrapper menu-open" : "mobile-menu-wrapper"}>
+        <SiteHeader className="Site-header" headerActive={headerActive} toggleMenu={toggleMenu} MenuOpen={MenuOpen} />
         <SiteContent className="Site-content">
-        <MobileMenu menuOpen={MenuOpen}  />
-        
+        {/* <MobileMenu menuOpen={MenuOpen} toggleMenu={toggleMenu} /> */}
         { children } 
         </SiteContent>
         {/* <LoginModal modalOpen={modalOpen} /> */}
@@ -31,6 +30,12 @@ let Site = styled.div`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transform: translate(0px, 0px);
+    transition: transform 0.25s ease; 
+    &.menu-open {
+        transform: translate(-15.563em, 0px);
+        transition: transform 0.25s ease;
+    }
 `;
 
 let SiteHeader = styled(Header)`

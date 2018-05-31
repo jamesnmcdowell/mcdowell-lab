@@ -7,7 +7,7 @@ import db from '../db.json';
 import ResumeBlock from './ResumeBlock';
 
 let BioScreen = () => 
-    <Shell>
+    <div>
         <br/>
         <h1>Bio </h1>
         {/* <img src={require('../assets/employment.svg')}/> */}
@@ -16,7 +16,7 @@ let BioScreen = () =>
         }
         
        
-    </Shell>
+    </div>
 
 export default BioScreen;
 

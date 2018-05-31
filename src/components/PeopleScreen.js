@@ -4,9 +4,9 @@ import { Link } from 'react-static';
 import styled from 'styled-components';
 
 let PeopleScreen = () =>
-    <Shell>
+    <div>
         <br />
         <h1>People </h1>
-    </Shell>
+    </div>
 
 export default PeopleScreen;

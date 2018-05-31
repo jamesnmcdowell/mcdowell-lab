@@ -21,22 +21,9 @@ import interface1 from '../assets/xps.png';
 import interface2 from '../assets/Image2a_cropfinal.png';
 import controlling from '../assets/SEM.png';
 
-let HomeScreen = ({ headerActive, triggerHeader, hasLeft, triggerLeft}) =>
-<Shell headerActive={headerActive}>
+let HomeScreen = ({ }) =>
+<div>
   <Hero/>
-	<Waypoint onLeave={({ previousPosition, currentPosition, event }) => {
-			console.log('you exited');
-			triggerHeader();
-			triggerLeft();
-		}}
-		onEnter={({ }) => {
-			console.log("yoyo");
-			if(hasLeft) {
-			console.log('you entered');	
-			triggerHeader();
-			}
-		}}
-	/>
 	<section className="homepage-one">
 		<Container>
 			<SubTitle> 
@@ -124,8 +111,8 @@ let HomeScreen = ({ headerActive, triggerHeader, hasLeft, triggerLeft}) =>
 			<img src={controlling} />
 		</ImageGrid>
 	</Container>
+</div>
 
-</Shell>
 
 let HomeScreenLocalState = withStateHandlers(
 	() => ({

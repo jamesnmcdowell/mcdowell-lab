@@ -10,15 +10,15 @@ import { OffCanvas, OffCanvasMenu, OffCanvasBody } from 'react-offcanvas';
 let Shell = ({ children, headerActive, MenuOpen, toggleMenu }) =>
     <Site className="Site" className={(MenuOpen) ? "mobile-menu-wrapper menu-open" : "mobile-menu-wrapper"}>
         <SiteHeader className="Site-header" headerActive={headerActive} toggleMenu={toggleMenu} MenuOpen={MenuOpen} />
-        <SiteContent className={(MenuOpen) ? " Site-content menu-open" : "Site-content"} toggleMenu={toggleMenu} MenuOpen={MenuOpen}> 
+        <SiteContent className={(MenuOpen) ? " Site-content menu-open" : "Site-content"} toggleMenu={toggleMenu} MenuOpen={MenuOpen}>
             {children}
         </SiteContent>
-        <MobileMenu MenuOpen={MenuOpen} toggleMenu={toggleMenu} /> 
+        <MobileMenu MenuOpen={MenuOpen} toggleMenu={toggleMenu} />
         <SiteFooter className="Site-footer" />
     </Site>
 
 
-            
+
 let ShellLocalState = withState(
     "MenuOpen",
     "toggleMenu",
@@ -46,6 +46,5 @@ let SiteContent = styled.div`
 let SiteFooter = styled(Footer)`
     flex: 0 0 auto;
 `;
-
 
 

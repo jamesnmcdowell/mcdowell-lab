@@ -3,7 +3,9 @@ import { Router, Link } from 'react-static'
 import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes';
-import { normalize } from 'polished'
+import { normalize } from 'polished';
+import Shell from './components/Shell'
+
 
 injectGlobal`
   html {
@@ -16,7 +18,10 @@ injectGlobal`
     margin: 0;
     padding: 0;
     font-size: 1.5em;
+    color: #222;
+    line-height: 1.5;
   }
+
   img {
     100%;
   }
@@ -26,7 +31,9 @@ injectGlobal`
 const App = () =>
   <Router>
     <div className="content">
-      <Routes />
+      <Shell>
+        <Routes />
+      </Shell>
     </div>
   </Router>
 

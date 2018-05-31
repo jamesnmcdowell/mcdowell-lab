@@ -1,18 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImage from '../assets/cubessmallfinal.png';
+import ArrowDown from './ArrowDown';
 
-let Hero = () =>
-    <HeroStyled className="hero mobile-height-fix" >
+let Hero = () => 
+    <HeroStyled id="hero" className="hero mobile-height-fix" >
         <HeroContainer>
         <PrimaryTitle className='hero-title' id="logo">Prof. Matthew McDowell's Lab</PrimaryTitle>
         <SecondaryTitle>Georgia Institute of Technology</SecondaryTitle>
         </HeroContainer>  
-        <Arrows className="arrows" id="homepage-scroll">
-            <path className="a1" d="M0 0 L30 32 L60 0"></path>
-            <path className="a2" d="M0 20 L30 52 L60 20"></path>
-        </Arrows>
+        <ArrowDown/>
     </HeroStyled>
+
+export default Hero;
 
 let HeroStyled = styled.div`
     width: 100%;
@@ -22,7 +22,7 @@ let HeroStyled = styled.div`
     background-size:cover;
     background-position: 40% 54%;
     min-height: 400px;
-    height: 100vh;  
+    height: calc(100vh - 45px);  
 `;
 let HeroContainer = styled.div`
     padding: 0 5%;
@@ -31,24 +31,9 @@ let HeroContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     text-align: center;
-   
 `;
 
-let Arrows = styled.svg`
-    width: 60px;
-	height: 60px;
-	position:absolute;
-	left: 50%;  
-	margin-left: -30px;
-    bottom: 10px;
-    path {
-        stroke: #f5f5f5;
-        fill: transparent;
-        stroke-width: 3px;
-    }
-`;
-
-let PrimaryTitle  = styled.h1`
+let PrimaryTitle = styled.h1`
     font-size: 3.2em; 
     font-weight: 200; 
     margin: 0;
@@ -61,5 +46,3 @@ let SecondaryTitle = styled.h2`
     margin: 0;
     color: #ffffff;
 `;
-
-export default Hero;

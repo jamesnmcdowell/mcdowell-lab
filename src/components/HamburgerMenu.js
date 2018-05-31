@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { largeScreen } from './Media';
+import { media } from './Media';
 
-let HamburgerMenu = () =>
-    <Hamburger className="button_container toggle-animation" id="toggle-button">
-        <Line1 className="top"></Line1>
-        <Line2 className="middle"></Line2>
-        <Line3 className="bottom"></Line3>
+let HamburgerMenu = ({ burgerClosed, toggleMenu, MenuOpen }) =>
+    <Hamburger onClick={() => { toggleMenu(!MenuOpen); }  }>
+        <Line1 className={(burgerClosed) ? " active" : ""} ></Line1>
+        <Line2 className={(burgerClosed) ? " active" : ""}></Line2>
+        <Line3 className={(burgerClosed) ? " active" : ""}></Line3>
     </Hamburger>
 
 
@@ -19,9 +19,7 @@ let Hamburger = styled.div`
     &:hover{
         opacity: .7;
     }
-    @media ${largeScreen} {
-        display: none;
-    }
+    ${media.desktop`display: none;`}
 `;
 
 let Line = styled.span`

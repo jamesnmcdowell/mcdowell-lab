@@ -13,7 +13,7 @@ let Shell = ({ children, headerActive, MenuOpen, toggleMenu }) =>
         <SiteContent className={(MenuOpen) ? " Site-content menu-open" : "Site-content"} toggleMenu={toggleMenu} MenuOpen={MenuOpen}> 
             {children}
         </SiteContent>
-        <MobileMenu menuOpen={MenuOpen} toggleMenu={toggleMenu} /> 
+        <MobileMenu MenuOpen={MenuOpen} toggleMenu={toggleMenu} /> 
         <SiteFooter className="Site-footer" />
     </Site>
 
@@ -41,12 +41,6 @@ let SiteHeader = styled(Header)`
 let SiteContent = styled.div`
     flex: 1 0 auto;
     width: 100%;
-    transition: transform 0.25s ease;   
-     &.menu-open {
-        transform: translate(-15.563em, 0);
-        transition: transform 0.25s ease;   
-        
-    }
 `;
 
 let SiteFooter = styled(Footer)`

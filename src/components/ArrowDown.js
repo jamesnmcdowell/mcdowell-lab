@@ -6,7 +6,7 @@ let ArrowDown = () =>
 
 <Arrows className="arrows" onClick={() => {
     scrollTo(document.querySelector('.homepage-one'), {
-        offset: -78,
+        offset: -33,
         duration: 1000
     })
 }}>

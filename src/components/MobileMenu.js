@@ -1,30 +1,55 @@
 import React from 'react';
-import { Link } from 'react-static';
+import { Link as LinkOrg } from 'react-static';
 import styled from 'styled-components';
 import ClickOutside from 'react-click-outside';
+import { media, Container } from './Media';
+import HamburgerMenu from './HamburgerMenu';
 
-let MobileMenu = ({ menuOpen, toggleMenu }) =>
-    <ClickOutside onClickOutside={() => { if (menuOpen) {toggleMenu(!menuOpen);} }}>
-    <CanvasMenu className={(menuOpen) ? " menu-open" : ""}>
-        <ul className="mobile-menu-list">
+let MobileMenu = ({ MenuOpen, toggleMenu }) =>
+    <ClickOutside onClickOutside={() => { if (MenuOpen) {toggleMenu(!MenuOpen);} }}>
+    <CanvasMenu className={(MenuOpen) ? " menu-open" : ""}>
+    <Container>
+        <HamburgerWrapper>
+            <HamburgerMenu burgerClosed={true} toggleMenu={toggleMenu} MenuOpen={MenuOpen}/>
+        </HamburgerWrapper>
+        <MenuList className="mobile-menu-list">
             <li>
                 <Link to="/" onClick={() => { toggleMobileMenu(); }}>
                     <div>
-                        <span>Home</span>
+                        <span>Research</span>
                     </div>
                 </Link>
             </li>
             <li>
-                <hr />
-            </li>
-            <li>
-                <Link to="/become-a-vendor" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/bio" onClick={() => { toggleMobileMenu(); }}>
                     <div>
-                        <span>Become a Vendor</span>
+                        <span>Bio</span>
                     </div>
                 </Link>
             </li>
-        </ul>
+            <li>
+                <Link to="/people" onClick={() => { toggleMobileMenu(); }}>
+                    <div>
+                        <span>People</span>
+                    </div>
+                </Link>
+            </li>
+            <li>
+            <Link to="/publications" onClick={() => { toggleMobileMenu(); }}>
+                    <div>
+                        <span>Publications</span>
+                    </div>
+                </Link>
+            </li>
+            <li>
+            <Link to="/news" onClick={() => { toggleMobileMenu(); }}>
+                    <div>
+                        <span>News</span>
+                    </div>
+                </Link>
+            </li>
+        </MenuList>
+    </Container>    
     </CanvasMenu>
     </ClickOutside>
 
@@ -40,13 +65,41 @@ let CanvasMenu = styled.div`
     background:dimgrey;
     transform: translate(0, 0);
     transition: transform 0.25s ease;
+    z-index: 10;
     
     &.menu-open {
         transform: translate(-15.563em, 0);
         transition: transform 0.25s ease;
         border: 0px dimgrey solid;   
     }
-  
+`;
+let MenuList = styled.ul`
+    list-style: none;
+    padding: 0 ;
+    margin: 0;
+`;
+let HamburgerWrapper = styled.div`
+    height:45px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    li {
+        padding: 0 1rem;
+    }
+`;
+let Link= styled(LinkOrg)`
+    line-height: 3em;
+    font-weight: 300;
+    font-size: 1.1em;
+    font-size: 1.8rem;
+    text-decoration: none;
+    
+    span {
+        color: white;
+        height: 20px;
+    }
 `;
 
 

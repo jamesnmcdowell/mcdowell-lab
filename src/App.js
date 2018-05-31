@@ -21,6 +21,7 @@ injectGlobal`
     color: #222;
     line-height: 1.5;
   }
+
   img {
     100%;
   }

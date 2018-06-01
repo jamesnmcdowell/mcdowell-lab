@@ -14,35 +14,35 @@ let MobileMenu = ({ MenuOpen, toggleMenu }) =>
         </HamburgerWrapper>
         <MenuList className="mobile-menu-list">
             <li>
-                <Link to="/" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/" onClick={() => { toggleMenu(); }}>
                     <div>
                         <span>Research</span>
                     </div>
                 </Link>
             </li>
             <li>
-                <Link to="/bio" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/bio" onClick={() => { toggleMenu(); }}>
                     <div>
                         <span>Bio</span>
                     </div>
                 </Link>
             </li>
             <li>
-                <Link to="/people" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/people" onClick={() => { toggleMenu(); }}>
                     <div>
                         <span>People</span>
                     </div>
                 </Link>
             </li>
             <li>
-            <Link to="/publications" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/publications" onClick={() => { toggleMenu(); }}>
                     <div>
                         <span>Publications</span>
                     </div>
                 </Link>
             </li>
             <li>
-            <Link to="/news" onClick={() => { toggleMobileMenu(); }}>
+                <Link to="/news" onClick={() => { toggleMenu();}}>
                     <div>
                         <span>News</span>
                     </div>

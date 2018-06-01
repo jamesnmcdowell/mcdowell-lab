@@ -14,6 +14,7 @@ let SectionHero = styled.section`
     background-size: cover;
     height: 40vh;
     position: relative;
+    background-position: 40% 30%;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -21,11 +22,10 @@ let SectionHero = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-}
 `;
 
 let SectionTitle = styled.h1`
-    font-weight: 100;
+    font-weight: 200;
     font-size: 5rem;
 }
 `;

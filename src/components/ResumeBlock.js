@@ -3,6 +3,8 @@ import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
 import employment from '../assets/employment.svg';
+import education from '../assets/education.svg';
+import award from '../assets/award.svg';
 
 let ResumeBlock = ({info}) =>
     <div>
@@ -22,7 +24,7 @@ let ResumeBlock = ({info}) =>
                     </FlexLeft>
                     <FlexRight>
                         {
-                            item.text.map((c, i) => ((i === 0) ? <span>Bold({c})</span> : <span>{c}</span>))
+                            item.text.map((c, i) => ((i === 0 && info.title !== "Awards") ? <Span bold > {c} </Span> : <Span>{c}</Span>))
                         } 
                     </FlexRight>
                 </FlexDiv>
@@ -36,6 +38,9 @@ let ResumeTitle = styled.h4`
     text-transform: uppercase;
     font-size: 1.4em;
     font-weight: 200;
+`;
+let Span = styled.span`
+    font-weight: ${ props => props.bold ? "600" : "inherit"};
 `;
 
 let FlexDiv = styled.div`
@@ -53,4 +58,5 @@ let FlexLeft = styled.div`
 let FlexRight = styled.div`
     display: flex;
     flex-direction: column;
+    flex-basis: calc(100% - 100px);
 `;

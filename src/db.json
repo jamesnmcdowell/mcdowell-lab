@@ -16,27 +16,175 @@
             ]
         },
         {
-            "icon": "employment.svg",
-            "title": "Employment",
+            "icon": "education.svg",
+            "title": "Education",
             "items": [
                 {
-                    "date": "2015 - present",
+                    "date": "2013 - 2015",
                     "text": [
-                        "Georgia Institute of Technology",
-                        "Assistant Professor",
-                        "Woodruff School of Mechanical Engineering",
-                        "School of Materials Science and Engineering"
+                        "California Institute of Technology",
+                        "Postdoctoral Scholar",
+                        "Chemistry and Chemical Engineering"
                     ]
                 },
                 {
-                    "date": "2015 - present",
+                    "date": "2013",
                     "text": [
-                        "Georgia Institute of Technology",
-                        "Assistant Professor",
-                        "Woodruff School of Mechanical Engineering",
-                        "School of Materials Science and Engineering"
+                        "Stanford University, Ph.D.",
+                        "Materials Science and Engineering"
                     ]
                 },
+                {
+                    "date": "2011",
+                    "text": [
+                        "Stanford University, M.S.",
+                        "Materials Science and Engineering"
+                    ]
+                },
+                {
+                    "date": "2008",
+                    "text": [
+                        "Georgia Institute of Technology, B.S.",
+                        "Materials Science and Engineering"
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "award.svg",
+            "title": "Awards",
+            "items": [
+                {
+                    "date": "2017",
+                    "text": [
+                        "NSF CAREER Award"
+                    ]
+                },
+                {
+                    "date": "2017",
+                    "text": [
+                        "Scialog Fellow"
+                    ]
+                },
+                {
+                    "date": "2016",
+                    "text": [
+                        "AFOSR Young Investigator Award"
+                    ]
+                },
+                {
+                    "date": "2016",
+                    "text": [
+                        "ACS PRF Doctoral New Investigator Grant"
+                    ]
+                },
+                {
+                    "date": "2016",
+                    "text": [
+                        "Class of 1969 Teaching Fellow"
+                    ]
+                },
+                {
+                    "date": "2013",
+                    "text": [
+                        "MRS Graduate Student Gold Award"
+                    ]
+                },
+                {
+                    "date": "2013",
+                    "text": [
+                        "Stanford MSE R. A. Huggins Award",
+                        "for Excellence in Ph.D. Research"
+                    ]
+                },
+                {
+                    "date": "2012",
+                    "text": [
+                        "ECS Daniel Cubicciotti Award Honorable Mention"
+                    ]
+                },
+                {
+                    "date": "2009",
+                    "text": [
+                        "NSF Graduate Fellowship"
+                    ]
+                },
+                {
+                    "date": "2009",
+                    "text": [
+                        "NDSEG Fellowship"
+                    ]
+                },
+                {
+                    "date": "2008",
+                    "text": [
+                        "Stanford Graduate Fellowship"
+                    ]
+                },
+                {
+                    "date": "2008",
+                    "text": [
+                        "GT College of Engineering",
+                        "Outstanding Undergraduate Researcher"
+                    ]
+                },
+                {
+                    "date": "2008",
+                    "text": [
+                        "GT MSE Outstanding Senior Award"
+                    ]
+                },
+                {
+                    "date": "2007",
+                    "text": [
+                        "GT Henry Ford II Scholar Award"
+                    ]
+                }
+            ]
+        }
+    ],
+    "profile": 
+        {
+            "name": "Matthew T. McDowell, Ph.D.",
+            "position": "Assistant Professor",
+            "avatar": "McDowell_smallfinal.jpg",
+            "schools": [
+                {
+                    "name":"Woodruff School of Mechanical Engineering",
+                    "url":"http://www.me.gatech.edu/"
+                },
+                {
+                    "name":"School of Materials Science and Engineering",
+                    "url":"http://www.mse.gatech.edu"
+                }
+            ],
+            "university": "Georgia Institute of Technology",
+            "universityLogo": "GTlogofinal.png",
+            "email": "mattmcdowell@gatech.edu",
+            "building": "MRDC 4408",
+            "phone": "404-894-8341",
+            "social": 
+                [
+                    
+                        {
+                            "icon": "googlescholar.svg",
+                            "url": "https://scholar.google.com/citations?user=VRZVDH8AAAAJ&hl=en",
+                            "color": "#dc4e41"
+                        },
+             
+                        {
+                            "icon": "twitterlogo.svg",
+                            "url": "https://twitter.com/mcdowell_lab",
+                            "color": "#55acee"
+                        },
+       
+                        {
+                            "icon": "mail.svg",
+                            "url": "mailto:mattmcdowell@gatech.edu",
+                            "color": "#dc4e41"
+                        }
+                ],
+            "items": [
                 {
                     "date": "2015 - present",
                     "text": [
@@ -47,6 +195,141 @@
                     ]
                 }
             ]
-        }
-    ]
+        },
+    "contact": 
+        {
+            "name": "Matthew T. McDowell, Ph.D.",
+            "position": "Assistant Professor",
+            "profileImg": "employment.svg"
+        },
+    "team": {
+        "title": "The Team",
+        "ctaTitle": "Interested in joining us?",
+        "ctaBody": "We are always looking for highly motivated graduate and undergraduate students that are interested in performing research within the group. Please contact Prof. McDowell for details.",
+        "students": [
+            {
+                "name": "Neha Kondekar",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "NehaKondekar_croptransp.png"
+            },
+            {
+                "name": "Matthew Boebinger",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "MatthewCropSmalltransp.png"
+            },
+            {
+                "name": "Sang Yun Han",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "SangYunHan_croptrans.png"
+            },
+            {
+                "name": "Francisco Cortes",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "FranciscoQuinteroCortescroptrans.png"
+            },
+            {
+                "name": "Jack Lewis",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "JackFinal.png"
+            },
+            {
+                "name": "Jared Tippens",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "JaredFinal.png"
+            },
+            {
+                "name": "Miranda Tuck",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "MirandaTuck_croptransp.png"
+            },
+            {
+                "name": "Samuel Wolfson",
+                "type": "Undergraduate Student",
+                "department": "ME",
+                "avatar": "SamuelWolfson_croptransp.png"
+            },
+            {
+                "name": "Casey Miles",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "CaseyMiles_croptransp.png"
+            },
+            {
+                "name": "Trevor Worthy",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "Trevor_cropstansp.png"
+            },
+            {
+                "name": "David Yeh",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "DavidFinal.png"
+            },
+            {
+                "name": "Michael Xu",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "MichaelXu_croptransp.png"
+            },
+            {
+                "name": "Amelia Tan",
+                "type": "Undergraduate Student",
+                "department": "ME",
+                "avatar": "AmeliaFinal.png"
+            },
+            {
+                "name": "Kirit Joshi",
+                "type": "Undergraduate Student",
+                "department": "ME",
+                "avatar": "KiritJoshi_croptransp.png"
+            },
+            {
+                "name": "Lan Ho",
+                "type": "Undergraduate Student",
+                "department": "ECE",
+                "avatar": "LanFinal2.png"
+            }
+        ],
+        "university": "Georgia Institute of Technology",
+        "universityLogo": "GTlogofinal.png",
+        "email": "mattmcdowell@gatech.edu",
+        "building": "MRDC 4408",
+        "phone": "404-894-8341",
+        "social": [
+            {
+                "icon": "googlescholar.svg",
+                "url": "https://scholar.google.com/citations?user=VRZVDH8AAAAJ&hl=en",
+                "color": "#dc4e41"
+            },
+            {
+                "icon": "twitterlogo.svg",
+                "url": "https://twitter.com/mcdowell_lab",
+                "color": "#55acee"
+            },
+            {
+                "icon": "mail.svg",
+                "url": "mailto:mattmcdowell@gatech.edu",
+                "color": "#dc4e41"
+            }
+        ],
+        "items": [
+            {
+                "date": "2015 - present",
+                "text": [
+                    "Georgia Institute of Technology",
+                    "Assistant Professor",
+                    "Woodruff School of Mechanical Engineering",
+                    "School of Materials Science and Engineering"
+                ]
+            }
+        ]
+    }   
 }

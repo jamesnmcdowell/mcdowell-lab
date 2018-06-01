@@ -20,6 +20,7 @@
     "react-burger-menu": "^2.4.4",
     "react-click-outside": "tj/react-click-outside",
     "react-dom": "^16.0.0",
+    "react-google-maps": "^9.4.5",
     "react-headroom": "^2.2.2",
     "react-offcanvas": "^0.3.1",
     "react-router": "^4.2.0",

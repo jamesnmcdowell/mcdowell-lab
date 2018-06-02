@@ -319,17 +319,946 @@
                 "url": "mailto:mattmcdowell@gatech.edu",
                 "color": "#dc4e41"
             }
-        ],
-        "items": [
+        ]
+    },
+    "publications": {
+        "title": "Publications",
+        "papers": [
             {
-                "date": "2015 - present",
-                "text": [
-                    "Georgia Institute of Technology",
-                    "Assistant Professor",
-                    "Woodruff School of Mechanical Engineering",
-                    "School of Materials Science and Engineering"
-                ]
+                "authors": [
+                    "A. Leach", 
+                    "M. T. McDowell", 
+                    "K. Gall"
+                ],
+                "title": "Deformation of Top-Down and Bottom-Up Silver Nanowires",
+                "journal": "Advanced Functional Materials",
+                "year": "2007",
+                "pages": "17 (1), 43-53",
+                "url": "http://dx.doi.org/10.1002/adfm.200600735"
+            },
+            {
+                "authors": [
+                    "M. Lucas", 
+                    "A. Leach", 
+                    "M. T. McDowell", 
+                    "S. E. Hunyadi", 
+                    "K. Gall", 
+                    "C. J. Murphy", 
+                    "E. Riedo"
+                ],
+                "title": "Plastic Deformation of Pentagonal Silver Nanowires: Comparison Between AFM Nanoindentation and Atomistic Simulations",
+                "journal": "Physical Review B",
+                "year": "2008",
+                "pages": "77, 245420",
+                "url": "http://dx.doi.org/10.1103/PhysRevB.77.245420"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "A. Leach", 
+                    "K. Gall"
+                ],
+                "title": "Bending and Tensile Deformation of Metallic Nanowires",
+                "journal": "Modelling and Simulation in Materials Science and Engineering",
+                "year": "2008",
+                "pages": "16, 045003",
+                "url": "http://dx.doi.org/10.1088/0965-0393/16/4/045003"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "A. Leach", 
+                    "K. Gall"
+                ],
+                "title": "On the Elastic Modulus of Metallic Nanowires",
+                "journal": "Nano Letters",
+                "year": "2008",
+                "pages": "8 (11), 3613-3618",
+                "url": "http://dx.doi.org/10.1021/nl801526c"
+            },
+            {
+                "authors": [
+                    "Y. Yang", 
+                    "M. T. McDowell", 
+                    "A. Jackson", 
+                    "J.J. Cha", 
+                    "S.S. Hong", 
+                    "Y. Cui"
+                ],
+                "title": "New Nanostructured Li2S/Si Rechargeable Battery with High Specific Energy",
+                "journal": "Nano Letters",
+                "year": "2010",
+                "pages": "10 (4), 1486-1491",
+                "url": "http://dx.doi.org/10.1021/nl100504q"
+            },
+            {
+                "authors": [
+                    "N. P. Dasgupta", 
+                    "H. J. Jung", 
+                    "O. Trejo", 
+                    "M. T. McDowell", 
+                    "A. Hryciw", 
+                    "M. Brongersma", 
+                    "R. Sinclair", 
+                    "F. B. Prinz"
+                ],
+                "title": "Atomic Layer Deposition of Lead Sulfide Quantum Dots on Nanowire Surfaces",
+                "journal": "Nano Letters",
+                "year": "2011",
+                "pages": "11 (3), 934-940",
+                "url": "http://dx.doi.org/10.1021/nl103001h"
+            },
+            {
+                "authors": [
+                    "S. W. Lee", 
+                    "M. T. McDowell", 
+                    "J. W. Choi", 
+                    "Y. Cui"
+                ],
+                "title": "Anomalous Shape Changes of Silicon Nanopillars by Electrochemical Lithiation",
+                "journal": "Nano Letters",
+                "year": "2011",
+                "pages": "11 (7), 3034-3039",
+                "url": "http://dx.doi.org/10.1021/nl201787r"
+            },
+            {
+                "authors": [
+                    "Y. Yao", 
+                    "M. T. McDowell", 
+                    "I. Ryu", 
+                    "H. Wu", 
+                    "N. Liu", 
+                    "L. Hu", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "Interconnected Silicon Hollow Nanospheres for Lithium-Ion Battery Anodes with Long Cycle Life",
+                "journal": "Nano Letters",
+                "year": "2011",
+                "pages": "11 (7), 2949-2954",
+                "url": "http://dx.doi.org/10.1021/nl201470j"
+            },
+            {
+                "authors": [
+                    "S. Jeong", 
+                    "M. T. McDowell", 
+                    "Y. Cui"
+                ],
+                "title": "Low-Temperature Self-Catalytic Growth of Tin Oxide Nanocones over Large Areas",
+                "journal": "ACS Nano",
+                "year": "2011",
+                "pages": "5 (7), 5800-5807",
+                "url": "http://dx.doi.org/10.1021/nn2015216"
+            },
+            {
+                "authors": [
+                    "N. Liu", 
+                    "L. Hu", 
+                    "M. T. McDowell", 
+                    "A. Jackson", 
+                    "Y. Cui"
+                ],
+                "title": "Prelithiated Silicon Nanowires as an Anode for Lithium Ion Batteries",
+                "journal": "ACS Nano",
+                "year": "2011",
+                "pages": "5 (8), 6487-6493",
+                "url": "http://dx.doi.org/10.1021/nn2017167"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "Y. Cui" 
+                ],
+                "title": "Single Nanostructure Electrochemical Devices for Studying Electronic Properties and Structural Changes in Lithiated Si Nanowires",
+                "journal": "Advanced Energy Materials",
+                "year": "2011",
+                "pages": "1 (5), 894-900",
+                "url": "http://dx.doi.org/10.1002/aenm.201100258"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "S.W. Lee", 
+                    "I. Ryu", 
+                    "W. D. Nix", 
+                    "J.W. Choi", 
+                    "Y. Cui"
+                ],
+                "title": "Novel Size and Surface Oxide Effects in Silicon Nanowires as Lithium Battery Anodes",
+                "journal": "Nano Letters",
+                "year": "2011",
+                "pages": "11 (9), 4018-4025",
+                "url": "http://dx.doi.org/10.1021/nl202630n"
+            },
+            {
+                "authors": [
+                    "Y. Yao", 
+                    "K. Huo", 
+                    "L. Hu", 
+                    "N. Liu", 
+                    "J. J. Cha", 
+                    "M. T. McDowell", 
+                    "P. K. Chu", 
+                    "Y. Cui"
+                ],
+                "title": "Highly Conductive, Mechanically Robust, and Electrochemically Inactive TiC/C Nanofiber Scaffold for High-Performance Silicon Anode Batteries",
+                "journal": "ACS Nano",
+                "year": "2011",
+                "pages": "5 (10), 8346-8351",
+                "url": "http://dx.doi.org/10.1021/nn2033693"
+            },
+            {
+                "authors": [
+                    "C. D. Wessells", 
+                    "S. V. Peddada", 
+                    "M. T. McDowell", 
+                    "R. A. Huggins", 
+                    "Y. Cui"
+                ],
+                "title": "The Effect of Insertion Species on Nanostructured Open Framework Hexacyanoferrate Battery Electrodes",
+                "journal": "Journal of the Electrochemical Society",
+                "year": "2011",
+                "pages": "159 (2), A98-A103",
+                "url": "http://dx.doi.org/10.1149/2.060202jes"
+            },
+            {
+                "authors": [
+                    "N. Liu", 
+                    "Y. Yao", 
+                    "J. J. Cha", 
+                    "M. T. McDowell", 
+                    "Y. Han", 
+                    "Y. Cui"
+                ],
+                "title": "Functionalization of Silicon Nanowire Surfaces with Metal-Organic Frameworks",
+                "journal": "Nano Research",
+                "year": "2011",
+                "pages": "5 (2), 109-116",
+                "url": "http://dx.doi.org/10.1007/s12274-011-0190-1"
+            },
+            {
+                "authors": [
+                    "C. D. Wessells", 
+                    "M. T. McDowell", 
+                    "S. V. Peddada", 
+                    "M. Pasta", 
+                    "R. A. Huggins", 
+                    "Y. Cui"
+                ],
+                "title": "Tunable Reaction Potentials in Open Framework Nanoparticle Battery Electrodes for Grid-Scale Energy Storage",
+                "journal": "ACS Nano",
+                "year": "2012",
+                "pages": "6 (2), 1688-1694",
+                "url": "http://dx.doi.org/10.1021/nn204666v"
+            },
+            {
+                "authors": [
+                    "S. W. Lee", 
+                    "M. T. McDowell", 
+                    "L. A. Berla", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "Fracture of Crystalline Silicon Nanopillars During Electrochemical Lithium Insertion",
+                "journal": "Proceedings of the National Academy of Sciences",
+                "year": "2012",
+                "pages": "109 (11), 4080-4085",
+                "url": "http://dx.doi.org/10.1073/pnas.1201088109"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "S. W. Lee", 
+                    "C. M. Wang", 
+                    "Y. Cui"    
+                ],
+                "title": "The Effect of Metallic Coatings and Crystallinity on the Volume Expansion of Silicon During Electrochemical Lithiation/Delithiation",
+                "journal": "Nano Energy",
+                "year": "2012",
+                "pages": "1 (3), 401-410",
+                "url": "http://dx.doi.org/10.1016/j.nanoen.2012.03.004"
+            },
+            {
+                "authors": [
+                    "H. Wu", 
+                    "G. Chan", 
+                    "J. W. Choi", 
+                    "I. Ryu", 
+                    "Y. Yao", 
+                    "M. T. McDowell", 
+                    "S. W. Lee", 
+                    "A. Jackson", 
+                    "Y. Yang", 
+                    "L. Hu", 
+                    "Y. Cui"
+                ],
+                "title": "Stable Cycling of Double-Walled Silicon Nanotube Battery Anodes through Solid-Electrolyte Interphase Control",
+                "journal": "Nature Nanotechnology",
+                "year": "2012",
+                "pages": "7, 310-315",
+                "url": "http://dx.doi.org/10.1038/nnano.2012.35"
+            },
+            {
+                "authors": [
+                    "P.-C. Hsu", 
+                    "H. Wu", 
+                    "T. J. Carney", 
+                    "M. T. McDowell", 
+                    "Y. Yang", 
+                    "E. C. Garnett", 
+                    "M. Li", 
+                    "L. Hu", 
+                    "Y. Cui"
+                ],
+                "title": "Passivation Coating on Electrospun Copper Nanofibers for Stable Transparent Electrodes",
+                "journal": "ACS Nano",
+                "year": "2012",
+                "pages": "6 (6) 5150-5156",
+                "url": "http://dx.doi.org/10.1021/nn300844g"
+            },
+            {
+                "authors": [
+                    "Y. Yao", 
+                    "N. Liu", 
+                    "M. T. McDowell", 
+                    "M. Pasta", 
+                    "Y. Cui"
+                ],
+                "title": "Improving the Cycling Stability of Silicon Nanowire Anodes with Conducting Polymer Coatings",
+                "journal": "Energy and Environmental Science",
+                "year": "2012",
+                "pages": "(5) 7927-7930",
+                "url": "http://dx.doi.org/10.1039/C2EE21437G"
+            },
+            {
+                "authors": [
+                    "N. Liu", 
+                    "H. Wu", 
+                    "M. T. McDowell", 
+                    "Y. Yao", 
+                    "C. M. Wang", 
+                    "Y. Cui"
+                ],
+                "title": "A Yolk-Shell Design for Stabilized and Scalable Li-ion Battery Alloy Anodes",
+                "journal": "Nano Letters",
+                "year": "2012",
+                "pages": "12 (6), 3315-3321",
+                "url": "http://dx.doi.org/10.1021/nl3014814"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "I. Ryu", 
+                    "S. W. Lee", 
+                    "C. M. Wang", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "Studying the Kinetics of Crystalline Silicon Nanoparticle Lithiation with In Situ Transmission Electron Microscopy",
+                "journal": "Advanced Materials",
+                "year": "2012",
+                "pages": "24 (45), 6034-6041",
+                "url": "http://dx.doi.org/10.1002/adma.201202744"
+            },
+            {
+                "authors": [
+                    "S. W. Lee", 
+                    "L. A. Berla", 
+                    "M. T. McDowell", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "Reaction Front Evolution during Electrochemical Lithiation of Crystalline Silicon Nanopillars",
+                "journal": "Isreal Journal of Chemistry, special issue honoring Wolf Prize recipients Profs. Lieber and Alivisatos",
+                "year": "2012",
+                "pages": "52 (11) 1118-1123",
+                "url": "http://dx.doi.org/10.1002/ijch.201200077"
+            },
+            {
+                "authors": [
+                    "Z. W. Seh", 
+                    "W. Li", 
+                    "J. J. Cha", 
+                    "G. Zheng", 
+                    "Y. Yang", 
+                    "M. T. McDowell", 
+                    "P.-C. Hsu", 
+                    "Y. Cui"
+                ],
+                "title": "Sulphur-TiO2 Yolk-Shell Nanoarchitecture with Internal Void Space for Long-Cycle Lithium-Sulphur Batteries",
+                "journal": "Nature Communications",
+                "year": "2013",
+                "pages": "4 (1331)",
+                "url": "http://dx.doi.org/10.1038/ncomms2327"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "S. W. Lee", 
+                    "J. T. Harris", 
+                    "B. A. Korgel", 
+                    "C. Wang", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "In Situ TEM of Two-Phase Lithiation of Amorphous Silicon Nanospheres",
+                "journal": "Nano Letters",
+                "year": "2013",
+                "pages": "13 (2) 758-764",
+                "url": "http://dx.doi.org/10.1021/nl3044508"
+            },
+            {
+                "authors": [
+                    "N. Liu", 
+                    "K. Huo", 
+                    "M. T. McDowell",
+                    "J. Zhao", 
+                    "Y. Cui"
+                ],
+                "title": "Rice Husks as a Sustainable Source of Nanostructured Silicon for High Performance Li-ion Battery Anodes",
+                "journal": "Scientific Reports",
+                "year": "2013",
+                "pages": "3 1919",
+                "url": "http://dx.doi.org/10.1038/srep01919"
+            },
+            {
+                "authors": [
+                    "H. Wu", 
+                    "G. Yu", 
+                    "L. Pan", 
+                    "N. Liu", 
+                    "M. T. McDowell", 
+                    "Z. Bao", 
+                    "Y. Cui"
+                ],
+                "title": "Stable Li-ion Battery Anodes by in situ Polymerization of Conducting Hydrogel to Conformally Coat Silicon Nanoparticles",
+                "journal": "Nature Communications",
+                "year": "2013",
+                "pages": "4 1943",
+                "url": "http://dx.doi.org/10.1038/ncomms2941"
+            },
+            {
+                "authors": [
+                    "H. Yao", 
+                    "G. Zheng", 
+                    "W. Li", 
+                    "M. T. McDowell", 
+                    "Z. W. Seh", 
+                    "N. Liu", 
+                    "Z. Lu", 
+                    "Y. Cui"
+                ],
+                "title": "Crab Shells as Sustainable Templates from Nature for Nanostructured Battery Electrodes",
+                "journal": "Nano Letters,",
+                "year": "2013",
+                "pages": "13 (7) 3385-3390",
+                "url": "http://dx.doi.org/10.1021/nl401729r"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "S. W. Lee", 
+                    "W. D. Nix", 
+                    "Y. Cui"
+                ],
+                "title": "Understanding the Lithiation of Silicon and Other Alloying Anodes for Lithium-Ion Batteries",
+                "journal": "Advanced Materials, invited review for AM's 25th anniversary",
+                "year": "2013",
+                "pages": "25 (36) 4966-4985",
+                "url": "http://dx.doi.org/10.1002/adma.201301795"
+            },
+            {
+                "authors": [
+                   "C. Wang", 
+                   "H. Wu", 
+                   "Z. Chen", 
+                   "M. T. McDowell", 
+                   "Y. Cui", 
+                   "Z. Bao" 
+                ],
+                "title": "Self-Healing Chemistry Enables the Stable Operation of Silicon Microparticle Anodes for High-Energy Lithium-ion Batteries",
+                "journal": "Nature Chemistry",
+                "year": "2013",
+                "pages": "5 1042-1048",
+                "url": "http://dx.doi.org/10.1038/nchem.1802"
+            },
+            {
+                "authors": [
+                    "M. Gu", 
+                    "L. R. Parent", 
+                    "L. Mehdi", 
+                    "R. R. Unocic", 
+                    "M. T. McDowell", 
+                    "W. Xu", 
+                    "J. G. Connell",
+                    "P. Xu", 
+                    "P. Apellan", 
+                    "X. Chen", 
+                    "Y. Zhang", 
+                    "D. E. Perea", 
+                    "L. J. Lauhon", 
+                    "I. Arslan", 
+                    "J.-G. Zhang", 
+                    "J. Liu", 
+                    "Y. Cui", 
+                    "N. D. Browning", 
+                    "C.-M. Wang"
+                ],
+                "title": "Demonstration of an Electrochemical Liquid Cell for Operando Transmission Electron Microscopy Observation of the Lithiation/Delithiation Behavior of Si Nanowire Battery Anodes",
+                "journal": "Nano Letters",
+                "year": "2013",
+                "pages": "13 (12) 6106-6112",
+                "url": "http://dx.doi.org/10.1021/nl403402q"
+            },
+            {
+                "authors": [
+                    "M. Pasta", 
+                    "C. D. Wessells", 
+                    "N. Liu", 
+                    "J. Nelson", 
+                    "M. T. McDowell", 
+                    "R. A. Huggins", 
+                    "M. F. Toney", 
+                    "Y. Cui"
+                ],
+                "title": "Full Open-Framework Batteries for Stationary Energy Storage",
+                "journal": "Nature Communications",
+                "year": "2014",
+                "pages": "5 3007",
+                "url": "http://dx.doi.org/10.1038/ncomms4007"
+            },
+            {
+                "authors": [
+                    "J. M. Spurgeon", 
+                    "J. M. Velazquez", 
+                    "M. T. McDowell"
+                ],
+                "title": "Improving O2 Production of WO3 Photoanodes with IrO2 in Acidic Aqueous Electrolyte",
+                "journal": "Physical Chemistry Chemical Physics",
+                "year": "2014",
+                "pages": "16, 3623-3631",
+                "url": "http://dx.doi.org/10.1039/C3CP55527E"
+            },
+            {
+                "authors": [
+                    "N. Liu", 
+                    "Z. Lu", 
+                    "J. Zhao", 
+                    "M. T. McDowell", 
+                    "H.-W. Lee", 
+                    "W. Zhao", 
+                    "Y. Cui"
+                ],
+                "title": "A pomegranate-inspired nanoscale design for large-volume change lithium battery anodes",
+                "journal": "Nature Nanotechnology",
+                "year": "2014",
+                "pages": "9, 187-192",
+                "url": "http://dx.doi.org/10.1038/nnano.2014.6"
+            },
+            {
+                "authors": [
+                    "H. Yao", 
+                    "G. Zheng", 
+                    "P.-C. Hsu", 
+                    "D. Kong", 
+                    "J. Cha", 
+                    "W. Li", 
+                    "Z. W. Seh", 
+                    "M. T. McDowell", 
+                    "K. Yan", 
+                    "Z. Liang", 
+                    "V. Narasimhan", 
+                    "Y. Cui"
+                ],
+                "title": "Improving Lithium Sulfur Batteries through Spatial Control of Sulfur Species Deposition on Hybrid Electrode Surface",
+                "journal": "Nature Communications",
+                "year": "2014",
+                "pages": "5, 3943",
+                "url": "http://dx.doi.org/doi:10.1038/ncomms4943"
+            },
+            {
+                "authors": [
+                    "M. F. Lichterman", 
+                    "A. I. Carim", 
+                    "M. T. McDowell", 
+                    "S. Hu", 
+                    "H. B. Gray", 
+                    "B. S. Brunschwig", 
+                    "N. S. Lewis"
+                ],
+                "title": "Stabilization of n-Cadmium Telluride Photoanodes for Water Oxidation to O2(g) in Aqueous Alkaline Electrolytes using Amorphous TiO2 Films Formed by Atomic Layer Deposition",
+                "journal": "Energy & Environmental Science",
+                "year": "2014",
+                "pages": "7, 3334-3337",
+                "url": "http://dx.doi.org/10.1039/C4EE01914H"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "M. F. Lichterman", 
+                    "J. M. Spurgeon", 
+                    "S. Hu", 
+                    "I. D. Sharp", 
+                    "B. S. Brunschwig",
+                    "N. S. Lewis"
+                ],
+                "title": "Improved Stability of Polycrystalline Bismuth Vanadate Photoanodes by use of Dual-Layer Thin TiO2/Ni Coatings",
+                "journal": "The Journal of Physical Chemistry C",
+                "year": "2014",
+                "pages": "118 (34) 19618-19624",
+                "url": "http://dx.doi.org/10.1021/jp506133y"
+            },
+            {
+                "authors": [
+                    "J. Zhao", 
+                    "Z. Lu", 
+                    "N. Liu", 
+                    "H.-W. Lee", 
+                    "M. T. McDowell", 
+                    "Y. Cui"
+                ],
+                "title": "Dry Air-Stable Lithium Silicide-Lithium Oxide Core-Shell Nanoparticles as High-Capacity Prelithiation Reagents",
+                "journal": "Nature Communications",
+                "year": "2014",
+                "pages": "5, 5088",
+                "url": "http://dx.doi.org/10.1038/ncomms6088"
+            },
+            {
+                "authors": [
+                    "K. Sun", 
+                    "M. T. McDowell", 
+                    "A. C. Nielander", 
+                    "S. Hu", 
+                    "M. R. Shaner", 
+                    "F. Yang", 
+                    "B. S. Brunschwig", 
+                    "N. S. Lewis"    
+                ],
+                "title": "Stable Solar-Driven Water Oxidation to O2(g) by Ni-Oxide-Coated Silicon Photoanodes",
+                "journal": "The Journal of Physical Chemistry Letters",
+                "year": "2015",
+                "pages": "6, 592-598",
+                "url": "http://dx.doi.org/10.1021/jz5026195"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "Z. Lu", 
+                    "K. J. Koski", 
+                    "J. H. Yu", 
+                    "G. Zheng", 
+                    "Y. Cui"  
+                ],
+                "title": "In Situ Observation of Divergent Phase Transformations in Individual Sulfide Nanocrystals",
+                "journal": "Nano Letters",
+                "year": "2015",
+                "pages": "15 (2) 1264-1271",
+                "url": "http://dx.doi.org/10.1021/nl504436m"
+            },
+            {
+                "authors": [
+                    "B. Zhu", 
+                    "N. Liu", 
+                    "M. T. McDowell", 
+                    "Y. Jin", 
+                    "Y. Cui", 
+                    "J. Zhu"
+                ],
+                "title": "Interfacial Stabilizing Effect of ZnO on Si Anodes for Lithium Ion Batteries",
+                "journal": "Nano Energy",
+                "year": "2015",
+                "pages": "13, 620-625",
+                "url": "http://dx.doi.org/10.1016/j.nanoen.2015.03.019"
+            },
+            {
+                "authors": [
+                    "R. H. Coridan", 
+                    "A. C. Nielander", 
+                    "S. A. Francis", 
+                    "M. T. McDowell", 
+                    "V. Dix", 
+                    "S. M. Chatman", 
+                    "N. S. Lewis"
+                ],
+                "title": "Methods for Comparing the Performance of Energy-Conversion Systems for Use in Solar Fuels and Solar Electricity Generation",
+                "journal": "Energy & Environmental Science",
+                "year": "2015",
+                "pages": "8, 2886-2901",
+                "url": "http://dx.doi.org/10.1039/C5EE00777A"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "M. F. Lichterman", 
+                    "A. I. Carim", 
+                    "R. Liu", 
+                    "S. Hu", 
+                    "B. S. Brunschwig", 
+                    "N. S. Lewis"    
+                ],
+                "title": "The Influence of Structure and Processing on the Behavior of TiO2 Protective Layers for Stabilization of n-Si/TiO2/Ni Photoanodes for Water Oxidation",
+                "journal": "ACS Applied Materials & Interfaces",
+                "year": "2015",
+                "pages": "7 (28) 15189-15199",
+                "url": "http://dx.doi.org/10.1021/acsami.5b00379"
+            },
+            {
+                "authors": [
+                    "X. Zhou", 
+                    "R. Liu", 
+                    "K. Sun", 
+                    "D. Friedrich", 
+                    "M. T. McDowell", 
+                    "F. Yang", 
+                    "S. T. Omelchenko", 
+                    "F. H Saadi", 
+                    "A. C. Nielander", 
+                    "S. Yalamanchili", 
+                    "K. M. Papadantonakis", 
+                    "B. S. Brunschwig", 
+                    "N. S. Lewis"
+                ],
+                "title": "Interface Engineering of the Photoelectrochemical Performance of Ni-Oxide-Coated n-Si Photoanodes by Atomic Layer Deposition of Ultrathin Films of Cobalt Oxide",
+                "journal": "Energy & Environmental Science",
+                "year": "2015",
+                "pages": "8, 2644-2649",
+                "url": "http://dx.doi.org/10.1039/C5EE01687H"
+            },
+            {
+                "authors": [
+                    "M. F. Lichterman", 
+                    "K. Sun", 
+                    "S. Hu", 
+                    "X. Zhou", 
+                    "M. T. McDowell", 
+                    "M. R. Shaner", 
+                    "M. H. Richter", 
+                    "E. J. Crumlin", 
+                    "A. I. Carim", 
+                    "F. H. Saadi", 
+                    "B. S. Brunschwig", 
+                    "N. S. Lewis"
+                ],
+                "title": "Protection of Inorganic Semiconductors for Sustained, Efficient Photoelectrochemical Water Oxidation",
+                "journal": "Catalysis Today",
+                "year": "2015",
+                "pages": "DOI: 10.1016/j.cattod.2015.08.017",
+                "url": "http://dx.doi.org/10.1016/j.cattod.2015.08.017"
+            },
+            {
+                "authors": [
+                    "M. R. Shaner", 
+                    "M. T. McDowell", 
+                    "A. Pien", 
+                    "H. A. Atwater", 
+                    "N. S. Lewis"
+                ],
+                "title": "Si/TiO2 Tandem-Junction Microwire Arrays for Unassisted Solar-Driven Water Splitting",
+                "journal": "Journal of the Electrochemical Society",
+                "year": "2016",
+                "pages": "163 (5)",
+                "url": "http://jes.ecsdl.org/content/163/5/H261.short"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "S. Xia", 
+                    "T. Zhu"
+                ],
+                "title": "The Mechanics of Large-Volume-Change Transformations in High-Capacity Battery Materials",
+                "journal": "Extreme Mechanics Letters",
+                "year": "2016",
+                "pages": "9, 3, 480-494",
+                "url": "http://www.sciencedirect.com/science/article/pii/S2352431616300037"
+            },
+            {
+                "authors": [
+                    "F. M. Toma", 
+                    "J. K. Cooper", 
+                    "V. Kunzelmann", 
+                    "M. T. McDowell", 
+                    "J. Yu", 
+                    "D. Larson", 
+                    "N. J. Borys", 
+                    "C. Abelyan", 
+                    "J. W. Beeman", 
+                    "K. M. Yu", 
+                    "J. Yang", 
+                    "L. Chen", 
+                    "M. R. Shaner", 
+                    "J. Spurgeon", 
+                    "F. A. Houle", 
+                    "K. A. Persson", 
+                    "I. D. Sharp"
+                ],
+                "title": "Mechanistic Insights into Chemical and Photochemical Transformations of Bismuth Vanadate Photoanodes",
+                "journal": "Nature Communications",
+                "year": "5 July 2016",
+                "pages": "12012",
+                "url": "http://dx.doi.org/10.1038/ncomms12012"
+            },
+            {
+                "authors": [
+                    "M. Varenberg", 
+                    "G. Ryk", 
+                    "A. Yakhnis", 
+                    "Y. Kligerman",
+                    "N. Kondekar", 
+                    "M. T. McDowell"
+                ],
+                "title": "Mechano-Chemical Surface Modification with Cu2S: Inducing Superior Lubricity",
+                "journal": "Tribology Letters",
+                "year": "2016",
+                "pages": "64, 28",
+                "url": "http://dx.doi.org/10.1007/s11249-016-0758-8"
+            },
+            {
+                "authors": [
+                    "M. G. Boebinger", 
+                    "M. Xu", 
+                    "X. Ma", 
+                    "H. Chen", 
+                    "R. R. Unocic", 
+                    "M. T. McDowell"
+                ],
+                "title": "Distinct Nanoscale Reaction Pathways in a Sulfide Material for Sodium and Lithium Batteries",
+                "journal": "Journal of Materials Chemistry A",
+                "year": "2017",
+                "pages": "5, 11701-11709. Invited for the 2017 Emerging Investigators Themed Issue.",
+                "url": "http://dx.doi.org/10.1039/C6TA09195D"
+            },
+            {
+                "authors": [
+                    "W. Hu", 
+                    "S. Guo", 
+                    "J. Gaul", 
+                    "M. G. Boebinger", 
+                    "M. T. McDowell", 
+                    "M. A. Filler"
+                ],
+                "title": "Reversible Tuning of the Surface Plasmon Resonance of Indium Tin Oxide Nanocrystals by Gas-Phase Oxidation and Reduction",
+                "journal": "The Journal of Physical Chemistry C",
+                "year": "2017",
+                "pages": "121, 15970-15976",
+                "url": "http://dx.doi.org/10.1021/acs.jpcc.7b02733"
+            },
+            {
+                "authors": [
+                    "J. D. Wiensch", 
+                    "J. John", 
+                    "D. A. Torelli", 
+                    "J. M. Velazquez", 
+                    "A. Pieterick", 
+                    "M. T. McDowell", 
+                    "K. Sun", 
+                    "X. Zhao", 
+                    "B. B. Brunschwig", 
+                    "N. S. Lewis"
+                ],
+                "title": "A Comparative Study in Acidic and Alkaline Media of the Interplay of pH and Crystallinity on the Hydrogen-Evolution Reaction on MoS2 and MoSe2",
+                "journal": "ACS Energy Letters",
+                "year": "2017",
+                "pages": "2, 2234-2238",
+                "url": "http://pubs.acs.org/doi/10.1021/acsenergylett.7b00700"
+            },
+            {
+                "authors": [
+                    "N. P. Kondekar", 
+                    "M. G. Boebinger", 
+                    "E. V. Woods", 
+                    "M. T. McDowell"
+                ],
+                "title": "In Situ Investigation of Transformations at Crystallographically Oriented MoS2 Interfaces",
+                "journal": "ACS Applied Materials & Interfaces",
+                "year": "2017",
+                "pages": "9, 32394-32404",
+                "url": "http://dx.doi.org/10.1021/acsami.7b10230"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell"
+                ],
+                "title": "Pulley Protection in Batteries",
+                "journal": "Nature",
+                "year": "News & Views, 2017",
+                "pages": "549, 37-38",
+                "url": "http://dx.doi.org/10.1038/549037a"
+            },
+            {
+                "authors": [
+                    "F. J. Q. Cortes", 
+                    "M. G. Boebinger", 
+                    "M. Xu", 
+                    "A. Ulvestad", 
+                    "M. T. McDowell"
+                ],
+                "title": "Operando Synchrotron Measurement of Strain Evolution in Individual Alloying Anode Particles within Lithium Batteries",
+                "journal": "ACS Energy Letters",
+                "year": "2018",
+                "pages": "3, 349-355",
+                "url": "http://dx.doi.org/10.1021/acsenergylett.7b01185"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell", 
+                    "K. L. Jungjohann", 
+                    "U. Celano"
+                ],
+                "title": "Dynamic Nanomaterials Phenomena Investigated with in Situ Transmission Electron Microscopy: A Nano Letters Virtual Issue",
+                "journal": "Nano Letters",
+                "year": "Editorial, 2018",
+                "pages": "18, 2, 657-659",
+                "url": "http://dx.doi.org/10.1021/acs.nanolett.8b00266"
+            },
+            {
+                "authors": [
+                    "M. Kirshenbaum", 
+                    "M. G. Boebinger", 
+                    "M. J. Katz", 
+                    "M. T. McDowell", 
+                    "M. Dasog"
+                ],
+                "title": "Solid-State Route for Synthesis of Scalable, Luminescent Si and Ge Nanocrystals",
+                "journal": "ChemNanoMat",
+                "year": "2018", 
+                "pages": "4, (4), 423-429",
+                "url": "http://dx.doi.org/10.1002/cnma.201800059"
+            },
+            {
+                "authors": [
+                    "M. T. McDowell"
+                ],
+                "title": "Stretched to the Limit for Better Batteries” Joule, Preview Article",
+                "journal": "Joule",
+                "year": "2018",
+                "pages": "2, 818-819",
+                "url": "http://www.cell.com/joule/fulltext/S2542-4351(18)30181-8"
+            },
+            {
+                "authors": [
+                    "M. G. Boebinger",
+                    "D. Yeh",
+                    "M. Xu",
+                    "B. C. Miles",
+                    "B. Wang",
+                    "M. Papakyriakou",
+                    "J. A. Lewis",
+                    "N. P. Kondekar",
+                    "F. J. Q. Cortes",
+                    "S. Hwang",
+                    "X. Sang",
+                    "D. Su",
+                    "R. R. Unocic",
+                    "S. Xia",
+                    "T. Zhu",
+                    "M. T. McDowell"
+                ],
+                "title": "Avoiding Fracture in a Conversion Battery Material through Reaction with Larger Ions",
+                "journal": "Joule",
+                "year": "2018",
+                "pages": "in press",
+                "url": ""
             }
         ]
-    }   
+    }
 }

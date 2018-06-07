@@ -1236,6 +1236,19 @@
             },
             {
                 "authors": [
+                    "S. Y. Han", 
+                    "M. G. Boebinger", 
+                    "N. P. Kondekar", 
+                    "T. J. Worthy", 
+                    "M. T. McDowell"
+                ],
+                "title": "Seeded Nanowire and Microwire Growth from Lithium Alloys",
+                "journal": "Nano Letters",
+                "year": "2018",
+                "pages": "in press"
+            },
+            {
+                "authors": [
                     "M. G. Boebinger",
                     "D. Yeh",
                     "M. Xu",
@@ -1260,5 +1273,128 @@
                 "url": ""
             }
         ]
+    },
+
+"news": {
+    "title": "Lab Updates",
+    "items": [
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "Prof. McDowell starts at Georgia Tech",
+            "body": "Prof. McDowell is honored and thrilled to begin his career at Georgia Tech, his alma mater."
+        },
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "New Students Join the McDowell Lab",
+            "body": "Our lab is happy to welcome our first graduate students, Neha Kondekar and Matthew Boebinger!"
+        },
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "Prof. McDowell starts at Georgia Tech",
+            "body": "Our lab is happy to welcome our first undergraduate researcher, Kayla Hendrickson!"
+        },
+        {
+            "year": "2016",
+            "month": "January",
+            "title": "New Students Join the McDowell Lab",
+            "body": "Our lab is happy to welcome two new undergraduate researchers, Trevor Worthy and Michael Xu!"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "Prof. McDowell joins Nano Letters Advisory Board",
+            "body": "Prof. McDowell has been selected to join the Early Career Advisory Board for the journal Nano Letters.",
+            "image": "nanoletterfinal.png"
+        },
+        {
+            "year": "2016",
+            "month": "April",
+            "title": "Paper chosen for ACS Select Virtual Issue",
+            "body": "Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition. Check it out below:",
+            "image": "ACS-selectedfinal.png"
+        },
+        {
+            "year": "2016",
+            "month": "June",
+            "title": "Welcome to new member",
+            "body": "Welcome to new undergraduate researcher Miranda Tuck!"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "Prof. McDowell gives talk at Oak Ridge National Lab",
+            "body": "Prof. McDowell gave an invited talk on in situ methods for battery research at the 2016 Oak Ridge National Lab CNMS User Meeting.",
+            "image": "oakridge-CNMSfinal.jpg"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "New members!",
+            "body": "A warm welcome to a bunch of new lab members: graduate students Francisco Quintero Cortes and Sang Yun Han, as well as undergrads Sammy Wolfson, Kirit Joshi, and Casey Miles!"
+        },
+        {
+            "year": "2016",
+            "month": "October",
+            "title": "Celebrating Quals Success",
+            "body": "Celebrating Matthew and Neha passing the qualifying exam!",
+            "image": "gradstuddinnerfinal.jpg"
+        },
+        {
+            "year": "2016",
+            "month": "October",
+            "title": "AFOSR Young Investigator",
+            "body": "Prof. McDowell received the Air Force Office of Scientific Research Young Investigator Program (YIP) Award to support the group's research!"
+        },
+        {
+            "year": "2016",
+            "month": "December",
+            "title": "First paper accepted!",
+            "body": "The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:",
+            "image":"jmcaGAfinal.png"
+        },
+        {
+            "year": "2017",
+            "month": "Febraury",
+            "title": "NSF CAREER",
+            "body": "Prof. McDowell has been awarded an NSF CAREER grant to support the group's research on solid-state ion conductors! Many thanks to the National Science Foundation."
+        },
+        {
+            "year": "2017",
+            "month": "June",
+            "title": "Congratulations and Welcome!",
+            "body": "Two exciting things happened this week: Francisco passed quals, and Jack Lewis joined the group as a new graduate student. Congratulations to Francisco and welcome to Jack!"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "New Semester, New Students",
+            "body": "Welcome to Jared Tippens, a new graduate student, and Lan Ho and Amelia Tan, two new undergraduate researchers!"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "New Paper",
+            "body": "Congratulations to Neha on the acceptance of her first paper in ACS Applied Materials & Interfaces!",
+            "image":"NehaGraphic.png"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "Scialog Collaboration",
+            "body": "Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:"
+        },
+        {
+            "year": "2018",
+            "month": "January",
+            "title": "Another Paper",
+            "body": "Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab.",
+            "image": "ToC_Ge.png"
+        }
+    
+    ]
     }
+
 }

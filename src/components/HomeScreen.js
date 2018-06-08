@@ -20,26 +20,21 @@ import phaseTransform2 from '../assets/electrode_v4_finalcrop2.png';
 import interface1 from '../assets/xps.png';
 import interface2 from '../assets/Image2a_cropfinal.png';
 import controlling from '../assets/SEM.png';
+import { research } from '../db.json';
 
 let HomeScreen = ({ }) =>
 <div>
   <Hero/>
 	<section className="homepage-one">
-		<Container>
-			<SubTitle> 
-				We research new materials and work to understand their properties for 
-				next-generation energy storage and conversion systems.
-			</SubTitle >
+		<Container vert >
+			<SubTitle> {research.intro} </SubTitle >
 			<GradientHr/>
 			<BlockNavigation/>
 		</Container>
 	</section>
 	<TitleBackgroundImage title={"Vision"} background={backgroundSpheres} />
-	<Container>
-		<SubTitle>
-			Our research goal is to understand how materials behave and transform in real-life environments 
-			within energy devices, which will enable us to engineer improved materials for new energy technologies.
-		</SubTitle >
+	<Container vert>
+		<SubTitle> {research.goal} </SubTitle >
 		<ImageGrid>
 			<img src={battery}/>
 			<img src={batteryDiagram}/>
@@ -66,50 +61,29 @@ let HomeScreen = ({ }) =>
 	</Container>
 
 	<TitleBackgroundImage title={"Current Projects"} background={backgroundWire} />
-	<Container>	
-		<SectionTitle> 1. phase transformation mechanisms in next-generation battery materials</SectionTitle>
-		<P>
-			Next-generation batteries require materials with higher charge storage capacity, or they require the
-		development of new materials for entirely new battery systems beyond lithium-ion (for example, sodium-ion
-		or multivalent batteries). The reaction and phase transformation mechanisms of new materials determine how much
-		charge they can store and how long they last within batteries.
-		</P>
-		<P>
-			It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale
-		to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including
-		transmission electron microscopy, x-ray diffraction, and x-ray spectroscopy methods, to reveal structural,
-		chemical, and morphological transformations in real time.
-		</P>
-		<ImageGrid>
-			<img src={phaseTransform1} />
-			<img src={phaseTransform2} />
-		</ImageGrid>
-		<GradientHr />
-		<SectionTitle> 2. understanding dynamic interfaces</SectionTitle>
-		<P>
-			It is necessary to understand and control processes at solid-solid and solid-liquid interfaces when using
-		nanomaterials in energy applications (as well as many other applications). This is due to the divergent
-		structure, chemistry, and properties of interfaces compared to bulk materials.
-		</P>
-		<P>
-			Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte
-		materials in solid-state batteries using a variety of in situ techniques. Such interfaces can be chemically
-		unstable, and they can also cause significant impedance in solid-state batteries. In addition, we are studying
-		fundamental interfacial interactions in transition metal dichalcogenide materials.
-		</P>
-		<ImageGrid>
-			<img src={interface1} />
-			<img src={interface2} />
-		</ImageGrid>
-		<GradientHr />
-		<SectionTitle> 3. controlling interfacial interactions for fabrication of nanoporous metals</SectionTitle>
-		<P>
-			Our group is developing new methods for the low-temperature fabrication and sintering of nanoporous metals. 
-			In particular, we are using alkali metals as sintering promoters for synthesis of new nanomaterials.
-		</P>
-		<ImageGrid>
-			<img src={controlling} />
-		</ImageGrid>
+	<Container vert>
+		{
+			research.projects.map((project, i) => 
+				<div>            
+					<SectionTitle> {project.title} </SectionTitle>
+					{
+						project.body.map((item) =>
+							<p> {item} </p> 
+						)
+					}
+					<ImageGrid>
+						{
+							project.images.map((item) =>
+								<img src={require(`../assets/${item}`)} />
+							)
+						}
+					</ImageGrid>
+					{ 
+						(i !== research.projects.length - 1) ? <GradientHr /> : null
+					}
+				</div>
+			)
+		}			
 	</Container>
 </div>
 
@@ -138,7 +112,9 @@ let ImageGrid = styled.div`
 	grid-gap: 1rem;
 	padding: 4rem 20%;
 	img {
-	width: 100%;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
 	}        
 `;
 let P = styled.p`
@@ -148,17 +124,26 @@ let P = styled.p`
 	`;
 
 let SubTitle = styled.h4`
-	padding-top: 20px;
+	margin-top: 0;
 	font-weight: 200;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
+	letter-spacing: .1rem;
+    ${media.tablet`
+    font-size: 3.5rem;
+    `}  
 	`;
 let SectionTitle = styled.h5`
+	margin-top: 0;
 	text-transform: uppercase;
-  font-weight: 200;
+  	font-weight: 200;
 	text-align: center;
 	line-height: 1.5;
+	
 	font-size: 2.5rem;
+    ${media.tablet`
+    font-size: 3rem;
+    `}  
 	`;
 
 // let HomeScreenLocalState = withState(
@@ -166,8 +151,3 @@ let SectionTitle = styled.h5`
 // 	"triggerHeader",
 // 	false
 // )(withSiteData(HomeScreen));
-
-
-
-
-

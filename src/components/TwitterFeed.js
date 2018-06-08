@@ -14,14 +14,15 @@ let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
             </TwitterOverlay>
         }
         <EmbedContainer>
-            <Timeline
+            <TimelineStyled
                 dataSource={{
                     sourceType: 'profile',
                     screenName: 'McDowell_Lab'
                 }}
                 options={{
                     username: 'McDowell_Lab',
-                    height: '100%'
+                    height: '100%',
+
                 }}
                 onLoad={() => console.log('Timeline is loaded!')}
             />
@@ -37,9 +38,12 @@ let TwitterFeedLocalState = withState(
 
 export default TwitterFeedLocalState;
 
-
 let TwitterBlock = styled.div`
     position: relative;
+    height: 100%;
+`;
+let TimelineStyled = styled(Timeline)`
+    min-height: 300px;
 `;
 let TwitterOverlay = styled.div`
 	color:white;
@@ -47,6 +51,7 @@ let TwitterOverlay = styled.div`
 	position:absolute;
 	right:0;
     left: 0;
+    top: 0;
     bottom: 0;
 	z-index:2;
 	text-align:center;

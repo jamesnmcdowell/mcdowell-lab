@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { media } from './Media';
 
 let TitleBackgroundImage = ({ title, background}) =>
     <SectionHero style={{ backgroundImage: `url(${background})` }} class = "mobile-height-fix">
@@ -26,8 +27,11 @@ let SectionHero = styled.section`
 
 let SectionTitle = styled.h1`
     font-weight: 200;
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    ${media.tablet`
     font-size: 5rem;
-}
+    `}  
 `;
 
 export default TitleBackgroundImage;

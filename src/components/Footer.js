@@ -20,7 +20,7 @@ let Footer = () =>
                     <p>Atlanta, GA 30332-0405</p>
                 </div>
                 <Contact>
-                    <p>Copyright &copy; <time dateTime="2017">2017</time> Matthew McDowell</p>
+                    <p>Copyright &copy; <time> { (new Date()).getFullYear() }</time> Matthew McDowell</p>
                     <p>mattmcdowell@gatech.edu</p>
                     <p>404-894-8341</p>
                     <FlexIcons>

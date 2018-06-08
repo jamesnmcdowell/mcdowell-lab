@@ -168,6 +168,7 @@
                     
                         {
                             "icon": "googlescholar.svg",
+                            "iconBlack": "googlescholarblack.svg",
                             "url": "https://scholar.google.com/citations?user=VRZVDH8AAAAJ&hl=en",
                             "color": "#dc4e41"
                         },
@@ -242,12 +243,6 @@
                 "type": "Graduate Student",
                 "department": "ME",
                 "avatar": "JaredFinal.png"
-            },
-            {
-                "name": "Miranda Tuck",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "MirandaTuck_croptransp.png"
             },
             {
                 "name": "Samuel Wolfson",
@@ -1236,6 +1231,19 @@
             },
             {
                 "authors": [
+                    "S. Y. Han", 
+                    "M. G. Boebinger", 
+                    "N. P. Kondekar", 
+                    "T. J. Worthy", 
+                    "M. T. McDowell"
+                ],
+                "title": "Seeded Nanowire and Microwire Growth from Lithium Alloys",
+                "journal": "Nano Letters",
+                "year": "2018",
+                "pages": "in press"
+            },
+            {
+                "authors": [
                     "M. G. Boebinger",
                     "D. Yeh",
                     "M. Xu",
@@ -1260,5 +1268,176 @@
                 "url": ""
             }
         ]
+    },
+"news": {
+    "title": "Lab Updates",
+    "items": [
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "Prof. McDowell starts at Georgia Tech",
+            "body": "Prof. McDowell is honored and thrilled to begin his career at Georgia Tech, his alma mater."
+        },
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "New Students Join the McDowell Lab",
+            "body": "Our lab is happy to welcome our first graduate students, Neha Kondekar and Matthew Boebinger!"
+        },
+        {
+            "year": "2015",
+            "month": "August",
+            "title": "Prof. McDowell starts at Georgia Tech",
+            "body": "Our lab is happy to welcome our first undergraduate researcher, Kayla Hendrickson!"
+        },
+        {
+            "year": "2016",
+            "month": "January",
+            "title": "New Students Join the McDowell Lab",
+            "body": "Our lab is happy to welcome two new undergraduate researchers, Trevor Worthy and Michael Xu!"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "Prof. McDowell joins Nano Letters Advisory Board",
+            "body": "Prof. McDowell has been selected to join the Early Career Advisory Board for the journal Nano Letters.",
+            "image": "nanoletterfinal.png"
+        },
+        {
+            "year": "2016",
+            "month": "April",
+            "title": "Paper chosen for ACS Select Virtual Issue",
+            "body": "Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition.",
+            "image": "ACS-selectedfinal.png",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acsami.5b00379"
+        },
+        {
+            "year": "2016",
+            "month": "June",
+            "title": "Welcome to new member",
+            "body": "Welcome to new undergraduate researcher Miranda Tuck!"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "Prof. McDowell gives talk at Oak Ridge National Lab",
+            "body": "Prof. McDowell gave an invited talk on in situ methods for battery research at the 2016 Oak Ridge National Lab CNMS User Meeting.",
+            "image": "oakridge-CNMSfinal.jpg"
+        },
+        {
+            "year": "2016",
+            "month": "August",
+            "title": "New members!",
+            "body": "A warm welcome to a bunch of new lab members: graduate students Francisco Quintero Cortes and Sang Yun Han, as well as undergrads Sammy Wolfson, Kirit Joshi, and Casey Miles!"
+        },
+        {
+            "year": "2016",
+            "month": "October",
+            "title": "Celebrating Quals Success",
+            "body": "Celebrating Matthew and Neha passing the qualifying exam!",
+            "image": "gradstuddinnerfinal.jpg"
+        },
+        {
+            "year": "2016",
+            "month": "October",
+            "title": "AFOSR Young Investigator",
+            "body": "Prof. McDowell received the Air Force Office of Scientific Research Young Investigator Program (YIP) Award to support the group's research!"
+        },
+        {
+            "year": "2016",
+            "month": "December",
+            "title": "First paper accepted!",
+            "body": "The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:",
+            "image":"jmcaGAfinal.png",
+            "url": "http://dx.doi.org/10.1039/C6TA09195D"
+        },
+        {
+            "year": "2017",
+            "month": "Febraury",
+            "title": "NSF CAREER",
+            "body": "Prof. McDowell has been awarded an NSF CAREER grant to support the group's research on solid-state ion conductors! Many thanks to the National Science Foundation."
+        },
+        {
+            "year": "2017",
+            "month": "June",
+            "title": "Congratulations and Welcome!",
+            "body": "Two exciting things happened this week: Francisco passed quals, and Jack Lewis joined the group as a new graduate student. Congratulations to Francisco and welcome to Jack!"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "New Semester, New Students",
+            "body": "Welcome to Jared Tippens, a new graduate student, and Lan Ho and Amelia Tan, two new undergraduate researchers!"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "New Paper",
+            "body": "Congratulations to Neha on the acceptance of her first paper in ACS Applied Materials & Interfaces!",
+            "image":"NehaGraphic.png"
+        },
+        {
+            "year": "2017",
+            "month": "August",
+            "title": "Scialog Collaboration",
+            "body": "Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:",
+            "url": "http://rescorp.org/awards-database/awardee/ion-reassin-ion-re-coordination-at-solid-state-interfaces"
+        },
+        {
+            "year": "2018",
+            "month": "January",
+            "title": "Another Paper",
+            "body": "Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab.",
+            "image": "ToC_Ge.png",
+            "url": "http://dx.doi.org/10.1021/acsenergylett.7b01185"
+        }
+    
+    ]
+    },
+    "research": {
+        "intro": "We research new materials and work to understand their properties for next-generation energy storage and conversion systems.",
+        "goal": "Our research goal is to understand how materials behave and transform in real-life environments within energy devices, which will enable us to engineer improved materials for new energy technologies.",
+        "projects": [
+            {
+                "title": "1. phase transformation mechanisms in next-generation battery materials",
+                "body": [
+                    "Next-generation batteries require materials with higher charge storage capacity, or they require the development of new materials for entirely new battery systems beyond lithium-ion (for example, sodium-ion or multivalent batteries). The reaction and phase transformation mechanisms of new materials determine how much charge they can store and how long they last within batteries.",
+                    "It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including transmission electron microscopy, x-ray diffraction, and x-ray spectroscopy methods, to reveal structural, chemical, and morphological transformations in real time."
+                ],
+                "images": [
+                    "Image1a_cropfinal.png",
+                    "electrode_v4_finalcrop2.png"
+                ]
+            },
+            {
+                "title": "2. understanding interfaces in solid-state batteries",
+                "body": [
+                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical instabilities and high impedance at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries using a variety of in situ techniques. With this knowledge, we are also tailoring interfaces for improved stability."
+                ],
+                "images": [
+                    "2a_rev.jpg",
+                    "2b_rev.jpg"
+                ]
+            },
+            {
+                "title": "3. interfacial properties and dynamics of layered chalcogenides",
+                "body": [
+                    "Layered chalcogenides are used in next-generation electronic devices and as catalysts for energy conversion. This project focuses on understanding how the structure, chemistry, and properties of heterointerfaces between layered chalcogenides and other materials evolve under synthesis, processing, and operating conditions. This knowledge is critical for designing optimal transport, chemical, and electronic properties at interfaces."
+                ],
+                "images": [
+                    "xps.png"
+                ]
+            },
+            {
+                "title": "4. Using alkali metals to fabricate nanostructures",
+                "body": [
+                    "Our group is developing new methods for the low-temperature fabrication of nanostructures via the use of alkali metals. This project takes advantage of the reactivity and mobility of alkali metals as agents in the synthesis of low-density nanostructures."
+                ],
+                "images": [
+                    "4.jpg"
+                ]
+            }
+        ]
     }
+
 }

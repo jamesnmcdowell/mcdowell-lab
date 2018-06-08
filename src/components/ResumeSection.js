@@ -45,6 +45,7 @@ let Span = styled.span`
 
 let FlexDiv = styled.div`
     display: flex;
+    margin-bottom: 4px;
 `;
 let FlexDivImg = styled(FlexDiv) `
     align-items: center;

@@ -12,7 +12,7 @@ import { media, Container } from './Media';
 let PeopleScreen = () =>
     <div>
         <TitleBackgroundImage title={team.title} background={heroImage} />
-        <Container>
+        <Container vert>
         <StudentGrid>
         {  
             team.students.map((student) =>

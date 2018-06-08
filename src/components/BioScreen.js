@@ -3,19 +3,19 @@ import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
 import db from '../db.json';
-import ResumeBlock from './ResumeBlock';
+import ResumeSection from './ResumeSection';
 import ProfileBlock from './ProfileBlock';
-import { media, Container } from './Media';
+import { media, Container, ContainerV } from './Media';
 
 let BioScreen = () =>
-    <Container>
+    <Container vert>
     <BioWrapper>
         <ProfileBlock profile={db.profile}/>   
-        <div>
+        <ResumeBlock>
             {
-                db.resume.map((info) => <ResumeBlock info={info}/>)
+                db.resume.map((info) => <ResumeSection info={info}/>)
             }
-        </div>
+        </ResumeBlock>
     </BioWrapper>
     </Container>
 
@@ -32,14 +32,17 @@ let FlexDiv = styled.div`
 `;
 let BioWrapper = styled.div`
     display: grid;
-    
     grid-column-gap: 4em;
     ${media.tablet`
         grid-template-columns: 1fr 1fr;
     `} 
-    div {
-       
-    }
+`;
+let ResumeBlock = styled.div`
+    margin: 0 auto;
+    margin-top: 4rem;
+    ${media.tablet`
+    margin-top: 0;
+    `} 
 `;
 
 let FlexDivImg = styled(FlexDiv)`

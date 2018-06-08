@@ -8,7 +8,7 @@ import TwitterBlock from './TwitterFeed';
 
 let BlockNavigation = () =>
     <BlockNav>
-        <Bio to="/bio">
+        <Bio id="relative-height" to="/bio">
             <img src={profilePicture}/>
         </Bio>
         <Publications to="/publications">

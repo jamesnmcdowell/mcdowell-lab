@@ -168,6 +168,7 @@
                     
                         {
                             "icon": "googlescholar.svg",
+                            "iconBlack": "googlescholarblack.svg",
                             "url": "https://scholar.google.com/citations?user=VRZVDH8AAAAJ&hl=en",
                             "color": "#dc4e41"
                         },
@@ -242,12 +243,6 @@
                 "type": "Graduate Student",
                 "department": "ME",
                 "avatar": "JaredFinal.png"
-            },
-            {
-                "name": "Miranda Tuck",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "MirandaTuck_croptransp.png"
             },
             {
                 "name": "Samuel Wolfson",
@@ -1313,8 +1308,9 @@
             "year": "2016",
             "month": "April",
             "title": "Paper chosen for ACS Select Virtual Issue",
-            "body": "Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition. Check it out below:",
-            "image": "ACS-selectedfinal.png"
+            "body": "Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition.",
+            "image": "ACS-selectedfinal.png",
+            "url": "http://pubs.acs.org/doi/abs/10.1021/acsami.5b00379"
         },
         {
             "year": "2016",
@@ -1353,7 +1349,9 @@
             "month": "December",
             "title": "First paper accepted!",
             "body": "The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:",
-            "image":"jmcaGAfinal.png"
+            "image":"jmcaGAfinal.png",
+            "url": "http://dx.doi.org/10.1039/C6TA09195D"
+
         },
         {
             "year": "2017",
@@ -1384,14 +1382,16 @@
             "year": "2017",
             "month": "August",
             "title": "Scialog Collaboration",
-            "body": "Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:"
+            "body": "Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:",
+            "url": "http://rescorp.org/awards-database/awardee/ion-reassin-ion-re-coordination-at-solid-state-interfaces"
         },
         {
             "year": "2018",
             "month": "January",
             "title": "Another Paper",
             "body": "Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab.",
-            "image": "ToC_Ge.png"
+            "image": "ToC_Ge.png",
+            "url": "http://dx.doi.org/10.1021/acsenergylett.7b01185"
         }
     
     ]

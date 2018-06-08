@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import HeroImage from '../assets/cubessmallfinal.png';
 import ArrowDown from './ArrowDown';
+import { media, Container, responsiveFontSize } from './Media';
 
 let Hero = () => 
     <HeroStyled id="hero" className="hero mobile-height-fix" >
@@ -31,17 +32,30 @@ let HeroContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    ${media.tablet`
+    width: 70%;
+    margin: 0 auto;
+    `}   
 `;
 
 let PrimaryTitle = styled.h1`
-    font-size: 3.2em; 
+    font-size: ${responsiveFontSize({ minFont: 70, maxFont: 200 }) };
+    letter-spacing: .1rem;
+    font-size: 4rem;
+    ${media.tablet`
+    font-size: 6.5rem;
+    `}     
     font-weight: 200; 
     margin: 0;
     color: #ffffff;
     margin-bottom: 2rem;
 `;
 let SecondaryTitle = styled.h2`
-    font-size: 1.5em; 
+    font-size: 1.5em;
+    letter-spacing: .1rem;
+    ${media.tablet`
+    font-size: 3.5rem;
+    `}    
     font-weight: 200;
     margin: 0;
     color: #ffffff;

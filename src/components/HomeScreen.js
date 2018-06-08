@@ -25,7 +25,7 @@ let HomeScreen = ({ }) =>
 <div>
   <Hero/>
 	<section className="homepage-one">
-		<Container>
+		<Container vert >
 			<SubTitle> 
 				We research new materials and work to understand their properties for 
 				next-generation energy storage and conversion systems.
@@ -35,7 +35,7 @@ let HomeScreen = ({ }) =>
 		</Container>
 	</section>
 	<TitleBackgroundImage title={"Vision"} background={backgroundSpheres} />
-	<Container>
+	<Container vert>
 		<SubTitle>
 			Our research goal is to understand how materials behave and transform in real-life environments 
 			within energy devices, which will enable us to engineer improved materials for new energy technologies.
@@ -66,7 +66,7 @@ let HomeScreen = ({ }) =>
 	</Container>
 
 	<TitleBackgroundImage title={"Current Projects"} background={backgroundWire} />
-	<Container>	
+	<Container vert>	
 		<SectionTitle> 1. phase transformation mechanisms in next-generation battery materials</SectionTitle>
 		<P>
 			Next-generation batteries require materials with higher charge storage capacity, or they require the
@@ -148,17 +148,26 @@ let P = styled.p`
 	`;
 
 let SubTitle = styled.h4`
-	padding-top: 20px;
+	margin-top: 0;
 	font-weight: 200;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
+	letter-spacing: .1rem;
+    ${media.tablet`
+    font-size: 3.5rem;
+    `}  
 	`;
 let SectionTitle = styled.h5`
+	margin-top: 0;
 	text-transform: uppercase;
-  font-weight: 200;
+  	font-weight: 200;
 	text-align: center;
 	line-height: 1.5;
+	
 	font-size: 2.5rem;
+    ${media.tablet`
+    font-size: 3rem;
+    `}  
 	`;
 
 // let HomeScreenLocalState = withState(

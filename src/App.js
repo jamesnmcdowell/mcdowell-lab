@@ -20,8 +20,14 @@ injectGlobal`
     font-size: 1.5em;
     color: #222;
     line-height: 1.5;
+    letter-spacing: .1rem;
   }
-
+  p, span {
+    letter-spacing: .02rem;
+  }
+  a {
+    text-decoration: none;
+  }
   img {
     100%;
   }

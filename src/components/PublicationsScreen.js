@@ -6,13 +6,13 @@ import { media, Container } from './Media';
 import { publications, profile } from '../db.json';
 
 let PublicationsScreen = () =>
-    <Container>
+    <Container vert>
         <Center>
         <Title>Publications </Title>
-        <Link to={profile.social[0].url}> 
+        <SocialLink to={profile.social[0].url}> 
             <span> View Google Scholar Profile:  </span> 
-            {/* <img src={require(`../assets/${profile.social[0].icon}`)} /> */}
-        </Link>
+            <img src={require(`../assets/${profile.social[0].iconBlack}`)} />
+        </SocialLink>
         
         </Center>
         <ol reversed>
@@ -29,7 +29,7 @@ let PublicationsScreen = () =>
                     <span> {paper.year}, </span>
                     <span> {paper.pages}. </span>
                     {paper.url && 
-                        <Link to={paper.url} target="_blank">&#128279;</Link>
+                        <LinkStyled to={paper.url} target="_blank">&#128279;</LinkStyled>
                     }
                 </Item>
             )
@@ -48,9 +48,22 @@ let Bold = styled.span`
 let Title = styled.h1`
     font-weight: 200;
     font-size: 4.5rem;
+    margin-top: 0;
 `;
 let Item = styled.li`
     padding-bottom: 2.2rem;
     line-height: 1.5;
+`;
+let SocialLink = styled(Link)`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 25px;
+        margin-left: 5px;
+    }
+`;
+let LinkStyled = styled(Link)`
+    text-decoration: none;
 `;
 

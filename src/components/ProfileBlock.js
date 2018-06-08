@@ -15,11 +15,13 @@ let ProfileBlock = ({ profile }) =>
             <TitleMain> {profile.name} </TitleMain>
             <TitleMinor> {profile.position} </TitleMinor>
             <Avatar src={require(`../assets/${profile.avatar}`)} />
+            <SchoolContainer>
             {
                 profile.schools.map((school) => 
-                        <SchooLink target="_blank" to={school.url}> <span> {school.name} &#128279; </span> </SchooLink>
+                        <SchoolLink target="_blank" to={school.url}> <span> {school.name} &#128279; </span> </SchoolLink>
                 )
             }
+            </SchoolContainer>
             <span>{profile.university}</span>
             <span>{profile.email}</span>
             <span>{profile.building}</span>
@@ -51,36 +53,58 @@ let FlexContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     span {
         line-height: 2;
     }
 `;
 let TitleMain = styled.h1`
     font-weight: 200;
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 0;
-`;
-let TitleMinor = styled.h1`
-    font-weight: 200;
     font-size: 3rem;
+    ${media.tablet`
+    font-size: 3.5rem;
+    `}
+    ${media.desktop`
+    font-size: 4rem;
+    `}
+
     text-align: center;
+    margin: 0;
+`;
+let TitleMinor = styled.h2`
+    font-weight: 200;
+    font-size: 2.4rem;
+    ${media.tablet`
+    font-size: 2.8rem;;
+    `}
+    text-align: center;
+    margin-top: 0;
    
 `;
 let SocialGroup = styled.div`
     display: flex; 
 `;
-let SchooLink = styled(Link)`
+let SchoolLink = styled(Link)`
     text-decoration: none;
     color: black;
 `;
+let SchoolContainer = styled.div`
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+`;
+
 let SocialLink = styled(Link)`
     background-color: ${ props => props.bgColor};
     padding: 1.5rem;
     margin-left: 10px;
     display: flex;
-    div {
-        
+    opacity: 1;
+    transition: opacity .4s ease;
+    
+    &:hover {
+        opacity: .7;
+        transition: opacity .4s ease;    
     }
     img {
         width:35px;
@@ -104,5 +128,5 @@ let Avatar = styled.img`
 `;
 let UniLogo = styled.img`
     width: 100%;
-    padding: 3rem 0;
+    padding: 2rem 0 3rem 0;
 `;

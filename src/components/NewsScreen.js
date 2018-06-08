@@ -11,7 +11,7 @@ import { news } from '../db.json';
 let NewsScreen = () =>
     <section>
         <TitleBackgroundImage title={news.title} background={heroImage} />
-        <Container>
+        <Container vert>
         <Timeline className="timeline">
             {
                 news.items.slice(0).reverse().map((item) => 
@@ -20,10 +20,17 @@ let NewsScreen = () =>
                         <Icon className="icon icon-inner"></Icon>
                         <Content className="timeline-content">
                             <Title>{item.title}</Title>
-                            <Body> {item.body} </Body>
+                            <Body> 
+                            {item.body} 
+                            {item.url &&
+                                <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
+                            }
+                            </Body>
+                            <ImgContainer>
                             { item.image && 
                                 <img src={require(`../assets/${item.image}`)} />
                             }
+                            </ImgContainer>
                         </Content>
                     </Item>
                 )
@@ -33,6 +40,11 @@ let NewsScreen = () =>
     </section>
 
 export default NewsScreen;
+
+let LinkStyled = styled(Link) `
+    text-decoration: none;
+    margin-left: 5px;
+`;
 
 let Timeline = styled.ul`
     margin: 0;
@@ -60,13 +72,23 @@ let Timeline = styled.ul`
 `;
 
 let Title = styled.h2`
-    font-size: 2em;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 0px;
     padding: 0 0 10px 0;
     border-bottom: 1px solid rgba(255,255,255,0.4); 
+    font-size: 2rem;
+    ${media.tablet`
+    font-weight: 300;
+    font-size: 3rem;
+    `}   
 `;
+
 let Body = styled.p`
+`;
+let ImgContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items:center;
 `;
 let Item = styled.li`
     position: relative;

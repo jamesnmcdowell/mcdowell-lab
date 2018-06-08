@@ -1269,7 +1269,6 @@
             }
         ]
     },
-
 "news": {
     "title": "Lab Updates",
     "items": [
@@ -1351,7 +1350,6 @@
             "body": "The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:",
             "image":"jmcaGAfinal.png",
             "url": "http://dx.doi.org/10.1039/C6TA09195D"
-
         },
         {
             "year": "2017",
@@ -1395,6 +1393,51 @@
         }
     
     ]
+    },
+    "research": {
+        "intro": "We research new materials and work to understand their properties for next-generation energy storage and conversion systems.",
+        "goal": "Our research goal is to understand how materials behave and transform in real-life environments within energy devices, which will enable us to engineer improved materials for new energy technologies.",
+        "projects": [
+            {
+                "title": "1. phase transformation mechanisms in next-generation battery materials",
+                "body": [
+                    "Next-generation batteries require materials with higher charge storage capacity, or they require the development of new materials for entirely new battery systems beyond lithium-ion (for example, sodium-ion or multivalent batteries). The reaction and phase transformation mechanisms of new materials determine how much charge they can store and how long they last within batteries.",
+                    "It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including transmission electron microscopy, x-ray diffraction, and x-ray spectroscopy methods, to reveal structural, chemical, and morphological transformations in real time."
+                ],
+                "images": [
+                    "Image1a_cropfinal.png",
+                    "electrode_v4_finalcrop2.png"
+                ]
+            },
+            {
+                "title": "2. understanding interfaces in solid-state batteries",
+                "body": [
+                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical instabilities and high impedance at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries using a variety of in situ techniques. With this knowledge, we are also tailoring interfaces for improved stability."
+                ],
+                "images": [
+                    "2a_rev.jpg",
+                    "2b_rev.jpg"
+                ]
+            },
+            {
+                "title": "3. interfacial properties and dynamics of layered chalcogenides",
+                "body": [
+                    "Layered chalcogenides are used in next-generation electronic devices and as catalysts for energy conversion. This project focuses on understanding how the structure, chemistry, and properties of heterointerfaces between layered chalcogenides and other materials evolve under synthesis, processing, and operating conditions. This knowledge is critical for designing optimal transport, chemical, and electronic properties at interfaces."
+                ],
+                "images": [
+                    "xps.png"
+                ]
+            },
+            {
+                "title": "4. Using alkali metals to fabricate nanostructures",
+                "body": [
+                    "Our group is developing new methods for the low-temperature fabrication of nanostructures via the use of alkali metals. This project takes advantage of the reactivity and mobility of alkali metals as agents in the synthesis of low-density nanostructures."
+                ],
+                "images": [
+                    "4.jpg"
+                ]
+            }
+        ]
     }
 
 }

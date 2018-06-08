@@ -8,36 +8,47 @@ import heroImage from '../assets/wiregood2_cropwideoverlayfinal.png';
 import TitleBackgroundImage from './TitleBackgroundImage';
 import { news } from '../db.json';
 
-let NewsScreen = () =>
-    <section>
-        <TitleBackgroundImage title={news.title} background={heroImage} />
-        <Container vert>
-        <Timeline className="timeline">
-            {
-                news.items.slice(0).reverse().map((item) => 
-                    <Item>
-                            <Time className="timeline-date" datetime=""><span>{item.year}</span> <span>{item.month}</span></Time>
-                        <Icon className="icon icon-inner"></Icon>
-                        <Content className="timeline-content">
-                            <Title>{item.title}</Title>
-                            <Body> 
-                            {item.body} 
-                            {item.url &&
-                                <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
+let NewsScreen = () => {
+    let items = news.items.slice(0).reverse();
+    return (
+        <section>
+            <TitleBackgroundImage title={news.title} background={heroImage} />
+            <Container vert>
+            <Timeline className="timeline">
+                {
+                    items.map((item, i) => {
+                        let {month, year} = item;
+                            if ((i > 0) && (month === items[i - 1].month) && (year === items[i - 1].year)) {
+                                month = '';
+                                year = '';
                             }
-                            </Body>
-                            <ImgContainer>
-                            { item.image && 
-                                <img src={require(`../assets/${item.image}`)} />
-                            }
-                            </ImgContainer>
-                        </Content>
-                    </Item>
-                )
-            }
-        </Timeline>
-        </Container>      
-    </section>
+                        return (
+                            <Item>
+                                <Time className="timeline-date" datetime=""><span>{year}</span> <span>{month}</span></Time>
+                                <Icon className="icon icon-inner"></Icon>
+                                <Content className="timeline-content">
+                                    <Title>{item.title}</Title>
+                                    <Body> 
+                                    {item.body} 
+                                    {item.url &&
+                                        <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
+                                    }
+                                    </Body>
+                                    <ImgContainer>
+                                    { item.image && 
+                                        <img src={require(`../assets/${item.image}`)} />
+                                    }
+                                    </ImgContainer>
+                                </Content>
+                            </Item>
+                        );
+                    })
+                }
+            </Timeline>
+            </Container>      
+        </section>
+    );
+}
 
 export default NewsScreen;
 

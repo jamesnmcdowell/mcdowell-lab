@@ -38,7 +38,7 @@ let BlockNav = styled.div`
 	display: grid;
 	grid-gap: 1em;
     grid-template-columns: 1fr;
-    grid-auto-rows: 1fr auto 1fr auto 1fr auto; 
+    grid-template-rows: 1fr auto 1fr auto 1fr auto;
     img {
 		width: 100%;
     }
@@ -51,7 +51,7 @@ let BlockNav = styled.div`
             "twitter-title";
     ${media.tablet`
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-auto-rows: 1fr auto 1fr auto 1fr auto; 
+    grid-template-rows: 1fr;
     grid-template-areas: 
             "bio pub twitter"
             "bio-title pub-title twitter-title"; 

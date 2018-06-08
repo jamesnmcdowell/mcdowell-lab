@@ -38,9 +38,9 @@ let TwitterFeedLocalState = withState(
 
 export default TwitterFeedLocalState;
 
-
 let TwitterBlock = styled.div`
     position: relative;
+    height: 100%;
 `;
 let TimelineStyled = styled(Timeline)`
     min-height: 300px;

@@ -39,25 +39,13 @@ let HomeScreen = ({ }) =>
 			<img src={battery}/>
 			<img src={batteryDiagram}/>
 		</ImageGrid>
-		<SectionTitle> The importance of observing dynamic processes</SectionTitle>
+		<SectionTitle> {research.title }</SectionTitle>
 		<GradientHr />
-		<P>
-			In energy devices (for example, batteries, fuel cells, photocatalytic systems, 
-			and electrolyzers), mass transport, high temperatures, reactive environments, and 
-			mechanical stresses are the norm. Materials in these systems are not static; instead, 
-			they often change, transform, or degrade in response to these operating conditions.
-		</P>
-		<P>
-			Our research group focuses on using in situ experimental techniques to probe materials 
-			transformations under realistic conditions, and we seek to understand how such changes 
-			influence properties. These fundamental scientific advances guide the engineering of materials 
-			for breakthrough new energy devices.
-		</P>
-		<P>
-			Students and other researchers in the group synthesize materials, analyze their properties, and 
-			utilize a variety of in situ characterization methods to understand dynamic structure and chemistry. 
-			This information is then understood in the context of the material’s behavior within devices.
-		</P>
+		{
+			research.body.map((item) =>
+					<P> {item} </P>
+			)
+		}
 	</Container>
 
 	<TitleBackgroundImage title={"Current Projects"} background={backgroundWire} />

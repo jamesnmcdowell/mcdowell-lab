@@ -2,7 +2,7 @@ import React from 'react'
 import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
-import GoogleMaps from './GoogleMaps';
+// import GoogleMaps from './GoogleMaps';
 import heroImage from '../assets/students/McDowell_Group-crop.jpg';
 import { team } from '../db.json';
 import TitleBackgroundImage from './TitleBackgroundImage';
@@ -27,7 +27,7 @@ let PeopleScreen = () =>
             <span> {team.ctaBody} </span>
             </ Container>
         </TextSection>
-        <GoogleMaps />
+        {/* <GoogleMaps /> */}
        
     </div>
 

@@ -1240,7 +1240,8 @@
                 "title": "Seeded Nanowire and Microwire Growth from Lithium Alloys",
                 "journal": "Nano Letters",
                 "year": "2018",
-                "pages": "in press"
+                "pages": "DOI: 10.1021/acs.nanolett.8b01334",
+                "url": "http://dx.doi.org/10.1021/acs.nanolett.8b01334"
             },
             {
                 "authors": [
@@ -1264,8 +1265,8 @@
                 "title": "Avoiding Fracture in a Conversion Battery Material through Reaction with Larger Ions",
                 "journal": "Joule",
                 "year": "2018",
-                "pages": "in press",
-                "url": ""
+                "pages": "DOI: 10.1016/j.joule.2018.05.015",
+                "url": "https://doi.org/10.1016/j.joule.2018.05.015"
             }
         ]
     },
@@ -1390,8 +1391,15 @@
             "body": "Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab.",
             "image": "ToC_Ge.png",
             "url": "http://dx.doi.org/10.1021/acsenergylett.7b01185"
+        },
+            {
+            "year": "2018",
+            "month": "June",
+            "title": "Paper in Nano Letters",
+            "body": "Sang's new paper is published in Nano Letters - it describes our discovery of nanowire growth from lithium metal alloys.",
+            "image": "ToC_wires.png",
+            "url": "http://dx.doi.org/10.1021/acs.nanolett.8b01334"
         }
-    
     ]
     },
     "research": {

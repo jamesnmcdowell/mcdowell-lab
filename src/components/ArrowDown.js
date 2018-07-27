@@ -1,14 +1,24 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { scrollTo } from 'react-static';
+import { research } from '../db.json';
 
 let ArrowDown = () =>
 
 <Arrows className="arrows" onClick={() => {
-    scrollTo(document.querySelector('.homepage-one'), {
-        offset: -33,
-        duration: 1000
-    })
+    {
+    research.alert ?
+        scrollTo(document.querySelector('.homepage-alert'), {
+            offset: 0,
+            duration: 1000
+        })
+        :
+        scrollTo(document.querySelector('.homepage-one'), {
+            offset: 0,
+            duration: 1000
+        })
+    }
+    
 }}>
     <Path1 d="M0 0 L30 32 L60 0"></Path1>
     <Path2 d="M0 20 L30 52 L60 20"></Path2>

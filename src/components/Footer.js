@@ -71,21 +71,3 @@ let FlexIcons = styled.div`
         margin-right: 15px;
     }
 `;
-
-
-{/* 
-    // <div class="footer-contact">
-    //     <p>Copyright &copy; <time datetime="2017">2017</time> Matthew McDowell</p>
-    //     <p>mattmcdowell@gatech.edu</p>
-    //     <p>404-894-8341</p>
-    //     <div class="row">
-    //         <div class="four columns">
-    //             <a href="https://twitter.com/mcdowell_lab" target="_blank"><img src="img/twitterlogo.svg"></a>
-    //         </div>
-    //             <div class="four columns">
-    //                 <a href="https://scholar.google.com/citations?user=VRZVDH8AAAAJ&hl=en" target="_blank"><img src="img/googlescholar.svg"></a>
-    //          </div>
-    //                 <div class="four columns">
-    //                     <a href="mailto:mattmcdowell@gatech.edu" target="_blank"><img src="img/mail.svg"></a>
-    //         </div>
-    //                 </div> */}

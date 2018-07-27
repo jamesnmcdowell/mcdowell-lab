@@ -28,8 +28,12 @@ let NewsScreen = () => {
                                 <Icon className="icon icon-inner"></Icon>
                                 <Content className="timeline-content">
                                     <Title>{item.title}</Title>
-                                    <Body> 
-                                    {item.body} 
+                                    <Body>
+                                    {item.body.map((piece, i) =>  
+                                        <p>{piece} </p>
+                                        )
+                                    } 
+                                
                                     {item.url &&
                                         <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
                                     }

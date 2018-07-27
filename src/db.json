@@ -1277,38 +1277,42 @@
             "year": "2015",
             "month": "August",
             "title": "Prof. McDowell starts at Georgia Tech",
-            "body": "Prof. McDowell is honored and thrilled to begin his career at Georgia Tech, his alma mater."
+            "body": [
+                "Prof. McDowell is honored and thrilled to begin his career at Georgia Tech, his alma mater."
+                ]
         },
         {
             "year": "2015",
             "month": "August",
             "title": "New Students Join the McDowell Lab",
-            "body": "Our lab is happy to welcome our first graduate students, Neha Kondekar and Matthew Boebinger!"
+            "body": [
+                "Our lab is happy to welcome our first graduate students, Neha Kondekar and Matthew Boebinger!"
+                ]
         },
         {
             "year": "2015",
             "month": "August",
             "title": "Prof. McDowell starts at Georgia Tech",
-            "body": "Our lab is happy to welcome our first undergraduate researcher, Kayla Hendrickson!"
+            "body": ["Our lab is happy to welcome our first undergraduate researcher, Kayla Hendrickson!"]
         },
         {
             "year": "2016",
             "month": "January",
             "title": "New Students Join the McDowell Lab",
-            "body": "Our lab is happy to welcome two new undergraduate researchers, Trevor Worthy and Michael Xu!"
+            "body": ["Our lab is happy to welcome two new undergraduate researchers, Trevor Worthy and Michael Xu!"]
         },
         {
             "year": "2016",
             "month": "August",
             "title": "Prof. McDowell joins Nano Letters Advisory Board",
-            "body": "Prof. McDowell has been selected to join the Early Career Advisory Board for the journal Nano Letters.",
+            "body": ["Prof. McDowell has been selected to join the Early Career Advisory Board for the journal Nano Letters."],
             "image": "nanoletterfinal.png"
         },
         {
             "year": "2016",
             "month": "April",
             "title": "Paper chosen for ACS Select Virtual Issue",
-            "body": "Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition.",
+            "body": ["Our previous paper has been chosen to be a part of an American Chemical Society (ACS) Select Virtual Issue on recent advances in atomic layer deposition."],
             "image": "ACS-selectedfinal.png",
             "url": "http://pubs.acs.org/doi/abs/10.1021/acsami.5b00379"
         },
@@ -1316,39 +1320,39 @@
             "year": "2016",
             "month": "June",
             "title": "Welcome to new member",
-            "body": "Welcome to new undergraduate researcher Miranda Tuck!"
+            "body": ["Welcome to new undergraduate researcher Miranda Tuck!"]
         },
         {
             "year": "2016",
             "month": "August",
             "title": "Prof. McDowell gives talk at Oak Ridge National Lab",
-            "body": "Prof. McDowell gave an invited talk on in situ methods for battery research at the 2016 Oak Ridge National Lab CNMS User Meeting.",
+            "body": ["Prof. McDowell gave an invited talk on in situ methods for battery research at the 2016 Oak Ridge National Lab CNMS User Meeting."],
             "image": "oakridge-CNMSfinal.jpg"
         },
         {
             "year": "2016",
             "month": "August",
             "title": "New members!",
-            "body": "A warm welcome to a bunch of new lab members: graduate students Francisco Quintero Cortes and Sang Yun Han, as well as undergrads Sammy Wolfson, Kirit Joshi, and Casey Miles!"
+            "body": ["A warm welcome to a bunch of new lab members: graduate students Francisco Quintero Cortes and Sang Yun Han, as well as undergrads Sammy Wolfson, Kirit Joshi, and Casey Miles!"]
         },
         {
             "year": "2016",
             "month": "October",
             "title": "Celebrating Quals Success",
-            "body": "Celebrating Matthew and Neha passing the qualifying exam!",
+            "body": ["Celebrating Matthew and Neha passing the qualifying exam!"],
             "image": "gradstuddinnerfinal.jpg"
         },
         {
             "year": "2016",
             "month": "October",
             "title": "AFOSR Young Investigator",
-            "body": "Prof. McDowell received the Air Force Office of Scientific Research Young Investigator Program (YIP) Award to support the group's research!"
+            "body": ["Prof. McDowell received the Air Force Office of Scientific Research Young Investigator Program (YIP) Award to support the group's research!"]
         },
         {
             "year": "2016",
             "month": "December",
             "title": "First paper accepted!",
-            "body": "The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:",
+            "body": ["The group's first paper has been accepted for inclusion in the '2017 Emerging Investigators Themed Issue' in J. Mater. Chem. A! Congratulations and thanks to all involved. See the paper here:"],
             "image":"jmcaGAfinal.png",
             "url": "http://dx.doi.org/10.1039/C6TA09195D"
         },
@@ -1356,49 +1360,62 @@
             "year": "2017",
             "month": "Febraury",
             "title": "NSF CAREER",
-            "body": "Prof. McDowell has been awarded an NSF CAREER grant to support the group's research on solid-state ion conductors! Many thanks to the National Science Foundation."
+            "body": ["Prof. McDowell has been awarded an NSF CAREER grant to support the group's research on solid-state ion conductors! Many thanks to the National Science Foundation."]
         },
         {
             "year": "2017",
             "month": "June",
             "title": "Congratulations and Welcome!",
-            "body": "Two exciting things happened this week: Francisco passed quals, and Jack Lewis joined the group as a new graduate student. Congratulations to Francisco and welcome to Jack!"
+            "body": ["Two exciting things happened this week: Francisco passed quals, and Jack Lewis joined the group as a new graduate student. Congratulations to Francisco and welcome to Jack!"]
         },
         {
             "year": "2017",
             "month": "August",
             "title": "New Semester, New Students",
-            "body": "Welcome to Jared Tippens, a new graduate student, and Lan Ho and Amelia Tan, two new undergraduate researchers!"
+            "body": ["Welcome to Jared Tippens, a new graduate student, and Lan Ho and Amelia Tan, two new undergraduate researchers!"]
         },
         {
             "year": "2017",
             "month": "August",
             "title": "New Paper",
-            "body": "Congratulations to Neha on the acceptance of her first paper in ACS Applied Materials & Interfaces!",
+            "body": ["Congratulations to Neha on the acceptance of her first paper in ACS Applied Materials & Interfaces!"],
             "image":"NehaGraphic.png"
         },
         {
             "year": "2017",
             "month": "August",
             "title": "Scialog Collaboration",
-            "body": "Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:",
+            "body": ["Thanks to the Research Corporation for Science Advancement for enabling our exciting new collaboration:"],
             "url": "http://rescorp.org/awards-database/awardee/ion-reassin-ion-re-coordination-at-solid-state-interfaces"
         },
         {
             "year": "2018",
             "month": "January",
             "title": "Another Paper",
-            "body": "Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab.",
+            "body": ["Francisco's new paper is out at ACS Energy Letters! Interesting findings from experiments at the Advanced Photon Source at Argonne National Lab."],
             "image": "ToC_Ge.png",
             "url": "http://dx.doi.org/10.1021/acsenergylett.7b01185"
         },
-            {
+        {
             "year": "2018",
             "month": "June",
             "title": "Paper in Nano Letters",
-            "body": "Sang's new paper is published in Nano Letters - it describes our discovery of nanowire growth from lithium metal alloys.",
+            "body": ["Sang's new paper is published in Nano Letters - it describes our discovery of nanowire growth from lithium metal alloys."],
             "image": "ToC_wires.png",
             "url": "http://dx.doi.org/10.1021/acs.nanolett.8b01334"
+        },
+        {
+            "year": "2018",
+            "month": "July",
+            "title": "Two Postdoctoral Scholar Positions Available",
+            "body": [
+                "Prof. Matthew McDowell’s lab at Georgia Tech has openings for postdoctoral scholars in two different projects:",
+                "The first project involves investigating electrode materials for batteries that operate at low temperatures. The ideal candidate will have experience with electrochemistry and characterization of electrochemical materials and interfaces. Strong candidates with other skill sets will also be considered. This position is slated to begin in October 2018.",
+                "The second project involves understanding dynamic transformations at interfaces in layered chalcogenide materials. The ideal candidate will have experience in materials characterization (in situ electron microscopy, photoelectron spectroscopy) and/or synthesis of chalcogenides/2D materials. Strong candidates with other skill sets will also be considered. This position is slated to begin in late fall of 2018.",
+                "Both positions will involve collaborations within and external to Prof. McDowell’s research group. Interested candidates should apply to Prof. Matthew McDowell at mattmcdowell@gatech.edu and attach i) a curriculum vitae, and ii) a list of three references (name, affiliation, email). Candidates should specify to which position they are applying. Evaluation of candidates will begin immediately and continue until the positions are filled."
+            ],
+            "image": "",
+            "url": ""
         }
     ]
     },
@@ -1411,6 +1428,7 @@
             "Our research group focuses on using in situ experimental techniques to probe materials transformations under realistic conditions, and we seek to understand how these changes influence properties. These fundamental scientific advances guide the engineering of materials for breakthrough new devices.",
             "Students and other researchers in the group synthesize materials, analyze their properties, and utilize a variety of in situ characterization methods to understand dynamic structure and chemistry. This information is then understood in the context of the material’s behavior within devices."
         ],
+        "alert":"We have two postdoctoral scholar openings. Click below for more information.",
         "projects": [
             {
                 "title": "1. phase transformation mechanisms in next-generation battery materials",

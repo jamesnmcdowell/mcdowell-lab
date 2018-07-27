@@ -31,6 +31,9 @@ injectGlobal`
   img {
     100%;
   }
+  button {
+    font-family: 'Work Sans', sans-serif;
+  }
 
 
 

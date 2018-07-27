@@ -3,6 +3,7 @@ import { withSiteData, Head } from 'react-static'
 import logoImg from '../logo.png'
 import Shell from './Shell';
 import Hero from './Hero';
+import Alert from './Alert';
 import { Link } from 'react-static';
 import styled from 'styled-components';
 import TitleBackgroundImage from './TitleBackgroundImage';
@@ -25,6 +26,7 @@ import { research } from '../db.json';
 let HomeScreen = ({ }) =>
 <div>
   <Hero/>
+  <Alert/>
 	<section className="homepage-one">
 		<Container vert >
 			<SubTitle> {research.intro} </SubTitle >

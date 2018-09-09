@@ -30,14 +30,14 @@ let NewsScreen = () => {
                                     <Title>{item.title}</Title>
                                     <Body>
                                     {item.body.map((piece, i) =>  
-                                        <p>{piece} </p>
+                                            <p>{piece} </p>
                                         )
                                     } 
-                                
+                                    </Body>
                                     {item.url &&
                                         <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
                                     }
-                                    </Body>
+                                    
                                     <ImgContainer>
                                     { item.image && 
                                         <img src={require(`../assets/${item.image}`)} />
@@ -58,8 +58,9 @@ export default NewsScreen;
 
 let LinkStyled = styled(Link) `
     text-decoration: none;
-    margin-left: 5px;
+    display: inline;
 `;
+
 
 let Timeline = styled.ul`
     margin: 0;
@@ -98,7 +99,9 @@ let Title = styled.h2`
     `}   
 `;
 
-let Body = styled.p`
+let Body = styled.div`
+    display: inline;
+   
 `;
 let ImgContainer = styled.div`
 display: flex;

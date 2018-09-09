@@ -245,6 +245,12 @@
                 "avatar": "JaredFinal.png"
             },
             {
+                "name": "Stephanie Sandoval",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "Stephanie_Sandoval.png"
+            },
+            {
                 "name": "Samuel Wolfson",
                 "type": "Undergraduate Student",
                 "department": "ME",
@@ -275,10 +281,16 @@
                 "avatar": "MichaelXu_croptransp.png"
             },
             {
-                "name": "Amelia Tan",
+                "name": "Emily Klein",
                 "type": "Undergraduate Student",
-                "department": "ME",
-                "avatar": "AmeliaFinal.png"
+                "department": "MSE",
+                "avatar": "Emily_Klein.png"
+            },
+            {
+                "name": "Thomas Marchese",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "Thomas_Marchese.png"
             },
             {
                 "name": "Kirit Joshi",

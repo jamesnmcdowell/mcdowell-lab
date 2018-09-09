@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import { media } from './Media';
 
-let TitleBackgroundImage = ({ title, background}) =>
-    <SectionHero style={{ backgroundImage: `url(${background})` }} class = "mobile-height-fix">
+let TitleBackgroundImage = ({ title, background, large}) =>
+    <SectionHero large={large} style={{ backgroundImage: `url(${background})` }} class = "mobile-height-fix">
         <SectionTitle> {title} </SectionTitle>
     </SectionHero>
 
@@ -13,7 +13,7 @@ let SectionHero = styled.section`
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: ${ props => props.large ? "60vh" : "40vh"};
     position: relative;
     background-position: 40% 30%;
     padding: 0;

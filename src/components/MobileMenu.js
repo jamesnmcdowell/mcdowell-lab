@@ -101,16 +101,3 @@ let Link= styled(LinkOrg)`
         height: 20px;
     }
 `;
-
-
-// <div id="off-canvas-menu">
-//     <nav >
-//         <ul>
-//             <li><a href="index.html">Research</a></li>
-//             <li><a class="page-selected" href="bio.html">Bio</a></li>
-//             <li><a href="People.html">People</a></li>
-//             <li><a href="publications.html">Publications</a></li>
-//             <li><a href="news.html">News</a></li>
-//         </ul>
-//     </nav>
-// </div>

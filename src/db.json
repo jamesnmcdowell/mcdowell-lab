@@ -1289,7 +1289,19 @@
                 "title": "Avoiding Fracture in a Conversion Battery Material through Reaction with Larger Ions",
                 "journal": "Joule",
                 "year": "2018",
-                "pages": "DOI: 10.1016/j.joule.2018.05.015",
+                "pages": "2, 9, 1783-1799",
+                "url": "/static/joule-2018.pdf"
+            },
+            {
+                "authors": [
+                    "V. Augustyn",
+                    "M. T. McDowell",
+                    "A. Vojvodic"
+                ],
+                "title": "Towards an Atomistic Understanding of Solid- State Electrochemical Interfaces for Energy Storage,",
+                "journal": "Joule, “Future Energy” article",
+                "year": "2018",
+                "pages": "DOI: 10.1016/j.joule.2018.10.014",
                 "url": "/static/joule-2018.pdf"
             }
         ]
@@ -1430,16 +1442,13 @@
         },
         {
             "year": "2018",
-            "month": "July",
-            "title": "Two Postdoctoral Scholar Positions Available",
+            "month": "November",
+            "title": "Paper in Joule",
             "body": [
-                "Prof. Matthew McDowell’s lab at Georgia Tech has openings for postdoctoral scholars in two different projects:",
-                "The first project involves investigating electrode materials for batteries that operate at low temperatures. The ideal candidate will have experience with electrochemistry and characterization of electrochemical materials and interfaces. Strong candidates with other skill sets will also be considered. This position is slated to begin in October 2018.",
-                "The second project involves understanding dynamic transformations at interfaces in layered chalcogenide materials. The ideal candidate will have experience in materials characterization (in situ electron microscopy, photoelectron spectroscopy) and/or synthesis of chalcogenides/2D materials. Strong candidates with other skill sets will also be considered. This position is slated to begin in late fall of 2018.",
-                "Both positions will involve collaborations within and external to Prof. McDowell’s research group. Interested candidates should apply to Prof. Matthew McDowell at mattmcdowell@gatech.edu and attach i) a curriculum vitae, and ii) a list of three references (name, affiliation, email). Candidates should specify to which position they are applying. Evaluation of candidates will begin immediately and continue until the positions are filled."
+                "Prof. McDowell’s collaborative perspective article on the need for greater understanding of solid-state battery interfaces has been published in Joule."
             ],
-            "image": "",
-            "url": ""
+            "image": "sse_int.png",
+            "url": "http://dx.doi.org/10.1016/j.joule.2018.10.014"
         }
     ]
     },
@@ -1452,7 +1461,7 @@
             "Our research group focuses on using in situ experimental techniques to probe materials transformations under realistic conditions, and we seek to understand how these changes influence properties. These fundamental scientific advances guide the engineering of materials for breakthrough new devices.",
             "Students and other researchers in the group synthesize materials, analyze their properties, and utilize a variety of in situ characterization methods to understand dynamic structure and chemistry. This information is then understood in the context of the material’s behavior within devices."
         ],
-        "alert":"We have two postdoctoral scholar openings. Click below for more information.",
+        "alert":"",
         "projects": [
             {
                 "title": "1. phase transformation mechanisms in next-generation battery materials",

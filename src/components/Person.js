@@ -12,7 +12,9 @@ let Person = ({student}) =>
     <Info>
         <Title>{student.name}</Title>
         <Text>{student.type}</Text>
-        <Text>{student.department}</Text>
+        {
+            (student.department === "none") ? <br /> : <Text>{student.department}</Text>
+        }
     </Info>
 </div>
 

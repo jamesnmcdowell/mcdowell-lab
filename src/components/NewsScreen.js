@@ -33,11 +33,12 @@ let NewsScreen = () => {
                                             <p>{piece} </p>
                                         )
                                     } 
-                                    </Body>
+                                    
                                     {item.url &&
                                         <LinkStyled to={item.url} target="_blank">&#128279;</LinkStyled>
                                     }
-                                    
+                                    </Body>
+
                                     <ImgContainer>
                                     { item.image && 
                                         <img src={require(`../assets/${item.image}`)} />
@@ -59,6 +60,8 @@ export default NewsScreen;
 let LinkStyled = styled(Link) `
     text-decoration: none;
     display: inline;
+        
+
 `;
 
 
@@ -101,6 +104,9 @@ let Title = styled.h2`
 
 let Body = styled.div`
     display: inline;
+    p {
+            display:inline;
+        }
    
 `;
 let ImgContainer = styled.div`

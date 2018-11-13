@@ -221,6 +221,13 @@
         "ctaBody": "We are always looking for highly motivated graduate and undergraduate students that are interested in performing research within the group. Please contact Prof. McDowell for details.",
         "students": [
             {
+                "name": "Akila Thenuwara",
+                "type": "Postdoc",
+                "avatar": "Akila.png",
+                "department": "none"
+                                
+            },
+            {
                 "name": "Neha Kondekar",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -1302,7 +1309,7 @@
                 "journal": "Joule, “Future Energy” article",
                 "year": "2018",
                 "pages": "DOI: 10.1016/j.joule.2018.10.014",
-                "url": "/static/joule-2018.pdf"
+                "url": "/static/FutureEnergy.pdf"
             }
         ]
     },

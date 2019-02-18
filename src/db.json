@@ -1271,7 +1271,7 @@
                 "title": "Seeded Nanowire and Microwire Growth from Lithium Alloys",
                 "journal": "Nano Letters",
                 "year": "2018",
-                "pages": "DOI: 10.1021/acs.nanolett.8b01334",
+                "pages": "18, 4331-4337",
                 "url": "http://dx.doi.org/10.1021/acs.nanolett.8b01334"
             },
             {
@@ -1308,8 +1308,27 @@
                 "title": "Towards an Atomistic Understanding of Solid- State Electrochemical Interfaces for Energy Storage,",
                 "journal": "Joule, “Future Energy” article",
                 "year": "2018",
-                "pages": "DOI: 10.1016/j.joule.2018.10.014",
+                "pages": "2, 2189-2193",
                 "url": "/static/FutureEnergy.pdf"
+            },
+            {
+                "authors": [
+                    "J. A. Lewis",
+                    "F. J. Q. Cortes",
+                    "A. Vojvodic",
+                    "M. G. Boebinger",
+                    "J. Tippens",
+                    "T. S. Marchese",
+                    "N. Kondekar",
+                    "X. Liu",
+                    "M. Chi",
+                    "M. T. McDowell"
+                ],
+                "title": "Interphase Morphology Between a Solid-State Electrolyte and Lithium Controls Cell Failure,",
+                "journal": "ACS Energy Letters",
+                "year": "2019",
+                "pages": "DOI: 10.1021/acsenergylett.9b00093",
+                "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.9b00093"
             }
         ]
     },

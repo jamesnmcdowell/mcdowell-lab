@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-static';
-import profilePicture from '../assets/McDowell_2015final.jpg';
+import profilePicture from '../assets/McDowell_square.png';
 import publications from '../assets/PapersFigurefinal.png';
 import { media } from './Media';
 import TwitterBlock from './TwitterFeed';

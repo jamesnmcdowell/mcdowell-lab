@@ -2,7 +2,6 @@ import React from 'react'
 import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
-import avatar from '../assets/McDowell_smallfinal.jpg';
 import gScholar from '../assets/googlescholar.svg';
 import twitter from '../assets/twitterlogo.svg';
 import email from '../assets/mail.svg';

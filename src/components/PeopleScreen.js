@@ -7,12 +7,14 @@ import heroImage from '../assets/students/McDowellGroup2018_crop.jpg';
 import { team } from '../db.json';
 import TitleBackgroundImage from './TitleBackgroundImage';
 import Person from './Person';
+import Alumni from './Alumni';
 import { media, Container } from './Media';
 
 let PeopleScreen = () =>
     <div>
         <TitleBackgroundImage large title={team.title} background={heroImage} />
         <Container vert>
+       
         <StudentGrid>
         {  
             team.students.map((student) =>
@@ -20,6 +22,18 @@ let PeopleScreen = () =>
             )
         }
         </StudentGrid>
+        </Container>
+        <Container vert>
+            <CenterContainer>
+                <Title> Alumni </Title >
+            </CenterContainer>
+            <StudentGrid>
+                {
+                    team.alumni.map((student) =>
+                        <Alumni student={student} />
+                    )
+                }
+            </StudentGrid>
         </Container>
         <TextSection> 
             <Container>
@@ -37,6 +51,10 @@ let StudentGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 3.5rem;
+`;
+let CenterContainer = styled.div`
+    text-align: center;
+    padding-bottom: 4rem;
 `;
 let TextSection = styled.section`
     text-align: center;

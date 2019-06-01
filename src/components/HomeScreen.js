@@ -1,6 +1,5 @@
 import React from 'react'
 import { withSiteData, Head } from 'react-static'
-import logoImg from '../logo.png'
 import Shell from './Shell';
 import Hero from './Hero';
 import Alert from './Alert';

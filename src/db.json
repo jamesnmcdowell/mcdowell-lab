@@ -171,7 +171,7 @@
         {
             "name": "Matthew T. McDowell, Ph.D.",
             "position": "Assistant Professor",
-            "avatar": "McDowell_smallfinal.jpg",
+            "avatar": "McDowell_Crop2.png",
             "schools": [
                 {
                     "name":"Woodruff School of Mechanical Engineering",
@@ -235,9 +235,14 @@
             {
                 "name": "Akila Thenuwara",
                 "type": "Postdoc",
-                "avatar": "Akila.png",
-                "department": "none"
-                                
+                "department": "none",
+                "avatar": "Akila.png"               
+            },
+            {
+                "name": "Pralav Shetty",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "Pralav_Shetty_Photo.PNG"
             },
             {
                 "name": "Neha Kondekar",
@@ -270,46 +275,16 @@
                 "avatar": "JackFinal.png"
             },
             {
-                "name": "Jared Tippens",
-                "type": "Graduate Student",
-                "department": "ME",
-                "avatar": "JaredFinal.png"
-            },
-            {
                 "name": "Stephanie Sandoval",
                 "type": "Graduate Student",
                 "department": "MSE",
                 "avatar": "Stephanie_Sandoval.png"
             },
             {
-                "name": "Samuel Wolfson",
-                "type": "Undergraduate Student",
-                "department": "ME",
-                "avatar": "SamuelWolfson_croptransp.png"
-            },
-            {
-                "name": "Casey Miles",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "CaseyMiles_croptransp.png"
-            },
-            {
-                "name": "Trevor Worthy",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "Trevor_cropstansp.png"
-            },
-            {
                 "name": "David Yeh",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "DavidFinal.png"
-            },
-            {
-                "name": "Michael Xu",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "MichaelXu_croptransp.png"
             },
             {
                 "name": "Emily Klein",
@@ -324,17 +299,61 @@
                 "avatar": "Thomas_Marchese.png"
             },
             {
-                "name": "Kirit Joshi",
-                "type": "Undergraduate Student",
-                "department": "ME",
-                "avatar": "KiritJoshi_croptransp.png"
-            },
-            {
                 "name": "Lan Ho",
                 "type": "Undergraduate Student",
                 "department": "ECE",
                 "avatar": "LanFinal2.png"
+            },
+            {
+                "name": "Dhruv Prakash",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "Dhruv_Prakash.png"
+            },
+            {
+                "name": "JP Azaro-Berenguer",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "JP_Azaro-Berenguer.png"
             }
+        ],
+        "alumni": [
+                {
+                    "name": "Jared Tippens",
+                    "type": "Graduate Student",
+                    "department": "ME",
+                    "avatar": "JaredFinal.png"
+                },
+                {
+                    "name": "Casey Miles",
+                    "type": "Undergraduate Student",
+                    "department": "MSE",
+                    "avatar": "CaseyMiles_croptransp.png"
+                },
+                {
+                    "name": "Samuel Wolfson",
+                    "type": "Undergraduate Student",
+                    "department": "ME",
+                    "avatar": "SamuelWolfson_croptransp.png"
+                },
+                {
+                    "name": "Trevor Worthy",
+                    "type": "Undergraduate Student",
+                    "department": "MSE",
+                    "avatar": "Trevor_cropstansp.png"
+                },
+                {
+                    "name": "Michael Xu",
+                    "type": "Undergraduate Student",
+                    "department": "MSE",
+                    "avatar": "MichaelXu_croptransp.png"
+                },
+                {
+                    "name": "Kirit Joshi",
+                    "type": "Undergraduate Student",
+                    "department": "ME",
+                    "avatar": "KiritJoshi_croptransp.png"
+                }
         ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",
@@ -1341,6 +1360,20 @@
                 "year": "2019",
                 "pages": "DOI: 10.1021/acsenergylett.9b00093",
                 "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.9b00093"
+            },
+            {
+                "authors": [
+                    "N. Kondekar",
+                    "M. G. Boebinger",
+                    "M. Tian",
+                    "M. H. Kirmani",
+                    "M. T. McDowell"
+                ],
+                "title": "The Effect of Nickel on MoS 2 Growth Revealed with In Situ Transmission Electron Microscopy,",
+                "journal": "ACS Nano",
+                "year": "2019",
+                "pages": "DOI: 10.1021/acsnano.9b02528",
+                "url": "https://pubs.acs.org/doi/10.1021/acsnano.9b02528"
             }
         ]
     },

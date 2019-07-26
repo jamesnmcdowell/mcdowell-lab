@@ -57,6 +57,12 @@
                 {
                     "date": "2019",
                     "text": [
+                        "Presidential Early Career Award for Scientists and Engineers (PECASE)"
+                    ]
+                },
+              	{
+                    "date": "2019",
+                    "text": [
                         "Sloan Research Fellowship"
                     ]
                 },
@@ -1357,7 +1363,7 @@
                 "title": "Interphase Morphology Between a Solid-State Electrolyte and Lithium Controls Cell Failure,",
                 "journal": "ACS Energy Letters",
                 "year": "2019",
-                "pages": "DOI: 10.1021/acsenergylett.9b00093",
+                "pages": "4, 591-599",
                 "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.9b00093"
             },
             {
@@ -1371,7 +1377,7 @@
                 "title": "The Effect of Nickel on MoS2 Growth Revealed with In Situ Transmission Electron Microscopy,",
                 "journal": "ACS Nano",
                 "year": "2019",
-                "pages": "DOI: 10.1021/acsnano.9b02528",
+                "pages": "13, 7117-7126",
                 "url": "https://pubs.acs.org/doi/10.1021/acsnano.9b02528"
             },
           {
@@ -1390,8 +1396,21 @@
                 "title": "Visualizing Chemomechanical Degradation of a Solid-State Battery Electrolyte,",
                 "journal": "ACS Energy Letters",
                 "year": "2019",
-                "pages": "DOI: 10.1021/acsenergylett.9b00816",
+                "pages": "4, 1475-1483",
                 "url": "http://dx.doi.org/10.1021/acsenergylett.9b00816"
+            },
+             {
+                "authors": [
+                    "J. A. Lewis",
+                    "J. Tippens",
+                    "F. J. Q. Cortes",
+                    "M. T. McDowell"
+                ],
+                "title": "Chemo-Mechanical Challenges in Solid-State Batteries,",
+                "journal": "Trends in Chemistry",
+                "year": "2019",
+                "pages": "DOI: 10.1016/j.trechm.2019.06.013",
+                "url": "http://dx.doi.org/10.1016/j.trechm.2019.06.013"
             }
         ]
     },

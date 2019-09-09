@@ -19,7 +19,7 @@
     "react-aspect-ratio": "^1.0.31",
     "react-burger-menu": "^2.4.4",
     "react-click-outside": "tj/react-click-outside",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.4.2",
     "react-google-maps": "^9.4.5",
     "react-headroom": "^2.2.2",
     "react-offcanvas": "^0.3.1",

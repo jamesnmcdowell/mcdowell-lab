@@ -287,6 +287,30 @@
                 "avatar": "Stephanie_Sandoval.png"
             },
             {
+                "name": "Timothy Chen",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "Timothy_Chen.png"
+            },
+            {
+                "name": "Kelsey Cavallaro",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "Kelsey_Cavallaro.png"
+            },
+            {
+                "name": "Clay Wright",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "Clay_Wright.png"
+            },
+            {
+                "name": "Eugene Liu",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "Eugene_Liu.png"
+            },
+            {
                 "name": "David Yeh",
                 "type": "Undergraduate Student",
                 "department": "MSE",

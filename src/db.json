@@ -1435,6 +1435,26 @@
                 "year": "2019",
                 "pages": "DOI: 10.1016/j.trechm.2019.06.013",
                 "url": "/static/TrChemReview.pdf"
+            },
+          {
+                "authors": [
+                    "S. V. Kalinin",
+                    "O. Dyck",
+                    "N. Balke",
+                    "S. Neumayer",
+                  	"W.-Y. Tsai",
+                  	"R. Vasudevan",
+                  	"D. Lingerfelt",
+                  	"M. Ahmadi",
+                  	"M. Ziatdinov",
+                  	"M. T. McDowell",
+                  	"E. Strelcov"
+                ],
+                "title": "Toward Electrochemical Studies on the Nanometer and Atomic Scales: Progress, Challenges, and Opportunities,",
+                "journal": "ACS Nano",
+                "year": "2019",
+                "pages": "DOI: 10.1021/acsnano.9b02687",
+                "url": "https://doi.org/10.1021/acsnano.9b02687"
             }
         ]
     },

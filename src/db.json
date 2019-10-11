@@ -1453,8 +1453,36 @@
                 "title": "Toward Electrochemical Studies on the Nanometer and Atomic Scales: Progress, Challenges, and Opportunities,",
                 "journal": "ACS Nano",
                 "year": "2019",
-                "pages": "DOI: 10.1021/acsnano.9b02687",
+                "pages": "13, 9, 9735-9780",
                 "url": "https://doi.org/10.1021/acsnano.9b02687"
+            },
+           {
+                "authors": [
+                    "G. Nava",
+                    "J. Schwan",
+                    "M. G. Boebinger",
+                    "M. T. McDowell",
+                  	"L. Mangolini"
+                ],
+                "title": "Silicon-Core-Shell Nanoparticles for Lithium-Ion Batteries: Rational Comparison between Amorphous and Graphitic Carbon Coatings,",
+                "journal": "Nano Letters",
+                "year": "2019",
+                "pages": "19, 7236-7245",
+                "url": "https://doi.org/10.1021/acs.nanolett.9b02835"
+            }, 
+          {
+                "authors": [
+                    "F. J. Q. Cortes",
+                    "J. A. Lewis",
+                    "J. Tippens",
+                    "T. S. Marchese",
+                  	"M. T. McDowell"
+                ],
+                "title": "How Metallic Protection Layers Extend the Lifetime of NASICON-Based Solid-State Lithium Batteries,",
+                "journal": "Journal of the Electrochemical Society",
+                "year": "2019",
+                "pages": "167, 050502",
+                "url": "http://jes.ecsdl.org/content/167/5/050502.full"
             }
         ]
     },

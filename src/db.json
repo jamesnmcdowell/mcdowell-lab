@@ -1483,6 +1483,31 @@
                 "year": "2019",
                 "pages": "167, 050502",
                 "url": "http://jes.ecsdl.org/content/167/5/050502.full"
+            },
+            {
+                "authors": [
+                    "A. C. Thenuwara",
+                    "P. V. Shetty",
+                  	"M. T. McDowell"
+                ],
+                "title": "Distinct Nanoscale Interphases and Morphology of Lithium Metal Electrodes Operating at Low Temperatures,",
+                "journal": "Nano Letters",
+                "year": "2019",
+                "pages": "19, 8664-8672",
+                "url": "https://doi.org/10.1021/acs.nanolett.9b03330"
+            },
+          {
+                "authors": [
+                    "M. G. Boebinger",
+                    "J. A. Lewis",
+                    "S. E. Sandoval",
+                  	"M. T. McDowell"
+                ],
+                "title": "Understanding Transformations in Battery Materials Using In Situ and Operando Experiments,",
+                "journal": "ACS Energy Letters",
+                "year": "2020",
+                "pages": "5, 335-345",
+                "url": "https://doi.org/10.1021/acsenergylett.9b02514"
             }
         ]
     },

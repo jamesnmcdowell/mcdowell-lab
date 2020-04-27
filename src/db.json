@@ -1508,6 +1508,43 @@
                 "year": "2020",
                 "pages": "5, 335-345",
                 "url": "https://doi.org/10.1021/acsenergylett.9b02514"
+            },
+             {
+                "authors": [
+                    "K. B. Hatzell",
+                    "X. C. Chen",
+                    "C. L. Cobb",
+                  	"N. P. Dasgupta",
+                    "M. B. Dixit",
+                    "L. E. Marbella",
+                  	"M. T. McDowell",
+                  	"P. P. Mukherjee",
+                  	"A. Verma",
+                  	"V. Viswanathan",
+                  	"A. S. Westover",
+                  	"W. G. Zeier"
+                ],
+                "title": "Recent Progress and Future Outlook on Lithium Metal Anodes for Solid-State Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2020",
+                "pages": "5, 922-934",
+                "url": "https://doi.org/10.1021/acsenergylett.9b02668"
+            },
+           {
+                "authors": [
+                    "S. Y. Han",
+                    "J. A. Lewis",
+                    "P. P. Shetty",
+                  	"J. Tippens",
+                  	"D. Yeh",
+                  	"T. S. Marchese",
+                  	"M. T. McDowell"
+                ],
+                "title": "Porous Metals from Chemical Dealloying for Solid-State Battery Anodes,",
+                "journal": "Chemistry of Materials",
+                "year": "2020",
+                "pages": "32, 6, 2461-2469",
+                "url": "https://doi.org/10.1021/acs.chemmater.9b04992"
             }
         ]
     },

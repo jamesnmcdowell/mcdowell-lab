@@ -54,6 +54,18 @@
             "icon": "award.svg",
             "title": "Awards",
             "items": [
+                 {
+                    "date": "2020",
+                    "text": [
+                        "Georgia Tech Sigma Xi Young Faculty Award"
+                    ]
+                },
+                {
+                    "date": "2020",
+                    "text": [
+                        "US NAE Frontiers of Engineering Symposium Attendee"
+                    ]
+                },
                 {
                     "date": "2019",
                     "text": [
@@ -149,25 +161,6 @@
                     "date": "2008",
                     "text": [
                         "Stanford Graduate Fellowship"
-                    ]
-                },
-                {
-                    "date": "2008",
-                    "text": [
-                        "GT College of Engineering",
-                        "Outstanding Undergraduate Researcher"
-                    ]
-                },
-                {
-                    "date": "2008",
-                    "text": [
-                        "GT MSE Outstanding Senior Award"
-                    ]
-                },
-                {
-                    "date": "2007",
-                    "text": [
-                        "GT Henry Ford II Scholar Award"
                     ]
                 }
             ]
@@ -1559,8 +1552,27 @@
                 "title": "Spontaneous and reversible hollowing of alloy anode nanocrystals for stable battery cycling,",
                 "journal": "Nature Nanotechnology",
                 "year": "2020",
-                "pages": "DOI: 10.1038/s41565-020-0690-9",
+                "pages": "15, 475-481",
                 "url": "https://doi.org/10.1038/s41565-020-0690-9"
+            },
+          {
+                "authors": [
+                    "A. C. Thenuwara",
+                    "P. P. Shetty",
+                    "N. Kondekar",
+                  	"S. E. Sandoval",
+                  	"K. Cavallaro",
+                  	"R. May",
+                    "C.-T. Yang",
+                  	"L. E. Marbella",
+                    "Y. Qi",
+                  	"M. T. McDowell"
+                ],
+                "title": "Efficient Low-Temperature Cycling of Lithium Metal Anodes by Tailoring the Solid-Electrolyte Interphase,",
+                "journal": "ACS Energy Letters",
+                "year": "2020",
+                "pages": "5, 2411-2420",
+                "url": "https://doi.org/10.1021/acsenergylett.0c01209"
             }
         ]
     },

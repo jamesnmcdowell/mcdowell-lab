@@ -63,6 +63,12 @@
                 {
                     "date": "2020",
                     "text": [
+                        "Georgia Tech Alumni Association 40 under 40 Award"
+                    ]
+                },
+              	{
+                    "date": "2020",
+                    "text": [
                         "US NAE Frontiers of Engineering Symposium Attendee"
                     ]
                 },
@@ -244,18 +250,6 @@
                 "avatar": "Pralav_Shetty_Photo.PNG"
             },
             {
-                "name": "Neha Kondekar",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "NehaKondekar_croptransp.png"
-            },
-            {
-                "name": "Matthew Boebinger",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "MatthewCropSmalltransp.png"
-            },
-            {
                 "name": "Sang Yun Han",
                 "type": "Graduate Student",
                 "department": "ME",
@@ -304,16 +298,16 @@
                 "avatar": "Eugene_Liu.png"
             },
             {
+                "name": "Emily Klein",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "Emily_Klein.png"
+            },
+            {
                 "name": "David Yeh",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "DavidFinal.png"
-            },
-            {
-                "name": "Emily Klein",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "Emily_Klein.png"
             },
             {
                 "name": "Thomas Marchese",
@@ -322,26 +316,26 @@
                 "avatar": "Thomas_Marchese.png"
             },
             {
-                "name": "Lan Ho",
-                "type": "Undergraduate Student",
-                "department": "ECE",
-                "avatar": "LanFinal2.png"
-            },
-            {
                 "name": "Dhruv Prakash",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "Dhruv_Prakash.png"
-            },
-            {
-                "name": "JP Azaro-Berenguer",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "JP_Azaro-Berenguer.png"
             }
         ],
         "alumni": [
                 {
+                	"name": "Matthew Boebinger",
+                	"type": "Graduate Student",
+                	"department": "MSE",
+                	"avatar": "MatthewCropSmalltransp.png"
+            	},
+          		{
+                	"name": "Neha Kondekar",
+                	"type": "Graduate Student",
+                	"department": "MSE",
+                	"avatar": "NehaKondekar_croptransp.png"
+            	},
+          		{
                     "name": "Jared Tippens",
                     "type": "Graduate Student",
                     "department": "ME",
@@ -371,6 +365,18 @@
                     "department": "MSE",
                     "avatar": "MichaelXu_croptransp.png"
                 },
+                {
+                	"name": "Lan Ho",
+               		"type": "Undergraduate Student",
+                	"department": "ECE",
+                	"avatar": "LanFinal2.png"
+            	},
+                {
+                	"name": "JP Azaro-Berenguer",
+                	"type": "Undergraduate Student",
+                	"department": "MSE",
+                	"avatar": "JP_Azaro-Berenguer.png"
+            	},
                 {
                     "name": "Kirit Joshi",
                     "type": "Undergraduate Student",
@@ -1573,6 +1579,22 @@
                 "year": "2020",
                 "pages": "5, 2411-2420",
                 "url": "https://doi.org/10.1021/acsenergylett.0c01209"
+            },
+           {
+                "authors": [
+                    "P. P. Shetty",
+                    "N. Kondekar",
+                    "A. C. Thenuwara",
+                  	"M. G. Boebinger",
+                  	"S. C. Wright",
+                  	"M. Tian",
+                  	"M. T. McDowell"
+                ],
+                "title": "In Situ Dynamics During Heating of Copper-Intercalated Bismuth Telluride,",
+                "journal": "Matter",
+                "year": "2020",
+                "pages": "DOI: 10.1016/j.matt.2020.07.028",
+                "url": "https://doi.org/10.1016/j.matt.2020.07.028"
             }
         ]
     },

@@ -256,12 +256,6 @@
                 "avatar": "SangYunHan_croptrans.png"
             },
             {
-                "name": "Francisco Cortes",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "FranciscoQuinteroCortescroptrans.png"
-            },
-            {
                 "name": "Jack Lewis",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -341,6 +335,12 @@
                     "department": "ME",
                     "avatar": "JaredFinal.png"
                 },
+                {
+                "name": "Francisco Cortes",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "FranciscoQuinteroCortescroptrans.png"
+            	},
                 {
                     "name": "Casey Miles",
                     "type": "Undergraduate Student",
@@ -1593,8 +1593,87 @@
                 "title": "In Situ Dynamics During Heating of Copper-Intercalated Bismuth Telluride,",
                 "journal": "Matter",
                 "year": "2020",
-                "pages": "DOI: 10.1016/j.matt.2020.07.028",
+                "pages": "3, 1246-1262",
                 "url": "https://doi.org/10.1016/j.matt.2020.07.028"
+            },
+              {
+                "authors": [
+                    "C. Lee",
+                    "W. Taeung",
+                    "W.-S. Go",
+                  	"M. F. Rahman",
+                  	"M. T. McDowell",
+                  	"Y. Kim",
+                  	"H.-W. Lee"
+                ],
+                "title": "Unveiling Interfacial Dynamics and Structural Degradation of Solid Electrolytes in a Seawater Battery System,",
+                "journal": "Journal of Materials Chemistry A",
+                "year": "2020",
+                "pages": "8, 21804-21811",
+                "url": "https://doi.org/10.1039/D0TA07358J"
+            },
+           {
+                "authors": [
+                  	"M. T. McDowell"
+                    "F. J. Q. Cortes"
+                  	"A. C. Thenuwara"
+                  	"J. A. Lewis"
+                ],
+                "title": "Toward High-Capacity Battery Anode Materials: Chemistry and Mechanics Intertwined,",
+                "journal": "Chemistry of Materials",
+                "year": "2020",
+                "pages": "32, 8755-8771",
+                "url": "https://doi.org/10.1021/acs.chemmater.0c02981"
+            },
+            {
+                "authors": [
+                  	"N. Kondekar"
+                    "P. P. Shetty"
+                  	"S. C. Wright"
+                  	"M. T. McDowell"
+                ],
+                "title": "In Situ Characterization of Transformations in Layered Metal Chalcogenide Materials: A Review,",
+                "journal": "ChemNanoMat",
+                "year": "2020",
+                "pages": "DOI: 10.1002/cnma.202000575",
+                "url": "https://doi.org/10.1002/cnma.202000575"
+            },
+           {
+                "authors": [
+                  	"M. T. McDowell"
+                ],
+                "title": "Nanomechanical Measurements Shed Light on Solid-State Battery Degradation,",
+                "journal": "MRS Bulletin",
+                "year": "2020",
+                "pages": "45, 889-890",
+                "url": "https://doi.org/10.1557/mrs.2020.149"
+            },
+           {
+                "authors": [
+                  	"J. A. Lewis"
+                  	"F. J. Q. Cortes"
+                  	"Y. Liu"
+                  	"J. C. Miers"
+                  	"A. Verma"
+                  	"B. S. Vishnugopi"
+                  	"J. Tippens"
+                  	"D. Prakash"
+                  	"T. S. Marchese"
+                  	"S. Y. Han"
+                  	"C. Lee"
+                  	"P. P. Shetty"
+                  	"H.-W. Lee"
+                  	"P. Shevchenko"
+                  	"F. De Carlo"
+                  	"C. Saldana"
+                  	"P. P. Mukherjee"
+                  	"M. T. McDowell"
+                ],
+                "title": "Linking Void and Interphase Evolution to Electrochemistry in Solid-State Batteries Using Operando X-Ray Tomography,",
+                "journal": "In Press",
+                "year": "2020",
+                "pages": "",
+                "url": ""
             }
         ]
     },
@@ -1741,6 +1820,13 @@
             ],
             "image": "sse_int.png",
             "url": "http://dx.doi.org/10.1016/j.joule.2018.10.014"
+        },
+        {
+            "year": "2021",
+            "month": "January",
+            "title": "Other News",
+            "body": ["See Prof. McDowell's Twitter account for up-to-date news and announcements regarding group activities."],
+            "url": "https://twitter.com/McDowell_Lab"
         }
     ]
     },

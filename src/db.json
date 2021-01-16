@@ -1614,9 +1614,9 @@
             },
            {
                 "authors": [
-                  	"M. T. McDowell"
-                    "F. J. Q. Cortes"
-                  	"A. C. Thenuwara"
+                  	"M. T. McDowell",
+                    "F. J. Q. Cortes",
+                  	"A. C. Thenuwara",
                   	"J. A. Lewis"
                 ],
                 "title": "Toward High-Capacity Battery Anode Materials: Chemistry and Mechanics Intertwined,",
@@ -1627,9 +1627,9 @@
             },
             {
                 "authors": [
-                  	"N. Kondekar"
-                    "P. P. Shetty"
-                  	"S. C. Wright"
+                  	"N. Kondekar",
+                    "P. P. Shetty",
+                  	"S. C. Wright",
                   	"M. T. McDowell"
                 ],
                 "title": "In Situ Characterization of Transformations in Layered Metal Chalcogenide Materials: A Review,",
@@ -1650,23 +1650,23 @@
             },
            {
                 "authors": [
-                  	"J. A. Lewis"
-                  	"F. J. Q. Cortes"
-                  	"Y. Liu"
-                  	"J. C. Miers"
+                  	"J. A. Lewis",
+                  	"F. J. Q. Cortes",
+                  	"Y. Liu",
+                  	"J. C. Miers",
                   	"A. Verma"
-                  	"B. S. Vishnugopi"
-                  	"J. Tippens"
-                  	"D. Prakash"
-                  	"T. S. Marchese"
-                  	"S. Y. Han"
-                  	"C. Lee"
-                  	"P. P. Shetty"
-                  	"H.-W. Lee"
-                  	"P. Shevchenko"
-                  	"F. De Carlo"
-                  	"C. Saldana"
-                  	"P. P. Mukherjee"
+                  	"B. S. Vishnugopi",
+                  	"J. Tippens",
+                  	"D. Prakash",
+                  	"T. S. Marchese",
+                  	"S. Y. Han",
+                  	"C. Lee",
+                  	"P. P. Shetty",
+                  	"H.-W. Lee",
+                  	"P. Shevchenko",
+                  	"F. De Carlo",
+                  	"C. Saldana",
+                  	"P. P. Mukherjee",
                   	"M. T. McDowell"
                 ],
                 "title": "Linking Void and Interphase Evolution to Electrochemistry in Solid-State Batteries Using Operando X-Ray Tomography,",

@@ -1625,19 +1625,6 @@
                 "pages": "32, 8755-8771",
                 "url": "https://doi.org/10.1021/acs.chemmater.0c02981"
             },
-            {
-                "authors": [
-                  	"N. Kondekar",
-                    "P. P. Shetty",
-                  	"S. C. Wright",
-                  	"M. T. McDowell"
-                ],
-                "title": "In Situ Characterization of Transformations in Layered Metal Chalcogenide Materials: A Review,",
-                "journal": "ChemNanoMat",
-                "year": "2020",
-                "pages": "DOI: 10.1002/cnma.202000575",
-                "url": "https://doi.org/10.1002/cnma.202000575"
-            },
            {
                 "authors": [
                   	"M. T. McDowell"
@@ -1648,6 +1635,20 @@
                 "pages": "45, 889-890",
                 "url": "https://doi.org/10.1557/mrs.2020.149"
             },
+            {
+                "authors": [
+                  	"N. Kondekar",
+                    "P. P. Shetty",
+                  	"S. C. Wright",
+                  	"M. T. McDowell"
+                ],
+                "title": "In Situ Characterization of Transformations in Layered Metal Chalcogenide Materials: A Review,",
+                "journal": "ChemNanoMat",
+                "year": "2021",
+                "pages": "DOI: 10.1002/cnma.202000575",
+                "url": "https://doi.org/10.1002/cnma.202000575"
+            },
+          
            {
                 "authors": [
                   	"J. A. Lewis",
@@ -1671,7 +1672,9 @@
                 ],
                 "title": "Linking Void and Interphase Evolution to Electrochemistry in Solid-State Batteries Using Operando X-Ray Tomography,",
                 "journal": "In Press",
-                "year": "2020"
+                "year": "2021",
+             	"pages": "--",
+                "url": "--"
             }
         ]
     },

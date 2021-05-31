@@ -4,8 +4,17 @@
             "icon": "employment.svg",
             "title": "Employment",
             "items": [
+                 {
+                    "date": "2021 - present",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Associate Professor",
+                        "Woodruff School of Mechanical Engineering",
+                        "School of Materials Science and Engineering"
+                    ]
+                },
                 {
-                    "date": "2015 - present",
+                    "date": "2015 - 2021",
                     "text": [
                         "Georgia Institute of Technology",
                         "Assistant Professor",
@@ -175,7 +184,7 @@
     "profile": 
         {
             "name": "Matthew T. McDowell, Ph.D.",
-            "position": "Assistant Professor",
+            "position": "Associate Professor",
             "avatar": "McDowell_Crop2.png",
             "schools": [
                 {
@@ -229,7 +238,7 @@
     "contact": 
         {
             "name": "Matthew T. McDowell, Ph.D.",
-            "position": "Assistant Professor",
+            "position": "Associate Professor",
             "profileImg": "employment.svg"
         },
     "team": {
@@ -248,12 +257,6 @@
                 "type": "Postdoc",
                 "department": "none",
                 "avatar": "Pralav_Shetty_Photo.PNG"
-            },
-            {
-                "name": "Sang Yun Han",
-                "type": "Graduate Student",
-                "department": "ME",
-                "avatar": "SangYunHan_croptrans.png"
             },
             {
                 "name": "Jack Lewis",
@@ -319,29 +322,35 @@
         "alumni": [
                 {
                 	"name": "Matthew Boebinger",
-                	"type": "Graduate Student",
+                	"type": "Graduate Student (PhD)",
                 	"department": "MSE",
                 	"avatar": "MatthewCropSmalltransp.png"
             	},
           		{
                 	"name": "Neha Kondekar",
-                	"type": "Graduate Student",
+                	"type": "Graduate Student (PhD)",
                 	"department": "MSE",
                 	"avatar": "NehaKondekar_croptransp.png"
             	},
           		{
                     "name": "Jared Tippens",
-                    "type": "Graduate Student",
+                    "type": "Graduate Student (MS)",
                     "department": "ME",
                     "avatar": "JaredFinal.png"
                 },
                 {
                 "name": "Francisco Cortes",
-                "type": "Graduate Student",
+                "type": "Graduate Student (PhD)",
                 "department": "MSE",
                 "avatar": "FranciscoQuinteroCortescroptrans.png"
             	},
                 {
+                "name": "Sang Yun Han",
+                "type": "Graduate Student (PhD)",
+                "department": "ME",
+                "avatar": "SangYunHan_croptrans.png"
+           		 },
+          		{
                     "name": "Casey Miles",
                     "type": "Undergraduate Student",
                     "department": "MSE",
@@ -1673,8 +1682,33 @@
                 "title": "Linking Void and Interphase Evolution to Electrochemistry in Solid-State Batteries Using Operando X-Ray Tomography,",
                 "journal": "Nature Materials",
                 "year": "2021",
-             	"pages": "DOI: 10.1038/s41563-020-00903-2",
+             	"pages": "20, 503-510",
                 "url": "https://doi.org/10.1038/s41563-020-00903-2"
+            },
+            {
+                "authors": [
+                  	"P. Albertus, et al"
+                ],
+                "title": "Challenges for and Pathways Toward Li-Metal-Based All Solid-State Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2021",
+                "pages": "6, 4, 1399-1404",
+                "url": "https://doi.org/10.1021/acsenergylett.1c00445"
+            },
+           {
+                "authors": [
+                  	"A. C. Thenuwara",
+                    "P. P. Shetty",
+                  	"N. Kondekar",
+                  	"C. Wang",
+                  	"W. Li",
+                  	"M. T. McDowell"
+                ],
+                "title": "Enabling Highly Reversible Sodium Metal Cycling Across a Wide Temperature Range with Dual-Salt Electrolytes,",
+                "journal": "Journal of Materials Chemistry A",
+                "year": "2021",
+                "pages": "9, 10992-11000",
+                "url": "https://doi.org/10.1039/D1TA00842K"
             }
         ]
     },

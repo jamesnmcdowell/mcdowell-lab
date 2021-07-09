@@ -317,6 +317,24 @@
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "Dhruv_Prakash.png"
+            },
+            {
+                "name": "Tejas Raman",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "TejasRaman.png"
+            },
+            {
+                "name": "Jonathan Shaheen",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "JonathanShaheen.png"
+            }
+            , {
+                "name": "Wendy Yao",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": "WendyYao.png"
             }
         ],
         "alumni": [

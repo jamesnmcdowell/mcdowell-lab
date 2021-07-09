@@ -323,8 +323,8 @@
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "JonathanShaheen.png"
-            }
-            , {
+            },
+            {
                 "name": "Wendy Yao",
                 "type": "Undergraduate Student",
                 "department": "ChBE",
@@ -1740,7 +1740,7 @@
                 ],
                 "title": "Stress Evolution during Cycling of Alloy-Anode Solid-State Batteries,",
                 "journal": "Accepted",
-                "year": "2021",
+                "year": "2021"
             }
         ]
     },

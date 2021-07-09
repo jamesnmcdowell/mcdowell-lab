@@ -8,7 +8,7 @@
                     "date": "2021 - present",
                     "text": [
                         "Georgia Institute of Technology",
-                        "Associate Professor",
+                        "Associate Professor and Woodruff Faculty Fellow",
                         "Woodruff School of Mechanical Engineering",
                         "School of Materials Science and Engineering"
                     ]
@@ -247,12 +247,6 @@
         "ctaBody": "We are always looking for highly motivated graduate and undergraduate students that are interested in performing research within the group. Please contact Prof. McDowell for details.",
         "students": [
             {
-                "name": "Akila Thenuwara",
-                "type": "Postdoc",
-                "department": "none",
-                "avatar": "Akila.png"               
-            },
-            {
                 "name": "Pralav Shetty",
                 "type": "Postdoc",
                 "department": "none",
@@ -350,6 +344,12 @@
                 "department": "ME",
                 "avatar": "SangYunHan_croptrans.png"
            		 },
+          		{
+                "name": "Akila Thenuwara",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "Akila.png"               
+            	},
           		{
                     "name": "Casey Miles",
                     "type": "Undergraduate Student",
@@ -1709,6 +1709,20 @@
                 "year": "2021",
                 "pages": "9, 10992-11000",
                 "url": "https://doi.org/10.1039/D1TA00842K"
+            },
+            {
+                "authors": [
+                  	"S. Y. Han",
+                    "C. Lee",
+                  	"J. A. Lewis",
+                  	"D. Yeh",
+                  	"Y. Liu",
+	                "H.-W. Lee",
+                  	"M. T. McDowell"
+                ],
+                "title": "Stress Evolution during Cycling of Alloy-Anode Solid-State Batteries,",
+                "journal": "Accepted",
+                "year": "2021",
             }
         ]
     },

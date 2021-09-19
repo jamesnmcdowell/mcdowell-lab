@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@storybook/addon-knobs": "^3.4.5",
-    "axios": "^0.18.1",
+    "axios": "^0.21.2",
     "polished": "^1.9.2",
     "react": "^16.0.0",
     "react-aspect-ratio": "^1.0.31",

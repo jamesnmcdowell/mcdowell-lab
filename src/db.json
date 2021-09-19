@@ -295,6 +295,18 @@
                 "avatar": "Emily_Klein.png"
             },
             {
+                "name": "Sonakshi Saini",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "SonakshiSaini.png"
+            },
+            {
+                "name": "Lars Nelson",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "LarsNelson.png"
+            },
+            {
                 "name": "David Yeh",
                 "type": "Undergraduate Student",
                 "department": "MSE",

@@ -247,12 +247,6 @@
         "ctaBody": "We are always looking for highly motivated graduate and undergraduate students that are interested in performing research within the group. Please contact Prof. McDowell for details.",
         "students": [
             {
-                "name": "Pralav Shetty",
-                "type": "Postdoc",
-                "department": "none",
-                "avatar": "Pralav_Shetty_Photo.PNG"
-            },
-            {
                 "name": "Congcheng Wang",
                 "type": "Postdoc",
                 "department": "none",
@@ -392,6 +386,12 @@
                 "department": "ME",
                 "avatar": "SangYunHan_croptrans.png"
            		 },
+                {
+                "name": "Pralav Shetty",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "Pralav_Shetty_Photo.PNG"
+            	},
           		{
                 "name": "Akila Thenuwara",
                 "type": "Postdoc",
@@ -1771,8 +1771,27 @@
                 "title": "The Role of Nanoscale Science for Advancing Batteries,",
                 "journal": "Nano Letters",
                 "year": "2021",
-                "pages": "DOI: 10.1021/acs.nanolett.1c02395",
+                "pages": "21, 6353-6355",
                 "url": "https://doi.org/10.1021/acs.nanolett.1c02395"
+            },
+          	{
+                "authors": [
+                  	"Z. Sun",
+                    "M. G. Boebinger",
+                  	"P. Lu",
+                  	"B. Wang",
+                  	"W. Fu",
+                  	"A. Magasinski",
+                  	"A.-Y. Song",
+                  	"Y. Huang",
+                  	"M. T. McDowell",
+                  	"G. Yushin"
+                ],
+                "title": "The Roles of Atomic Layer Deposition (ALD) Coatings on the Stability of FeF3 Na-Ion Cathodes,",
+                "journal": "Journal of Power Sources",
+                "year": "2021",
+                "pages": "507, 230281",
+                "url": "https://doi.org/10.1016/j.jpowsour.2021.230281"
             },
             {
                 "authors": [
@@ -1789,6 +1808,36 @@
                 "year": "2021",
                 "pages": "5, 1-16",
                 "url": "https://doi.org/10.1016/j.joule.2021.07.002"
+            },
+          {
+                "authors": [
+                  	"C. Lee",
+                    "S. Y. Han",
+                  	"J. A. Lewis",
+                  	"P. P. Shetty",
+                  	"D. Yeh",
+                  	"Y. Liu",
+                  	"E. Klein",
+                  	"H.-W. Lee",
+                  	"M. T. McDowell"
+                ],
+                "title": "Stack Pressure Measurements to Probe the Evolution of the Lithium-Solid-State Electrolyte Interface,",
+                "journal": "ACS Energy Letters",
+                "year": "2021",
+                "pages": "6, 3261-3269",
+                "url": "https://doi.org/10.1021/acsenergylett.1c01395"
+            },
+                    {
+                "authors": [
+                  	"P. P. Shetty",
+                  	"S. C. Wright",
+                  	"M. T. McDowell"
+                ],
+                "title": "Melting, Crystallization, and Alloying Dynamics in Nanoscale Bismuth Telluride,",
+                "journal": "Nano Letters",
+                "year": "2021",
+                "pages": "Accepted",
+                "url": "https://doi.org/10.1021/acs.nanolett.1c02646"
             }
         ]
     },

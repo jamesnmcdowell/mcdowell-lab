@@ -4,6 +4,7 @@ import HamburgerMenu from './HamburgerMenu';
 import { media, Container } from './Media';
 import styled from 'styled-components';
 import Headroom from 'react-headroom';
+import Logo from '../assets/newLogoSmall.svg';
 
 let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
     <Headroom style={{ zIndex: 8 }}>
@@ -11,7 +12,10 @@ let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
         <Container>
             <HeaderFlex>
                 <LinkLogo to="/">
-                    <h1 className="logo"> McDowell Lab </h1>
+                    <LogoContainer>
+                        <img src={Logo}/>
+                        <h1 className="logo"> McDowell Lab </h1>
+                    </LogoContainer>
                 </LinkLogo>
                 <Nav>
                     <LinkNav to="/" className="page-selected"> Research </LinkNav>
@@ -84,4 +88,12 @@ let LinkNav = styled(LinkBase) `
     &:hover {
         color: #bababa;      
     }    
+    
+`;
+
+let LogoContainer = styled.div`
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    grid-gap: 10px;
 `;

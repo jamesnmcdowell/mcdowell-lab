@@ -253,6 +253,18 @@
                 "avatar": "Pralav_Shetty_Photo.PNG"
             },
             {
+                "name": "Congcheng Wang",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "CongchengWang.png"
+            },
+            {
+                "name": "Sun Geun Yoon",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "SunGeunYoon.png"
+            },
+            {
                 "name": "Jack Lewis",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -341,6 +353,12 @@
                 "type": "Undergraduate Student",
                 "department": "ChBE",
                 "avatar": "WendyYao.png"
+            },
+            {
+                "name": "Ori Nofsinger",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "OriNofsinger.png"
             }
         ],
         "alumni": [

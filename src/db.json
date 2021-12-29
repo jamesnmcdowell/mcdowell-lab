@@ -1817,7 +1817,7 @@
                   	"P. P. Shetty",
                   	"D. Yeh",
                   	"Y. Liu",
-                  	"E. Klein",
+                  	"E. J. Klein",
                   	"H.-W. Lee",
                   	"M. T. McDowell"
                 ],
@@ -1841,16 +1841,68 @@
             },
           {
                 "authors": [
+                  	"B. S. Vishnugopi",
+                  	"E. Kazyak",
                   	"J. A. Lewis",
-                  	"S. C. Wright",
+                  	"J. Nanda",
+                  	"M. T. McDowell",                
+                  	"N. P. Dasgupta",
+                  	"P. P. Mukherjee"                  
+                ],
+                "title": "Challenges and Opportunities for Fast Charging of Solid-State Lithium Metal Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2021",
+                "pages": "6, 3734-3749",
+                "url": "https://doi.org/10.1021/acsenergylett.1c01352"
+            },
+          {
+                "authors": [
+                  	"S. E. Sandoval",
+                  	"F. J. Q. Cortes",
+                  	"E. J. Klein",
+                  	"J. A. Lewis",
+                  	"D. Yeh",                
+                  	"M. T. McDowell"                  
+                ],
+                "title": "Understanding the Effects of Alloy Films on the Electrochemical Behavior of Lithium Metal Anodes with Operando Optical Microscopy,",
+                "journal": "Journal of the Electrochemical Society",
+                "year": "2021",
+                "pages": "168, 10, 100517",
+                "url": "https://doi.org/10.1149/1945-7111/ac2d11"
+            },
+          {
+                "authors": [
+                  	"M. Papakyriakou",
+                  	"M. Lu",
+                  	"Y. Liu",
+                  	"Z. Liu",
+                  	"H. Chen",                
+                  	"M. T. McDowell",
+                  	"S. Xia",                  
+                ],
+                "title": "Mechanical Behavior of Inorganic Lithium-Conducting Solid Electrolytes,",
+                "journal": "Journal of Power Sources",
+                "year": "2021",
+                "pages": "516, 230672",
+                "url": "https://doi.org/10.1016/j.jpowsour.2021.230672"
+            },          
+          {
+                "authors": [
+                  	"J. A. Lewis",
+                  	"C. Lee",
+                  	"Y. Liu",
+                  	"S. Y. Han",
+                  	"D. Prakash",                
+                  	"E. J. Klein",
+                  	"H.-W. Lee",                  
                   	"M. T. McDowell"
                 ],
-                "title": "Melting, Crystallization, and Alloying Dynamics in Nanoscale Bismuth Telluride,",
-                "journal": "Nano Letters",
+                "title": "The Role of Areal Capacity in Determining Short Circuiting of Sulfide-Based Solid-State Batteries,",
+                "journal": "Submitted",
                 "year": "2021",
-                "pages": "21, 8197-8204",
-                "url": "https://doi.org/10.1021/acs.nanolett.1c02646"
-            },
+                "pages": " ",
+                "url": " "
+            }
         ]
     },
 "news": {

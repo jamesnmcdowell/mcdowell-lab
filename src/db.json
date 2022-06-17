@@ -329,36 +329,6 @@
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "OriNofsinger.png"
-            },
-          	{
-                "name": "Luke Matheny",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": ""
-            },
-            {
-                "name": "Bryce Smith",
-                "type": "Undergraduate Student",
-                "department": "ChBE",
-                "avatar": ""
-            },
-            {
-                "name": "Rachel Hur",
-                "type": "Undergraduate Student",
-                "department": "UT Austin",
-                "avatar": ""
-            },
-          {
-                "name": "Abhinav Iyer",
-                "type": "Undergraduate Student",
-                "department": "ME",
-                "avatar": ""
-            },
-                    {
-                "name": "Nolan O'Kelly",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": ""
             }
         ],
         "alumni": [

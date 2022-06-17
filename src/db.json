@@ -64,6 +64,18 @@
             "title": "Awards",
             "items": [
                  {
+                    "date": "2022",
+                    "text": [
+                        "Georgia Tech Outstanding Achievement in Early Career Research Award"
+                    ]
+                },
+              	{
+                    "date": "2021,
+                    "text": [
+                        "US NAE Frontiers of Engineering Symposium Attendee"
+                    ]
+                },
+              	{
                     "date": "2020",
                     "text": [
                         "Georgia Tech Sigma Xi Young Faculty Award"
@@ -73,12 +85,6 @@
                     "date": "2020",
                     "text": [
                         "Georgia Tech Alumni Association 40 under 40 Award"
-                    ]
-                },
-              	{
-                    "date": "2020",
-                    "text": [
-                        "US NAE Frontiers of Engineering Symposium Attendee"
                     ]
                 },
                 {
@@ -259,12 +265,6 @@
                 "avatar": "SunGeunYoon.png"
             },
             {
-                "name": "Jack Lewis",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "JackFinal.png"
-            },
-            {
                 "name": "Stephanie Sandoval",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -295,12 +295,6 @@
                 "avatar": "Eugene_Liu.png"
             },
             {
-                "name": "Emily Klein",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "Emily_Klein.png"
-            },
-            {
                 "name": "Sonakshi Saini",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -319,18 +313,6 @@
                 "avatar": "DavidFinal.png"
             },
             {
-                "name": "Thomas Marchese",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "Thomas_Marchese.png"
-            },
-            {
-                "name": "Dhruv Prakash",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "Dhruv_Prakash.png"
-            },
-            {
                 "name": "Tejas Raman",
                 "type": "Undergraduate Student",
                 "department": "MSE",
@@ -343,16 +325,40 @@
                 "avatar": "JonathanShaheen.png"
             },
             {
-                "name": "Wendy Yao",
-                "type": "Undergraduate Student",
-                "department": "ChBE",
-                "avatar": "WendyYao.png"
-            },
-            {
                 "name": "Ori Nofsinger",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "OriNofsinger.png"
+            },
+          	{
+                "name": "Luke Matheny",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": " "
+            },
+            {
+                "name": "Bryce Smith",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": " "
+            },
+            {
+                "name": "Rachel Hur",
+                "type": "Undergraduate Student",
+                "department": "UT Austin",
+                "avatar": " "
+            },
+          {
+                "name": "Abhinav Iyer",
+                "type": "Undergraduate Student",
+                "department": "ME",
+                "avatar": " "
+            },
+                    {
+                "name": "Nolan O'Kelly",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": " "
             }
         ],
         "alumni": [
@@ -387,6 +393,12 @@
                 "avatar": "SangYunHan_croptrans.png"
            		 },
                 {
+                "name": "Jack Lewis",
+                "type": "Graduate Student (PhD)",
+                "department": "MSE",
+                "avatar": "JackFinal.png"
+            	},
+          		{
                 "name": "Pralav Shetty",
                 "type": "Postdoc",
                 "department": "none",
@@ -403,6 +415,12 @@
                 "type": "Visiting Graduate Student",
                 "department": "none",
                 "avatar": "Akila.png"               
+            	},
+                {
+                "name": "Emily Klein
+                "type": "Graduate Student (MS)",
+                "department": "none",
+                "avatar": "Emily_Klein.png"               
             	},
           		{
                     "name": "Casey Miles",
@@ -445,7 +463,25 @@
                     "type": "Undergraduate Student",
                     "department": "ME",
                     "avatar": "KiritJoshi_croptransp.png"
-                }
+                },
+                {
+                "name": "Thomas Marchese",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "Thomas_Marchese.png"
+            	},
+                {
+                "name": "Wendy Yao",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": "WendyYao.png"
+            	},
+                {
+                "name": "Dhruv Prakash",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "Dhruv_Prakash.png"
+            	},
         ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",
@@ -1885,7 +1921,23 @@
                 "year": "2021",
                 "pages": "516, 230672",
                 "url": "https://doi.org/10.1016/j.jpowsour.2021.230672"
-            },          
+            },        
+             {
+                "authors": [
+                  	"M. Mujica",
+                  	"A. T. Mohabir",
+                  	"P. P. Shetty",
+                  	"M. T. McDowell",
+                  	"V. Breedveld",                
+                  	"S. H. Behrens",                 
+                  	"M. A. Filler"
+                ],
+                "title": "Programming Semiconductor Nanowire Composition with Sub¬–100-nm Resolution via the Geode Process,",
+                "journal": "Nano Letters",
+                "year": "2022",
+                "pages": "22, 554-560",
+                "url": "https://doi.org/10.1021/acs.nanolett.1c02545"
+            },
           {
                 "authors": [
                   	"J. A. Lewis",
@@ -1898,11 +1950,47 @@
                   	"M. T. McDowell"
                 ],
                 "title": "The Role of Areal Capacity in Determining Short Circuiting of Sulfide-Based Solid-State Batteries,",
+                "journal": "ACS Applied Materials & Interfaces",
+                "year": "2022",
+                "pages": "14, 4051-4060",
+                "url": "https://doi.org/10.1021/acsami.1c20139"
+            },
+                    {
+                "authors": [               
+                  	"M. T. McDowell"
+                ],
+                "title": "Editorial: Special Issue on Solid-State Battery Materials, Phenomena, and Systems,",
+                "journal": "Current Opinion in Solid State and Materials Science",
+                "year": "2022",
+                "pages": "26, 101006",
+                "url": "https://doi.org/10.1016/j.cossms.2022.101006"
+            },
+            {
+                "authors": [
+                  	"J. A. Lewis",
+                  	"K. A. Cavallaro",
+                  	"Y. Liu",
+                  	"M. T. McDowell"
+                ],
+                "title": "The Promise of Alloy Anodes for Solid-State Batteries,",
+                "journal": "Joule",
+                "year": "2022",
+                "pages": "in press",
+                "url": "https://doi.org/10.1016/j.joule.2022.05.016"
+            },
+                      {
+                "authors": [
+                  	"K. A. Cavallaro",
+                  	"S. E. Sandoval",
+                   	"A. C. Thenuwara",
+                  	"M. T. McDowell"
+                ],
+                "title": "Low-Temperature Behavior of Alloy Anodes for Lithium-Ion Batteries,",
                 "journal": "Submitted",
-                "year": "2021",
-                "pages": " ",
-                "url": " "
-            }
+                "year": "",
+                "pages": "",
+                "url": ""
+            },
         ]
     },
 "news": {

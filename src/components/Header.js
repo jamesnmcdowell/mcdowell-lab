@@ -13,8 +13,12 @@ let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
             <HeaderFlex>
                 <LinkLogo to="/">
                     <LogoContainer>
-                        <img src={Logo}/>
-                        <h1 className="logo"> McDowell Lab </h1>
+                        <ImgWrap>
+                            <img src={Logo}/>
+                        </ImgWrap>
+                        <HeadWrap>
+                            <h1 className="logo"> McDowell Lab </h1>
+                        </HeadWrap>
                     </LogoContainer>
                 </LinkLogo>
                 <Nav>
@@ -92,8 +96,17 @@ let LinkNav = styled(LinkBase) `
 `;
 
 let LogoContainer = styled.div`
-    display: grid;
-    grid-template-columns: 20px 1fr;
+    display: flex;
+    white-space: nowrap;
     align-items: center;
-    grid-gap: 10px;
+  
+`;
+
+let ImgWrap = styled.div`
+    flex: 0 0 20px;
+    padding-right: 8px;
+`;
+
+let HeadWrap = styled.div`
+    flex: 1 1 auto;
 `;

@@ -307,6 +307,30 @@
                 "avatar": "LarsNelson.png"
             },
             {
+                "name": "Ziyi Li",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "ZiyiLi.png"
+            },
+            {
+                "name": "Won Joon Jeong",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "WonJoonJeong.png"
+            },
+            {
+                "name": "Talia Thomas",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "TaliaThomas.png"
+            },
+            {
+                "name": "John Harris",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "JohnHarris.png"
+            },
+            {
                 "name": "David Yeh",
                 "type": "Undergraduate Student",
                 "department": "MSE",
@@ -329,7 +353,20 @@
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "OriNofsinger.png"
+            },
+            {
+                "name": "Bryce Smith",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": "BryceSmith.png"
+            },
+            {
+                "name": "Angel Vasquez",
+                "type": "Undergraduate Student",
+                "department": "Chemistry",
+                "avatar": "AngelVasquez.png"
             }
+            
         ],
         "alumni": [
                 {
@@ -451,8 +488,18 @@
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "Dhruv_Prakash.png"
-            	}
-        ],
+            	},
+                {
+                "name": "Rachel Hur",
+                "type": "Undergraduate Student",
+                "department": "UT Austin"
+                },
+                {
+                "name": "Jalen Borne",
+                "type": "Undergraduate Student",
+                "department": "Chemistry"
+                }
+    ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",
         "email": "mattmcdowell@gatech.edu",

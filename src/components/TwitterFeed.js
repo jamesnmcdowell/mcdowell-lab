@@ -7,21 +7,27 @@ import { withState } from 'recompose';
 import { media } from './Media';
 
 let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
-    <TwitterBlock>
-        {twitterOverlayActive &&
+    <TwitterBlock id="twitterblock"> 
+       {/* {twitterOverlayActive &&
             <TwitterOverlay onClick={() => { toggleOverlay(!twitterOverlayActive); }}>
                 <img src={twitterOverlay} />
             </TwitterOverlay>
-        }
+        } */}
+        <TwitterLink to="https://twitter.com/McDowell_Lab">
+            <TwitterOverlay>
+                <img src={twitterOverlay} />
+            </TwitterOverlay>
+        </TwitterLink>
         <EmbedContainer>
-            <TimelineStyled
+            <TimelineStyled 
                 dataSource={{
                     sourceType: 'profile',
                     screenName: 'McDowell_Lab'
                 }}
                 options={{
                     username: 'McDowell_Lab',
-                    height: '100%',
+                    height: 'auto',
+                    chrome: "scrollbar"
 
                 }}
                 onLoad={() => console.log('Timeline is loaded!')}
@@ -82,6 +88,17 @@ let EmbedContainer = styled.div`
     overflow-x: hidden;
 	div {
      height: 100%;
-     
+     div {
+        iframe {
+            height: auto !important;
+           
+        
+        
+        }
+        
+       }
     }
+`;
+
+let TwitterLink = styled(Link) `
 `;

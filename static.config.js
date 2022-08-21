@@ -25,10 +25,10 @@ export default {
         path: '/publications',
         component: 'src/components/PublicationsScreen',
       },
-      {
+      /*{
         path: '/news',
         component: 'src/components/NewsScreen',
-      },
+      },*/
       {
         path: '/blog',
         component: 'src/components/Blog',

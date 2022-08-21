@@ -4,7 +4,7 @@ import { Link } from 'react-static';
 import profilePicture from '../assets/McDowell_square.png';
 import publications from '../assets/PapersFigurefinal.png';
 import { media } from './Media';
-import TwitterBlock from './TwitterFeed';
+import TwitterFeed from './TwitterFeed';
 
 let BlockNavigation = () =>
     <BlockNav>
@@ -14,7 +14,7 @@ let BlockNavigation = () =>
         <Publications to="/publications">
             <img src={publications} />
         </Publications>
-        <TwitterFeed/>
+        <TwitterFeedStyled/>
         <BlockTitle1>Prof. McDowell</BlockTitle1>
         <BlockTitle2>Publications</BlockTitle2>
         <BlockTitle3>Latest Tweets</BlockTitle3>
@@ -63,7 +63,7 @@ let Bio = styled(Link) `
 let Publications = styled(Link) `
     grid-area: pub;
 `;
-let TwitterFeed = styled(TwitterBlock)`
+let TwitterFeedStyled = styled(TwitterFeed)`
     grid-area: twitter;
 `;
 

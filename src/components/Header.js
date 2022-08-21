@@ -26,7 +26,7 @@ let Header = ({ headerActive, toggleMenu, MenuOpen}) =>
                     <LinkNav to="/bio"> Bio </LinkNav>
                     <LinkNav to="/people"> People </LinkNav>
                     <LinkNav to="/publications"> Publications </LinkNav>
-                    <LinkNav to="/news"> News </LinkNav>
+                    {/* <LinkNav to="/news"> News </LinkNav> --> */}
                 </Nav>
                 <HamburgerMenu toggleMenu={toggleMenu} MenuOpen={MenuOpen}/>
             </HeaderFlex>

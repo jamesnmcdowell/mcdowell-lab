@@ -1984,6 +1984,24 @@
             },
             {
                 "authors": [
+                  	"Z. Sun",
+                  	"B. Wang",
+                  	"M. G. Boebinger",
+                    "A. Magasinski",
+                    "S. Jhulki",
+                  	"Y. Zhang",
+                    "W. Fu",
+                  	"M. T. McDowell",
+                  	"G. Yushin"
+                ],
+                "title": "Stability of FeF3-Based Sodium-Ion Batteries in Nonflammable Ionic Liquid Electrolytes at Room and Elevated Temperatures,",
+                "journal": "ACS Applied Materials & Interfaces",
+                "year": "2022",
+                "pages": "14, 33447-33456",
+                "url": "https://doi.org/10.1021/acsami.2c10851"
+            },
+            {
+                "authors": [
                   	"J. A. Lewis",
                   	"K. A. Cavallaro",
                   	"Y. Liu",
@@ -1992,7 +2010,7 @@
                 "title": "The Promise of Alloy Anodes for Solid-State Batteries,",
                 "journal": "Joule",
                 "year": "2022",
-                "pages": "in press",
+                "pages": "6, 1418-1430",
                 "url": "https://doi.org/10.1016/j.joule.2022.05.016"
             }
         ]

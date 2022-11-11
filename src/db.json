@@ -69,6 +69,12 @@
                         "Georgia Tech Outstanding Achievement in Early Career Research Award"
                     ]
                 },
+                {
+                    "date": "2022",
+                    "text": [
+                        "Glenn Award, ACS Energy and Fuels Division"
+                    ]
+                },
               	{
                     "date": "2021",
                     "text": [
@@ -2012,7 +2018,74 @@
                 "year": "2022",
                 "pages": "6, 1418-1430",
                 "url": "https://doi.org/10.1016/j.joule.2022.05.016"
-            }
+            },
+            {
+                "authors": [
+                  	"C. Wang",
+                  	"A. C. Thenuwara",
+                  	"J. Luo",
+                  	"P. P. Shetty",
+                    "M. T. McDowell",
+                  	"H. Zhu",
+                  	"S. Posada-Perez",
+                  	"H. Xiong",
+                  	"G. Hautier",
+                  	"W. Li"
+                ],
+                "title": "Extending the low-temperature operation of sodium metal batteries combining linear and cyclic ether-based electrolyte solutions,",
+                "journal": "Nature Communications",
+                "year": "2022",
+                "pages": "13, 4934",
+                "url": "https://doi.org/10.1038/s41467-022-32606-4"
+            },
+                {
+                "authors": [
+                  	"K. A. Cavallaro",
+                  	"S. E. Sandoval",
+                  	"A. C. Thenuwara",
+                    "M. T. McDowell"
+                ],
+                "title": "Low-Temperature Behavior of Alloy Anodes for Lithium-Ion Batteries,",
+                "journal": "Advanced Energy Materials",
+                "year": "2022",
+                "pages": "2201584",
+                "url": "https://doi.org/10.1002/aenm.202201584"
+            },
+                {
+                "authors": [
+                  	"T. Chen",
+                  	"A. C. Thenuwara",
+                  	"W. Yao",
+                  	"S. E. Sandoval",
+                    "C. Wang",
+                  	"D. H. Kang",
+                  	"D. Majumdar",
+                  	"R. Gopalaswamy",
+                  	"M. T. McDowell"
+                ],
+                "title": "Benchmarking the Degradation Behavior of Aluminum Foil Anodes for Lithium-Ion Batteries,",
+                "journal": "Batteries & Supercaps",
+                "year": "2022",
+                "pages": "DOI: 10.1002/batt.202200363",
+                "url": "https://doi.org/10.1002/batt.202200363"
+            },
+                 {
+                "authors": [
+                  	"J. A. Lewis",
+                  	"S. E. Sandoval",
+                  	"Y. Liu",
+                  	"D. L. Nelson",
+                    "S. G. Yoon",
+                  	"M. Tian",
+                  	"P. Shevchenko",
+                  	"M. T. McDowell"
+                ],
+                "title": "Accelerated Short Circuiting in Anode-Free Solid-State Batteries Driven by Local Lithium Depletion,",
+                "journal": "ChemRxiv",
+                "year": "2022",
+                "pages": "DOI: 10.26434/chemrxiv-2022-62zdk",
+                "url": "https://doi.org/10.26434/chemrxiv-2022-62zdk"
+            },
         ]
     },
 "news": {

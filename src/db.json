@@ -319,12 +319,6 @@
                 "avatar": "LarsNelson.png"
             },
             {
-                "name": "Ziyi Li",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "ZiyiLi.png"
-            },
-            {
                 "name": "Won Joon Jeong",
                 "type": "Graduate Student",
                 "department": "MSE",
@@ -440,6 +434,12 @@
                 "type": "Graduate Student (MS)",
                 "department": "none",
                 "avatar": "Emily_Klein.png"               
+            	},
+                {
+                "name": "Ziyi Li",
+                "type": "Graduate Student (MS)",
+                "department": "none",
+                "avatar": "ZiyiLi.png"
             	},
           		{
                     "name": "Casey Miles",

@@ -2174,6 +2174,74 @@
                 "year": "2023",
                 "pages": "8, 2252-2258",
                 "url": "https://doi.org/10.1021/acsenergylett.3c00455"
+            },
+            {
+                "authors": [
+                  	"S. G. Yoon",
+                  	"K. A. Cavallaro",
+                  	"B. J. Park",
+                  	"H. Yook",
+                    "J. W. Han",
+                  	"M. T. McDowell"
+                ],
+                "title": "Controlling Solvation and Solid-Electrolyte Interphase Formation to Enhance Lithium Interfacial Kinetics at Low Temperatures,",
+                "journal": "Advanced Functional Materials",
+                "year": "2023",
+                "pages": "2302778",
+                "url": "https://doi.org/10.1002/adfm.202302778"
+            },
+                      {
+                "authors": [
+                  	"S. E. Sandoval",
+                  	"M. T. McDowell"
+                ],
+                "title": "Lithium Metal Anodes in Solid-State Batteries: Metal Microstructure Matters,",
+                "journal": "Matter",
+                "year": "2023",
+                "pages": "6, 2099-2105",
+                "url": "https://doi.org/10.1016/j.matt.2023.05.017"
+            },
+               {
+                "authors": [
+                  	"Y. Liu",
+                  	"C. Wang",
+                  	"S. G. Yoon",
+                  	"S. Y. Han",
+                    "J. A. Lewis",
+                    "D. Prakash",
+                  	"E. J. Klein",
+                  	"T. Chen",
+                  	"D. H. Kang",
+                    "D. Majumdar",
+                    "R. Gopalaswamy",
+                  	"M. T. McDowell"
+                ],
+                "title": "Aluminum Foil Negative Electrodes with Multiphase Microstructure for All-Solid-State Li-Ion Batteries,",
+                "journal": "Nature Communications",
+                "year": "2023",
+                "pages": "14, 3975",
+                "url": "https://doi.org/10.1038/s41467-023-39685-x"
+            },
+            {
+                "authors": [
+                  	"S. E. Sandoval",
+                  	"J. A. Lewis",
+                  	"B. S. Vishnugopi",
+                  	"D. L. Nelson",
+                    "M. M. Schneider",
+                    "F. J. Q. Cortes",
+                  	"C. M. Matthews",
+                  	"J. Watt",
+                  	"M. Tian",
+                    "P. Shevchenko",
+                    "P. P. Mukherjee",
+                  	"M. T. McDowell"
+                ],
+                "title": "Structural and Electrochemical Evolution of Alloy Interfacial Layers in Anode-Free Solid-State Batteries,",
+                "journal": "Joule",
+                "year": "2023",
+                "pages": "10.1016/j.joule.2023.07.022",
+                "url": "https://doi.org/10.1016/j.joule.2023.07.022"
             }
         ]
     },

@@ -5,6 +5,7 @@ import twitterOverlay from '../assets/twitterOverlay.svg';
 import { Timeline } from 'react-twitter-widgets'
 import { withState } from 'recompose';
 import { media } from './Media';
+import twitterBackground from '../assets/twitter-image-background.jpg';
 
 let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
     <TwitterBlock id="twitterblock"> 
@@ -19,19 +20,8 @@ let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
             </TwitterOverlay>
         </TwitterLink>
         <EmbedContainer>
-            <TimelineStyled 
-                dataSource={{
-                    sourceType: 'profile',
-                    screenName: 'McDowell_Lab'
-                }}
-                options={{
-                    username: 'McDowell_Lab',
-                    height: 'auto',
-                    chrome: "scrollbar"
-
-                }}
-                onLoad={() => console.log('Timeline is loaded!')}
-            />
+            <img src={twitterBackground}/> 
+           
         </EmbedContainer>
     </TwitterBlock>
 

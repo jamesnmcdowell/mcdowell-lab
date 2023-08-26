@@ -15,7 +15,7 @@ let SectionHero = styled.section`
     background-size: cover;
     height: ${ props => props.large ? "60vh" : "40vh"};
     position: relative;
-    background-position: 40% 30%;
+    background-position: 10% 30%;
     padding: 0;
     margin: 0;
     width: 100%;

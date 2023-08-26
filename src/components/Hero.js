@@ -21,7 +21,7 @@ let HeroStyled = styled.div`
     background-image: url(${HeroImage});
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 40% 54%;
+    background-position: 10% 54%;
     min-height: 400px;
     height: calc(100vh - 45px);  
 `;

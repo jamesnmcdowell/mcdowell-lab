@@ -3,7 +3,7 @@ import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
 // import GoogleMaps from './GoogleMaps';
-import heroImage from '../assets/students/GroupPicture.jpg';
+import heroImage from '../assets/students/McDowellGroup_Crop.png';
 import { team } from '../db.json';
 import TitleBackgroundImage from './TitleBackgroundImage';
 import Person from './Person';

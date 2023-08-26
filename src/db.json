@@ -337,17 +337,48 @@
                 "avatar": "JohnHarris.png"
             },
             {
+                "name": "Hari Sridhara",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "HariSridhara_MSE.png"
+            },
+            {
+                "name": "Bonnie Stolt",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "BonnieStolt_MSE.png"
+            },
+            {
+                "name": "Matthew Yen",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "MatthewYen_ME.png"
+            },
+            {
+                "name": "Udo Eze",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "UdoEze_MSE.png"
+            },
+            {
                 "name": "Tejas Raman",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "TejasRaman.png"
             },
             {
-                "name": "Angel Vasquez",
+                "name": "Sophia Anderson",
                 "type": "Undergraduate Student",
-                "department": "Chemistry",
-                "avatar": "AngelVasquez.png"
+                "department": "MSE",
+                "avatar": "SophiaAnderson.png"
+            },
+            {
+                "name": "Anna Burson",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": "Anna_Burson.png"
             }
+            
             
         ],
         "alumni": [
@@ -509,7 +540,13 @@
                 "type": "Undergraduate Student",
                 "department": "ChBE",
                 "avatar": "BryceSmith.png"
-            	}
+            	},
+                {
+                    "name": "Angel Vasquez",
+                    "type": "Undergraduate Student",
+                    "department": "Chemistry",
+                    "avatar": "AngelVasquez.png"
+                }
     ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",

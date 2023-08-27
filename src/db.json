@@ -361,12 +361,6 @@
                 "avatar": "UdoEze_MSE.png"
             },
             {
-                "name": "Tejas Raman",
-                "type": "Undergraduate Student",
-                "department": "MSE",
-                "avatar": "TejasRaman.png"
-            },
-            {
                 "name": "Sophia Anderson",
                 "type": "Undergraduate Student",
                 "department": "MSE",
@@ -547,6 +541,12 @@
                     "department": "Chemistry",
                     "avatar": "AngelVasquez.png"
                 }
+                {
+                "name": "Tejas Raman",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "TejasRaman.png"
+            },
     ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",

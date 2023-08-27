@@ -540,13 +540,13 @@
                     "type": "Undergraduate Student",
                     "department": "Chemistry",
                     "avatar": "AngelVasquez.png"
-                }
+                },
                 {
                 "name": "Tejas Raman",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "TejasRaman.png"
-            },
+            	}
     ],
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",

@@ -3,7 +3,7 @@ import Shell from './Shell';
 import { Link } from 'react-static';
 import styled from 'styled-components';
 // import GoogleMaps from './GoogleMaps';
-import heroImage from '../assets/students/McDowellGroup_Crop.png';
+import heroImage from '../assets/students/McDowellGroup3.jpg';
 import { team } from '../db.json';
 import TitleBackgroundImage from './TitleBackgroundImage';
 import Person from './Person';
@@ -12,7 +12,7 @@ import { media, Container } from './Media';
 
 let PeopleScreen = () =>
     <div>
-        <TitleBackgroundImage large title={team.title} background={heroImage} />
+        <TitleBackgroundImage large people title={team.title} background={heroImage} />
         <Container vert>
        
         <StudentGrid>
@@ -70,6 +70,7 @@ let Title = styled.h2`
 
 let PeopleHero = styled(TitleBackgroundImage)`
     height: 60vh;
+  
 
 `;
 

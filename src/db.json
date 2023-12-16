@@ -8,7 +8,8 @@
                     "date": "2021 - present",
                     "text": [
                         "Georgia Institute of Technology",
-                        "Associate Professor and Woodruff Faculty Fellow",
+                        "Associate Professor",
+                        "Carter N. Paden, Jr. Distinguished Chair for Innovation in Materials Science and Metals Processing",
                         "Woodruff School of Mechanical Engineering",
                         "School of Materials Science and Engineering"
                     ]
@@ -64,6 +65,18 @@
             "title": "Awards",
             "items": [
                  {
+                    "date": "2023",
+                    "text": [
+                        "Carter N. Paden, Jr. Distinguished Chair for Innovation in Materials Science and Metals Processing"
+                    ]
+                },
+              {
+                    "date": "2023",
+                    "text": [
+                        "Electrochemical Society Battery Division Early Career Award presented by Neware"
+                    ]
+                },   
+              {
                     "date": "2022",
                     "text": [
                         "Georgia Tech Outstanding Achievement in Early Career Research Award"
@@ -211,7 +224,7 @@
             "university": "Georgia Institute of Technology",
             "universityLogo": "GTOnelogo.png",
             "email": "mattmcdowell@gatech.edu",
-            "building": "MRDC 4408",
+            "building": "Love Building Room 101",
             "phone": "404-894-8341",
             "social": 
                 [
@@ -551,7 +564,7 @@
         "university": "Georgia Institute of Technology",
         "universityLogo": "GTlogofinal.png",
         "email": "mattmcdowell@gatech.edu",
-        "building": "MRDC 4408",
+        "building": "Love Building 101",
         "phone": "404-894-8341",
         "social": [
             {
@@ -2400,10 +2413,10 @@
     },
     "research": {
         "intro": "We research new materials and work to understand their properties for next-generation energy storage and conversion systems.",
-        "goal": "Our research goal is to understand how materials behave and transform in real-life environments within energy and electronic devices, which will enable us to engineer improved materials for new technologies.",
+        "goal": "Our research goal is to understand how materials behave and transform in real-life environments within energy storage devices, which will enable us to engineer improved materials for better performance.",
         "title": "The importance of observing dynamic processes",
         "body": [
-            "In energy and electronic devices, mass/electron transport, high temperatures, and reactive environments are the norm. Materials in these systems are not static; instead, they often change, transform, or degrade in response to these operating conditions.",
+            "In energy storage devices, mass/electron transport, high temperatures, and reactive environments are the norm. Materials in these systems are not static; instead, they often change, transform, or degrade in response to these operating conditions.",
             "Our research group focuses on using in situ experimental techniques to probe materials transformations under realistic conditions, and we seek to understand how these changes influence properties. These fundamental scientific advances guide the engineering of materials for breakthrough new devices.",
             "Students and other researchers in the group synthesize materials, analyze their properties, and utilize a variety of in situ characterization methods to understand dynamic structure and chemistry. This information is then understood in the context of the material’s behavior within devices."
         ],
@@ -2423,7 +2436,7 @@
             {
                 "title": "2. understanding interfaces in solid-state batteries",
                 "body": [
-                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical instabilities and high impedance at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries using a variety of in situ techniques. With this knowledge, we are also tailoring interfaces for improved stability."
+                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical and structural instabilities at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries. With this knowledge, we are also tailoring interfaces for improved stability."
                 ],
                 "images": [
                     "2a_rev.jpg",
@@ -2431,9 +2444,9 @@
                 ]
             },
             {
-                "title": "3. interfacial properties and dynamics of layered chalcogenides",
+                "title": "3. Sustainable materials for batteries",
                 "body": [
-                    "Layered chalcogenides are used in next-generation electronic devices and as catalysts for energy conversion. This project focuses on understanding how the structure, chemistry, and properties of heterointerfaces between layered chalcogenides and other materials, including intercalated species, evolve under synthesis, processing, and operating conditions. This knowledge is critical for designing optimal transport, chemical, and electronic properties at interfaces."
+                    "We are investigating and developing a variety of new materials for battery systems that are more sustainable, lower cost, and have improved energy storage properties. We are also investigating their use in multiple battery technologies, including lithium-ion batteries, sodium-ion batteries, and grid-scale energy storage (flow batteries)."
                 ],
                 "images": [
                     "BTE_2_web.jpg"
@@ -2442,7 +2455,7 @@
             {
                 "title": "4. Low-temperature batteries",
                 "body": [
-                    "Our group is understanding and developing lithium metal electrodes for use at low temperatures beyond that which is possible with conventional Li-ion batteries. This work could be important for spaceflight, electrified aircraft, and other applications involving extreme environments."
+                    "Our group is understanding and developing high-capacity electrode materials for use at low temperatures beyond that which is possible with conventional Li-ion batteries. This work could be important for spaceflight, electrified aircraft, and other applications involving extreme environments."
                 ],
                 "images": [
                     "LiSEM_2_web.jpg"

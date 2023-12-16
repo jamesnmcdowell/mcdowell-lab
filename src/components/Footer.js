@@ -15,8 +15,8 @@ let Footer = () =>
                     <h4>The McDowell Laboratory</h4>
                     <hr/>
                     <p>Georgia Institute of Technology</p>
-                    <p>MRDC Building</p>
-                    <p>801 Ferst Drive</p>
+                    <p>Love Building</p>
+                    <p>771 Ferst Drive</p>
                     <p>Atlanta, GA 30332-0405</p>
                 </div>
                 <Contact>

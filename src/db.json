@@ -290,16 +290,16 @@
                 "avatar": "ElifPinarcropped.png"
             },
             {
-                "name": "Stephanie Sandoval",
+                "name": "Jungho Shin",
                 "type": "Postdoc",
                 "department": "none",
-                "avatar": "Stephanie_Sandoval.png"
+                "avatar": "JunghoShin.jpg"
             },
             {
-                "name": "Timothy Chen",
-                "type": "Graduate Student",
-                "department": "ME",
-                "avatar": "Timothy_Chen.png"
+                "name": "Isuri Dammulla",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "IsuriDammulla.jpg"
             },
             {
                 "name": "Kelsey Cavallaro",
@@ -312,12 +312,6 @@
                 "type": "Graduate Student",
                 "department": "MSE",
                 "avatar": "Clay_Wright.png"
-            },
-            {
-                "name": "Eugene Liu",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "Eugene_Liu.png"
             },
             {
                 "name": "Sonakshi Saini",
@@ -425,6 +419,18 @@
                 "department": "MSE",
                 "avatar": "JackFinal.png"
             	},
+                {
+                    "name": "Timothy Chen",
+                    "type": "Graduate Student",
+                    "department": "ME",
+                    "avatar": "Timothy_Chen.png"
+                },
+                {
+                    "name": "Eugene Liu",
+                    "type": "Graduate Student",
+                    "department": "MSE",
+                    "avatar": "Eugene_Liu.png"
+                },
           		{
                 "name": "Pralav Shetty",
                 "type": "Postdoc",
@@ -437,6 +443,12 @@
                 "department": "none",
                 "avatar": "Akila.png"               
             	},
+                {
+                    "name": "Stephanie Sandoval",
+                    "type": "Postdoc",
+                    "department": "none",
+                    "avatar": "Stephanie_Sandoval.png"
+                },
           		{
                 "name": "Chanhee Lee",
                 "type": "Visiting Graduate Student",

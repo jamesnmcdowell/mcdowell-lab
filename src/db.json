@@ -419,6 +419,12 @@
                 "department": "MSE",
                 "avatar": "JackFinal.png"
             	},
+               {
+                    "name": "Stephanie Sandoval",
+                    "type": "Graduate Student (PhD)",
+                    "department": "MSE",
+                    "avatar": "Stephanie_Sandoval.png"
+                },
                 {
                     "name": "Timothy Chen",
                     "type": "Graduate Student",
@@ -443,12 +449,6 @@
                 "department": "none",
                 "avatar": "Akila.png"               
             	},
-                {
-                    "name": "Stephanie Sandoval",
-                    "type": "Postdoc",
-                    "department": "none",
-                    "avatar": "Stephanie_Sandoval.png"
-                },
           		{
                 "name": "Chanhee Lee",
                 "type": "Visiting Graduate Student",
@@ -568,6 +568,12 @@
                 },
                 {
                 "name": "Tejas Raman",
+                "type": "Undergraduate Student",
+                "department": "MSE",
+                "avatar": "TejasRaman.png"
+            	},
+                {
+                "name": "Lucille Dentice",
                 "type": "Undergraduate Student",
                 "department": "MSE",
                 "avatar": "TejasRaman.png"
@@ -2265,8 +2271,40 @@
                 "title": "Structural and Electrochemical Evolution of Alloy Interfacial Layers in Anode-Free Solid-State Batteries,",
                 "journal": "Joule",
                 "year": "2023",
-                "pages": "10.1016/j.joule.2023.07.022",
+                "pages": "7, 9, 2054-2073",
                 "url": "https://doi.org/10.1016/j.joule.2023.07.022"
+            },
+               {
+                "authors": [
+                  	"S. C. Wright",
+                  	"C. Brea",
+                  	"J. S. Baxter",
+                  	"S. Saini",
+                    "E. P. Alsac",
+                    "M. G. Boebinger",
+                  	"G. Hu",
+                  	"M. T. McDowell"
+                ],
+                "title": "Epitaxial Metal Electrodeposition Controlled by Graphene Layer Thickness,",
+                "journal": "ACS Nano",
+                "year": "2024",
+                "pages": "18, 21, 13866-13875",
+                "url": "https://doi.org/10.1021/acsnano.4c02981"
+            },
+                {
+                "authors": [
+                  	"W. J. Jeong",
+                  	"C. Wang",
+                  	"S. G. Yoon",
+                  	"Y. Liu",
+                    "T. Chen",
+                  	"M. T. McDowell"
+                ],
+                "title": "Electrochemical Behavior of Elemental Alloy Anodes in Solid-State Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2024",
+                "pages": "9, 6, 2554-2563",
+                "url": "https://doi.org/10.1021/acsenergylett.4c00915"
             }
         ]
     },

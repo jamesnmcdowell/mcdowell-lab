@@ -278,12 +278,6 @@
                 "avatar": "CongchengWang.png"
             },
             {
-                "name": "Sun Geun Yoon",
-                "type": "Postdoc",
-                "department": "none",
-                "avatar": "SunGeunYoon.png"
-            },
-            {
                 "name": "Elif Pinar Alsac",
                 "type": "Postdoc",
                 "department": "none",
@@ -302,16 +296,22 @@
                 "avatar": "IsuriDammulla.jpg"
             },
             {
+                "name": "Dong Hyeon Nam",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "Dong Hyeon Nam.png"
+            },
+            {
+                "name": "Sun Geun Yoon",
+                "type": "Research Scientist",
+                "department": "none",
+                "avatar": "SunGeunYoon.png"
+            },
+            {
                 "name": "Kelsey Cavallaro",
                 "type": "Graduate Student",
                 "department": "MSE",
                 "avatar": "Kelsey_Cavallaro.png"
-            },
-            {
-                "name": "Clay Wright",
-                "type": "Graduate Student",
-                "department": "MSE",
-                "avatar": "Clay_Wright.png"
             },
             {
                 "name": "Sonakshi Saini",
@@ -341,7 +341,7 @@
                 "name": "John Harris",
                 "type": "Graduate Student",
                 "department": "MSE",
-                "avatar": "JohnHarris.png"
+                "avatar": "John_Harris.png"
             },
             {
                 "name": "Hari Sridhara",
@@ -365,7 +365,31 @@
                 "name": "Udo Eze",
                 "type": "Graduate Student",
                 "department": "MSE",
-                "avatar": "UdoEze_MSE.png"
+                "avatar": "Udo_Eze.png"
+            },
+            {
+                "name": "Donghyeok Roh",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "DonghyeokRoh.png"
+            },
+            {
+                "name": "Jiweon Kim",
+                "type": "Graduate Student",
+                "department": "ME",
+                "avatar": "JiweonKim.jpeg"
+            },
+            {
+                "name": "Sadie Flagg",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "sadie_flagg.png"
+            },
+            {
+                "name": "Will Fettkether",
+                "type": "Graduate Student",
+                "department": "MSE",
+                "avatar": "WillFettkether.png"
             },
             {
                 "name": "Sophia Anderson",
@@ -378,8 +402,13 @@
                 "type": "Undergraduate Student",
                 "department": "ChBE",
                 "avatar": "Anna_Burson.png"
+            },
+            {
+                "name": "Lincoln Crowe",
+                "type": "Undergraduate Student",
+                "department": "ChBE",
+                "avatar": "Lincoln_Crowe.png"
             }
-            
             
         ],
         "alumni": [
@@ -436,6 +465,12 @@
                     "type": "Graduate Student (PhD)",
                     "department": "MSE",
                     "avatar": "Eugene_Liu.png"
+                },
+                {
+                    "name": "Clay Wright",
+                    "type": "Graduate Student",
+                    "department": "MSE",
+                    "avatar": "Clay_Wright.png"
                 },
           		{
                 "name": "Pralav Shetty",

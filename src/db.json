@@ -65,6 +65,12 @@
             "title": "Awards",
             "items": [
                  {
+                    "date": "2024",
+                    "text": [
+                        "George W. Woodruff School Research Award"
+                    ]
+                },
+              {
                     "date": "2023",
                     "text": [
                         "Carter N. Paden, Jr. Distinguished Chair for Innovation in Materials Science and Metals Processing"
@@ -278,6 +284,12 @@
                 "avatar": "CongchengWang.png"
             },
             {
+                "name": "Sun Geun Yoon",
+                "type": "Research Scientist",
+                "department": "none",
+                "avatar": "SunGeunYoon.png"
+            },
+          {
                 "name": "Elif Pinar Alsac",
                 "type": "Postdoc",
                 "department": "none",
@@ -300,12 +312,6 @@
                 "type": "Postdoc",
                 "department": "none",
                 "avatar": "Dong Hyeon Nam.png"
-            },
-            {
-                "name": "Sun Geun Yoon",
-                "type": "Research Scientist",
-                "department": "none",
-                "avatar": "SunGeunYoon.png"
             },
             {
                 "name": "Kelsey Cavallaro",
@@ -350,7 +356,7 @@
                 "avatar": "HariSridhara_MSE.png"
             },
             {
-                "name": "Bonnie Stolt",
+                "name": "Bonnie Gardner",
                 "type": "Graduate Student",
                 "department": "MSE",
                 "avatar": "BonnieStolt_MSE.png"
@@ -2340,6 +2346,88 @@
                 "year": "2024",
                 "pages": "9, 6, 2554-2563",
                 "url": "https://doi.org/10.1021/acsenergylett.4c00915"
+            },
+           {
+                "authors": [
+                  	"S. G. Yoon",
+                  	"B. S. Vishnugopi",
+                  	"E. P. Alsac",
+                  	"W. J. Jeong",
+                    "S. E. Sandoval",
+                  	"D. L. Nelson",
+                  	"A. Ayyaswamy",
+                    "P. P. Mukherjee",
+                  	"M. T. McDowell"
+                ],
+                "title": "Synergistic evolution of alloy particles and carbon in solid-state lithium metal anode composites at low stack pressure,",
+                "journal": "ACS Nano",
+                "year": "2024",
+                "pages": "18, 31, 20792-20805",
+                "url": "https://doi.org/10.1021/acsnano.4c07687"
+            },
+          {
+                "authors": [
+                  	"J. R. Chin",
+                  	"B. Gardner",
+                  	"M. B. Frye",
+                  	"D. S.-H. Liu",
+                    "J. Wahl",
+                  	"S. A. Marini",
+                  	"J. Shallenberger",
+                    "M. T. McDowell",
+                  	"M. Hilse",
+                    "S. Law",
+                    "L. M. Garten"
+                ],
+                "title": "Impact of Long-Term Atmospheric Exposure on Tin Selenide (SnSe) Thin Films,",
+                "journal": "MRS Communications",
+                "year": "2024",
+                "pages": "14, 1000-10006",
+                "url": "https://doi.org/10.1557/s43579-024-00630-8"
+            },
+            {
+                "authors": [
+                  	"S. Puls",
+                  	"et al."
+                ],
+                "title": "Benchmarking the Reproducibility of All-Solid-State Battery Cell Performance: An Academic Interlaboratory Study,",
+                "journal": "Nature Energy",
+                "year": "2024",
+                "pages": "9, 1310-1320",
+                "url": "https://doi.org/10.1038/s41560-024-01634-3"
+            },
+          {
+                "authors": [
+                  	"E. L. Molel",
+                  	"J. A. Lewis",
+                  	"S. E. Sandoval",
+                  	"D. L. Nelson",
+                    "M. T. McDowell",
+                  	"T. F. Fuller"
+                ],
+                "title": "Effects of Contact Loss at Electrolyte/Negative Electrode Interface on Current Density Distribution in Solid-State Batteries,",
+                "journal": "Journal of the Electrochemical Society",
+                "year": "2024",
+                "pages": "171, 103504",
+                "url": "https://doi.org/10.1149/1945-7111/ad7e93"
+            },
+              {
+                "authors": [
+                  	"T. S. Chen",
+                  	"C. Wang",
+                  	"S. C. Wright",
+                  	"K. A. Cavallaro",
+                    "W. J. Jeong",
+                  	"S. Das",
+                    "D. Majumdar",
+                    "R. Gopalaswamy",
+                    "M. T. McDowell"      
+                ],
+                "title": "Effect of Microstructure on Chemo-Mechanical Damage Evolution in Aluminum Foil Anodes for Lithium-Ion Batteries,",
+                "journal": "PRX Energy",
+                "year": "2024",
+                "pages": "3, 043005",
+                "url": "https://doi.org/10.1103/PRXEnergy.3.043005"
             }
         ]
     },

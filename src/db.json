@@ -277,17 +277,17 @@
         "ctaTitle": "Interested in joining us?",
         "ctaBody": "We are always looking for highly motivated graduate and undergraduate students that are interested in performing research within the group. Please contact Prof. McDowell for details.",
         "students": [
-            {
-                "name": "Congcheng Wang",
-                "type": "Postdoc",
-                "department": "none",
-                "avatar": "CongchengWang.png"
-            },
-            {
+             {
                 "name": "Sun Geun Yoon",
                 "type": "Research Scientist",
                 "department": "none",
                 "avatar": "SunGeunYoon.png"
+            },  
+          {
+                "name": "Congcheng Wang",
+                "type": "Postdoc",
+                "department": "none",
+                "avatar": "CongchengWang.png"
             },
           {
                 "name": "Elif Pinar Alsac",

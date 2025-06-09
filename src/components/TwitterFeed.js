@@ -5,7 +5,7 @@ import twitterOverlay from '../assets/twitterOverlay.svg';
 import { Timeline } from 'react-twitter-widgets'
 import { withState } from 'recompose';
 import { media } from './Media';
-import twitterBackground from '../assets/twitter-image-background.jpg';
+import linkedinBackground from '../assets/linkedin_logo.png';
 
 let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
     <TwitterBlock id="twitterblock"> 
@@ -14,13 +14,13 @@ let TwitterFeed = ({ toggleOverlay, twitterOverlayActive }) =>
                 <img src={twitterOverlay} />
             </TwitterOverlay>
         } */}
-        <TwitterLink to="https://twitter.com/McDowell_Lab">
+        <TwitterLink to="https://www.linkedin.com/in/matthew-mcdowell-55320351/recent-activity/all/">
             <TwitterOverlay>
-                <img src={twitterOverlay} />
+             {/* <img src={twitterOverlay} /> */}
             </TwitterOverlay>
         </TwitterLink>
         <EmbedContainer>
-            <img src={twitterBackground}/> 
+            <img src={linkedinBackground}/> 
            
         </EmbedContainer>
     </TwitterBlock>

@@ -5,22 +5,27 @@
             "title": "Employment",
             "items": [
                  {
-                    "date": "2021 - present",
+                    "date": "2025 - present",
                     "text": [
                         "Georgia Institute of Technology",
-                        "Associate Professor",
+                        "Professor",
                         "Carter N. Paden, Jr. Distinguished Chair for Innovation in Materials Science and Metals Processing",
                         "Woodruff School of Mechanical Engineering",
                         "School of Materials Science and Engineering"
                     ]
                 },
                 {
+                    "date": "2021 - 2025",
+                    "text": [
+                        "Georgia Institute of Technology",
+                        "Associate Professor"
+                    ]
+                },
+                {
                     "date": "2015 - 2021",
                     "text": [
                         "Georgia Institute of Technology",
-                        "Assistant Professor",
-                        "Woodruff School of Mechanical Engineering",
-                        "School of Materials Science and Engineering"
+                        "Assistant Professor"
                     ]
                 }
             ]
@@ -216,7 +221,7 @@
         {
             "name": "Matthew T. McDowell, Ph.D.",
             "position": "Associate Professor",
-            "avatar": "McDowell_Crop2.jpg",
+            "avatar": "MattMcDowell_2025_profile.jpg",
             "schools": [
                 {
                     "name":"Woodruff School of Mechanical Engineering",
@@ -243,9 +248,9 @@
                         },
              
                         {
-                            "icon": "twitterlogo.svg",
-                            "url": "https://twitter.com/mcdowell_lab",
-                            "color": "#55acee"
+                            "icon": "linkedin-logo-icon.svg",
+                            "url": "https://www.linkedin.com/in/matthew-mcdowell-55320351/recent-activity/all/",
+                            "color": "#0a66c2"
                         },
        
                         {
@@ -315,7 +320,7 @@
             },
             {
                 "name": "Kelsey Cavallaro",
-                "type": "Graduate Student",
+                "type": "Postdoc",
                 "department": "MSE",
                 "avatar": "Kelsey_Cavallaro.png"
             },
@@ -2428,6 +2433,181 @@
                 "year": "2024",
                 "pages": "3, 043005",
                 "url": "https://doi.org/10.1103/PRXEnergy.3.043005"
+            },
+            {
+                "authors": [
+                  	"D. Lars Nelson",
+                    "S. E. Sandoval", 
+                    "J. Pyo", 
+                    "D. Bistri",
+                    "T. A. Thomas", 
+                    "K. A. Cavallaro",
+                    "J. A. Lewis",
+                    "A. S Iyer", 
+                    "P. Shevchenko", 
+                    "C. V. Di Leo", 
+                    "M. T. McDowell"     
+                ],
+                "title": "Fracture Dynamics in Silicon Anode Solid-State Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2024",
+                "pages": "9, 6085-6095",
+                "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.4c02800"
+            },
+            {
+                "authors": [
+                    "S. E. Sandoval", 
+                    "C. E. Haslam", 
+                    "B. S. Vishnugopi", 
+                    "D. W. Liao", 
+                    "J. S. Yoon", 
+                    "S. H. Park", 
+                    "Y. Wang", 
+                    "D. Mitlin", 
+                    "K. B. Hatzell", 
+                    "D. J. Siegel", 
+                    "P. P. Mukherjee", 
+                    "N. P. Dasgupta", 
+                    "J. Sakamoto", 
+                    "M. T. McDowell"    
+                ],
+                "title": "Electro-Chemo-Mechanics of Anode-Free Solid-State Batteries,",
+                "journal": "Nature Materials",
+                "year": "2025",
+                "pages": "24, 673-681",
+                "url": "https://www.nature.com/articles/s41563-024-02055-z"
+            },
+            {
+                "authors": [
+                    "S. Saini", 
+                    "S. C. Wright", 
+                    "S. Parvin",
+                    "J. Baltrusaitis",
+                    "M. T. McDowell"   
+                ],
+                "title": "“Investigating the Effects of Copper Impurities on the Structural Evolution and Activity of Hydrogen Evolution Electrocatalysts,",
+                "journal": "ACS Applied Energy Materials",
+                "year": "2025",
+                "pages": "8, 2, 1143-1153",
+                "url": "https://pubs.acs.org/doi/10.1021/acsaem.4c02697"
+            },
+            {
+                "authors": [
+                    "E. P. Alsaç", 
+                    "D. L. Nelson", 
+                    "S. G. Yoon", 
+                    "K. A. Cavallaro", 
+                    "C. Wang", 
+                    "S. E. Sandoval",
+                    "E. D. Eze", 
+                    "W. J. Jeong", 
+                    "M. T. McDowell"
+                ],
+                "title": "Characterizing Electrode Materials and Interfaces in Solid-State Batteries,",
+                "journal": "Chemical Reviews",
+                "year": "2025",
+                "pages": "125, 4, 2009-2119",
+                "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00584"
+            },
+            {
+                "authors": [
+                    "M. A. Thorpe", 
+                    "M. Zhang", 
+                    "D. W. Liao", 
+                    "S. E. Sandoval", 
+                    "Y. Kim", 
+                    "M. T. McDowell", 
+                    "M. D. Thouless", 
+                    "N. P. Dasgupta"
+                   
+                ],
+                "title": "“Controlling Stack Pressure Inhomogeneity in Anode-free Solid-State Batteries using Elastomeric Interlayers,",
+                "journal": "Matter",
+                "year": "2025",
+                "pages": "8, 3, 101955",
+                "url": "https://www.cell.com/matter/abstract/S2590-2385(24)00648-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2590238524006489%3Fshowall%3Dtrue"
+            },
+            {
+                "authors": [
+                    "S. Saini", 
+                    "P. Bargiela", 
+                    "V. Fernandez", 
+                    "N. Fairley", 
+                    "S. Parvin", 
+                    "M. T. McDowell", 
+                    "J. Baltrusaitis"
+                ],
+                "title": "Deriving stable peak models to fit complex XPS data from Cu contaminated Pt electrocatalysts,",
+                "journal": "Surface and Interface Analysis",
+                "year": "2025",
+                "pages": "57,455-469",
+                "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/sia.7401"
+            },
+            {
+                "authors": [
+                    "C. Wang", 
+                    "Y. Liu", 
+                    "W. J. Jeong", 
+                    "T. Chen", 
+                    "M. Lu", 
+                    "S. Das", 
+                    "D. Majumdar", 
+                    "R. Gopalaswamy", 
+                    "S. Xia", 
+                    "M. T. McDowell"
+                ],
+                "title": "The influence of pressure on lithium dealloying in solid-state and liquid electrolyte batteries,",
+                "journal": "Nature Materials",
+                "year": "2025",
+                "pages": "24, 907-916",
+                "url": "https://www.nature.com/articles/s41563-025-02198-7"
+            },
+            {
+                "authors": [
+                    "D. Wu", 
+                    "E. P. Alsac", 
+                    "A. Claus", 
+                    "Z. Fang", 
+                    "M. Jangid", 
+                    "K. Lee", 
+                    "D. L. Nelson", 
+                    "S. H. Park", 
+                    "S. Zhang", 
+                    "M. Chi", 
+                    "N. Dasgupta", 
+                    "M. T. McDowell", 
+                    "N. Perry, J."
+                ],
+                "title": "The State of Reliable Characterization and Testing of Solid-State Batteries,",
+                "journal": "ACS Energy Letters",
+                "year": "2025",
+                "pages": "DOI: 10.1021/acsenergylett.5c00923",
+                "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c00923"
+            },
+            {
+                "authors": [
+                    "S. G. Yoon", 
+                    "B. S. Vishnugopi", 
+                    "D. L. Nelson", 
+                    "A. X. B. Yong", 
+                    "Y. Wang", 
+                    "S. E. Sandoval", 
+                    "T. A. Thomas", 
+                    "K. A. Cavallaro", 
+                    "P. Shevchenko", 
+                    "E. P. Alsac", 
+                    "C. Wang", 
+                    "A. Singla", 
+                    "J. R. Greer", 
+                    "E. Ertekin", 
+                    "P. P. Mukherjee", 
+                    "M. T. McDowell"
+                ],
+                "title": "Interface Morphogenesis with a Deformable Secondary Phase in Solid-State Lithium Batteries,",
+                "journal": "Science",
+                "year": "2025",
+                "pages": "388, 6751, 1062-1068",
+                "url": "https://www.science.org/stoken/author-tokens/ST-2666/full"
             }
         ]
     },

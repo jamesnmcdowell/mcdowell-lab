@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-static';
-import profilePicture from '../assets/McDowell_Crop2.jpg';
+import profilePicture from '../assets/MattMcDowell_2025_profile.jpg';
 import publications from '../assets/PapersFigurefinal.png';
 import { media } from './Media';
 import TwitterFeed from './TwitterFeed';
@@ -17,7 +17,7 @@ let BlockNavigation = () =>
         <TwitterFeedStyled/>
         <BlockTitle1>Prof. McDowell</BlockTitle1>
         <BlockTitle2>Publications</BlockTitle2>
-        <BlockTitle3>Latest Tweets</BlockTitle3>
+        <BlockTitle3>Latest News</BlockTitle3>
     </BlockNav> 
   
 let BlockTitle = styled.h4`

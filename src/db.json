@@ -2778,10 +2778,10 @@
         "alert":"",
         "projects": [
             {
-                "title": "1. phase transformation mechanisms in next-generation battery materials",
+                "title": "1. transformation and degradtion mechanisms in next-generation battery materials",
                 "body": [
                     "Next-generation batteries require materials with higher charge storage capacity, or they require the development of new materials for entirely new battery systems beyond lithium-ion (for example, sodium-ion or multivalent batteries). The reaction and phase transformation mechanisms of new materials determine how much charge they can store and how long they last within batteries.",
-                    "It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including transmission electron microscopy, x-ray diffraction, and x-ray spectroscopy methods, to reveal structural, chemical, and morphological transformations in real time."
+                    "It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including X-ray tomographic imaging, electron microscopy, and other methods, to reveal structural, chemical, and morphological transformations in real time."
                 ],
                 "images": [
                     "Image1a_cropfinal.png",
@@ -2791,7 +2791,7 @@
             {
                 "title": "2. understanding interfaces in solid-state batteries",
                 "body": [
-                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical and structural instabilities at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries. With this knowledge, we are also tailoring interfaces for improved stability."
+                    "Solid-state batteries could be safer and have higher energy density than Li-ion batteries. However, chemical and structural instabilities at interfaces between solid-state electrolytes and electrode materials limit performance. Our group is working on understanding the evolution of interfaces between electrodes and solid electrolyte materials in solid-state batteries. With this knowledge, we are also designing new materials for solid-state batteries with improved performance."
                 ],
                 "images": [
                     "2a_rev.jpg",
@@ -2801,7 +2801,7 @@
             {
                 "title": "3. Sustainable materials for batteries",
                 "body": [
-                    "We are investigating and developing a variety of new materials for battery systems that are more sustainable, lower cost, and have improved energy storage properties. We are also investigating their use in multiple battery technologies, including lithium-ion batteries, sodium-ion batteries, and grid-scale energy storage (flow batteries)."
+                    "We are investigating and developing a variety of new materials for battery systems that are more sustainable, lower cost, and have improved energy storage properties. We are investigating their use in multiple battery technologies, including lithium-ion batteries, sodium-ion batteries, and grid-scale energy storage (flow batteries)."
                 ],
                 "images": [
                     "BTE_2_web.jpg"

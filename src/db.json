@@ -2778,7 +2778,7 @@
         "alert":"",
         "projects": [
             {
-                "title": "1. transformation and degradtion mechanisms in next-generation battery materials",
+                "title": "1. transformation and degradation mechanisms in next-generation battery materials",
                 "body": [
                     "Next-generation batteries require materials with higher charge storage capacity, or they require the development of new materials for entirely new battery systems beyond lithium-ion (for example, sodium-ion or multivalent batteries). The reaction and phase transformation mechanisms of new materials determine how much charge they can store and how long they last within batteries.",
                     "It is critical to understand these reaction mechanisms across multiple length scales (from the atomic scale to the mesoscale) within battery electrodes. We use powerful in situ experimental techniques, including X-ray tomographic imaging, electron microscopy, and other methods, to reveal structural, chemical, and morphological transformations in real time."
